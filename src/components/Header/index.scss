@@ -1,0 +1,51 @@
+@import '../../styles/index';
+
+$header-width: calc(100vw - ($whitespace-10 * 2));
+
+$logo-width: 110px;
+$logo-height: 30px;
+
+$header-tab-height: 30px;
+$header-tab-min-width: 50px;
+
+.Header {
+  max-width: $page-width;
+  margin: 0 auto;
+  border-bottom: 1px solid $border-color;
+  padding: $whitespace-4 0px;
+}
+
+.Header-logo {
+  width: $logo-width;
+  height: $logo-height;
+  display: inline-block;
+}
+
+.Header-tabs {
+  float: right;
+}
+
+.Header-tab,
+.Header-active-tab {
+  display: inline-block;
+  min-width: $header-tab-min-width;
+  text-align: right;
+  height: $header-tab-height;
+  margin-left: $whitespace-10;
+  vertical-align: middle;
+  border-bottom: 3px solid $background-color;
+
+
+  a {
+    font-weight: bold;
+    font-size: $label;
+    line-height: $header-tab-height;
+    color: $primary-color;
+    text-decoration: none;
+  }
+}
+
+.Header-tab:hover,
+.Header-active-tab {
+  border-color: $secondary-color;
+}
