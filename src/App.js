@@ -3,6 +3,7 @@ import {BrowserRouter, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import { pages } from './constants/pages';
 import './App.scss';
 
 class App extends Component {
@@ -14,7 +15,7 @@ class App extends Component {
               <Route path="/" component={Header} />
             </header>
             <div className="App-content">
-              <Route exact path="/" component={Home} />
+              <Route exact path={pages.ITS_ME.path} component={Home} />
             </div>
             <footer>
               <Route path="/" component={Footer} />
