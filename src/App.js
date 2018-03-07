@@ -1,19 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import './App.scss';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          What Up? Eilis here & Eibh
-        </p>
-      </div>
+      <BrowserRouter>
+        <div className="App">
+            <header>
+              <Route path="/" component={Header} />
+            </header>
+            <div className="App-content">
+              <Route exact path="/" component={Home} />
+            </div>
+            <footer>
+              <Route path="/" component={Footer} />
+            </footer>
+        </div>
+      </BrowserRouter>
     );
   }
 }
