@@ -1,0 +1,35 @@
+@import '../../styles/index';
+
+.UrlLinksRow {
+  padding: $whitespace-6 0;
+  font-size: $label;
+  color: $primary-color;
+  display: flex;
+  flex-direction: row;
+}
+
+.UrlLinksRow:hover,
+.UrlLinksRow:focus, {
+  background-color: $hover-background-color;
+}
+
+.UrlLinksRow-date-col {
+  width: 150px;
+  padding-left: $whitespace-2;
+  font-weight: 500;
+
+}
+
+.UrlLinksRow-link {
+  display: block;
+  padding-bottom: $whitespace-1;
+  text-decoration: none;
+  color: $primary-color;
+  cursor: pointer
+}
+
+
+.UrlLinksRow-link:hover,
+.UrlLinksRow-link:focus {
+  text-decoration: underline;
+}
