@@ -1,10 +1,5 @@
 @import '../../styles/index';
 
-$header-width: calc(100vw - ($whitespace-10 * 2));
-
-$logo-width: 110px;
-$logo-height: 30px;
-
 $header-tab-height: 30px;
 $header-tab-min-width: 50px;
 
@@ -12,7 +7,7 @@ $header-tab-min-width: 50px;
   max-width: $page-width;
   margin: 0 auto;
   border-bottom: 1px solid $border-color;
-  padding: $whitespace-4 0px;
+  padding: $whitespace-4 0;
 }
 
 .Header-logo {

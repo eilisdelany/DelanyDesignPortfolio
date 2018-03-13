@@ -5,7 +5,7 @@ import './index.scss';
 
 class Header extends Component {
   render() {
-    const activePath = this.props.match.path;
+    const activePath = this.props.location.pathname;
     return (
       <div className="Header">
         <img

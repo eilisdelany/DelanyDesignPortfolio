@@ -3,3 +3,9 @@
 @import './text';
 
 $page-width: 1200px;
+
+$logo-width: 110px;
+$logo-height: 30px;
+
+$logo-width-large: calc(#{$logo-width} * 3);
+$logo-height-large: calc(#{$logo-height} * 3);
