@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PageTitle from '../../components/PageTitle'
 import UrlLinksRow from '../../components/UrlLinksRow';
-import articles from '../../archive/articles';
+import articles from '../../archive/top-five';
 import './index.scss';
 
 const pageTitleText = "This is my digital treasure trove - a curated collection of links covering science, technology, design and personal growth.";
