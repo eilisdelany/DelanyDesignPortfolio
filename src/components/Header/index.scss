@@ -6,8 +6,8 @@ $header-tab-min-width: 50px;
 .Header {
   max-width: $page-width;
   margin: 0 auto;
-  border-bottom: 1px solid $border-color;
-  padding: $whitespace-4 0;
+  border-bottom: 1px solid $primary-color;
+  padding: $whitespace-4 0px;
 }
 
 .Header-logo {
@@ -29,10 +29,9 @@ $header-tab-min-width: 50px;
   margin-left: $whitespace-10;
   vertical-align: middle;
   border-bottom: 3px solid $background-color;
-
+  letter-spacing: 0.5px;
 
   a {
-    font-weight: bold;
     font-size: $label;
     line-height: $header-tab-height;
     color: $primary-color;
@@ -40,7 +39,10 @@ $header-tab-min-width: 50px;
   }
 }
 
-.Header-tab:hover,
+.Header-tab:hover {
+  font-weight: bold;
+}
 .Header-active-tab {
   border-color: $secondary-color;
+  font-weight: bold;
 }
