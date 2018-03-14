@@ -16,7 +16,6 @@ class Header extends Component {
         <div className="Header-tabs">
           {pageKeys.map((pageKey, index) => {
             const { path, title } = pages[pageKey];
-            const activePath = this.props.location.pathname;
             return (
               <div key={index} className={path === activePath ? "Header-active-tab" : "Header-tab"}>
                 <NavLink to={path}>
