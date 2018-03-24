@@ -21,7 +21,7 @@ export const pages = {
   LETS_TALK: {
   path: '/lets-talk',
   title: 'Let\'s talk',
-  pageTitle: 'What\s it gonna be?'
+  pageTitle: 'What\'s it gonna be?'
   }
 };
 
