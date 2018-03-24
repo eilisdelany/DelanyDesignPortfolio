@@ -4,13 +4,13 @@ import UrlLinksRow from '../../components/UrlLinksRow';
 import articles from '../../archive/top-five';
 import './index.scss';
 
-const pageTitleText = "This is my digital treasure trove - a curated collection of links covering science, technology, design and personal growth.";
+export const pageTitleText = "This is my digital treasure trove - a curated collection of links covering science, technology, design and personal growth.";
 
 class ArticlesArchive extends Component {
   render() {
     return (
       <div className="ArticlesArchive">
-        <PageTitle text={pageTitleText} />
+        <PageTitle text={pageTitleText} data-test="ArticlesArchive-PageTitle" />
         {
           articles.map(({date, files}, index) => {
             return (
@@ -18,6 +18,7 @@ class ArticlesArchive extends Component {
                 key={index}
                 date={date}
                 files={files}
+                data-test="ArticlesArchive-UrlLinksRow"
               />
             );
           })
