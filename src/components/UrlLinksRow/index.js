@@ -8,13 +8,24 @@ class UrlLinksRow extends Component {
     const { date, files } = this.props;
     return (
       <div className="UrlLinksRow">
-        <div className="UrlLinksRow-date-col">
+        <div className="UrlLinksRow-date-col" data-test="UrlLinksRow-date">
           {`-- ${date}`}
         </div>
         <div className="UrlLinksRow-links-col">
           {
             files.map(({ text, url }, index) => {
-              return <a key={index} href={url} target="_blank" className="UrlLinksRow-link">{text}</a>
+              return (
+              <a
+                key={index}
+                href={url}
+                target="_blank"
+                className="UrlLinksRow-link"
+                data-test="UrlLinksRow-link"
+              >
+                {text}
+              </a>
+                
+              );
             })
           }
         </div>

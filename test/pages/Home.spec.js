@@ -15,7 +15,7 @@ describe('Home page', () => {
     wrapper = shallow(<Home />);
   });
 
-  it('should render the HomePage', () => {
+  it('should render the Home Page', () => {
     expect(wrapper.exists()).to.be.true;
   });
 
