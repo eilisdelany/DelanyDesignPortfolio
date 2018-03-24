@@ -17,7 +17,7 @@ class Header extends Component {
           {pageKeys.map((pageKey, index) => {
             const { path, title } = pages[pageKey];
             return (
-              <div key={index} className={path === activePath ? "Header-active-tab" : "Header-tab"}>
+              <div key={index} className={`Header-tab ${path === activePath ? 'Header-active-tab' : ''}`}>
                 <NavLink to={path}>
                   {title}
                 </NavLink>

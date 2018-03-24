@@ -1,7 +1,7 @@
 @import '../../styles/index';
 
 $header-tab-height: 30px;
-$header-tab-min-width: 50px;
+$header-tab-min-width: 75px;
 
 .Header {
   max-width: $page-width;
@@ -20,15 +20,13 @@ $header-tab-min-width: 50px;
   float: right;
 }
 
-.Header-tab,
-.Header-active-tab {
+.Header-tab {
   display: inline-block;
   min-width: $header-tab-min-width;
-  text-align: right;
+  text-align: center;
   height: $header-tab-height;
-  margin-left: $whitespace-10;
+  margin-left: $whitespace-5;
   vertical-align: middle;
-  border-bottom: 3px solid $background-color;
   letter-spacing: 0.5px;
 
   a {
@@ -36,13 +34,15 @@ $header-tab-min-width: 50px;
     line-height: $header-tab-height;
     color: $primary-color;
     text-decoration: none;
+    padding-bottom: $whitespace-1;
   }
 }
 
 .Header-tab:hover {
   font-weight: bold;
 }
-.Header-active-tab {
-  border-color: $secondary-color;
+
+.Header-active-tab a {
   font-weight: bold;
+  border-bottom: 3px solid $secondary-color;
 }
