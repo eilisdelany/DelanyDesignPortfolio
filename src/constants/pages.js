@@ -4,8 +4,8 @@ export const pages = {
     title: 'It\'s me'
   },
   CATALOGUE: {
-    path: '/catalogue',
-    title: 'Catalogue'
+    path: '/archive',
+    title: 'archive'
   },
   TOP_FIVE: {
     path: '/top-five',
