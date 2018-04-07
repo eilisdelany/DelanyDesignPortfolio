@@ -11,10 +11,12 @@ class HeaderTab extends Component {
     };
   }
 
-  toggleHoverState = () => {
-    this.setState(prevState => ({
-      isOnHover: !prevState.isOnHover
-    }));
+  showHoverState = () => {
+    this.setState({ isOnHover: true });
+  };
+
+  hideHoverState = () => {
+    this.setState({ isOnHover: false });
   };
 
   render() {
@@ -23,8 +25,8 @@ class HeaderTab extends Component {
       <div
         className={`HeaderTab ${isActivePath ? "active-tab" : "inactive-tab"}`}
         data-test="Header-tab"
-        onMouseEnter={this.toggleHoverState}
-        onMouseLeave={this.toggleHoverState}
+        onMouseEnter={this.showHoverState}
+        onMouseLeave={this.hideHoverState}
       >
         <NavLink to={path}>{title}</NavLink>
         {(this.state.isOnHover || isActivePath) && (
