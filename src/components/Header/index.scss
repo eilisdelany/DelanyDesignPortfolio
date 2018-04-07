@@ -4,14 +4,10 @@ $header-tab-height: 30px;
 
 .Header {
   max-width: $page-width;
-  width: 100%;
   margin: 0 auto;
   border-bottom: 3px solid $primary-color;
   padding: $whitespace-4 0px;
-  position: fixed;
   background-color: $background-color;
-  left: 0;
-  right: 0;
 }
 
 .Header-logo {
