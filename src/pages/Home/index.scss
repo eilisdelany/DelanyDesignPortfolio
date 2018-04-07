@@ -1,16 +1,19 @@
 @import '../../styles/index';
 
-$intro-section-height: calc(100vh - 90px);
+$section-height: calc(100vh - 90px);
+$min-section-height: 300px;
 
 .Home {
   color: $primary-color;
+  font-size: $subtitle;
 }
 
 .IntroSection {
   text-align: center;
   width: 400px;
   margin: 0 auto;
-  height: $intro-section-height;
+  height: $section-height;
+  min-height: $min-section-height;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,13 +23,38 @@ $intro-section-height: calc(100vh - 90px);
     line-height: 35px;
   }
 
-  span {
-    font-size: $text;
-  }
-
   img {
     width: 30px;
     height: 15px;
     padding-left: $whitespace-2;
+  }
+}
+
+.teaser-section {
+  height: $section-height;
+  min-height: $min-section-height;
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+
+  .teaser-text { 
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    width: 140px;
+    margin: 0 auto;
+  }
+
+  .teaser-line {
+    width: 3px;
+    background-color: $primary-color;
+    margin: 100px auto 0;
+    height: 30%;
+    min-height: 80px;
   }
 }
