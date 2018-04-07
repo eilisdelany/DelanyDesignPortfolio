@@ -46,3 +46,17 @@ $header-tab-min-width: 75px;
   font-weight: bold;
   border-bottom: 3px solid $secondary-color;
 }
+
+.Header-inactive-tab a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: $secondary-color;
+  transition: width .3s;
+}
+
+.Header-inactive-tab a:hover::after {
+  width: 100%;
+  //transition: width .3s;
+}

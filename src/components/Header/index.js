@@ -19,7 +19,7 @@ class Header extends Component {
             return (
               <div
                 key={index}
-                className={`Header-tab ${path === activePath ? 'Header-active-tab' : ''}`}
+                className={`Header-tab ${path === activePath ? 'Header-active-tab' : 'Header-inactive-tab'}`}
                 data-test="Header-tab">
                 <NavLink to={path}>
                   {title}
