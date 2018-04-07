@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
-import { pages, pageKeys } from '../../constants/pages';
-import './index.scss';
+import React, { Component } from "react";
+import HeaderTab from "./HeaderTab";
+import { pages, pageKeys } from "../../constants/pages";
+import "./index.scss";
 
 class Header extends Component {
   render() {
@@ -17,14 +17,12 @@ class Header extends Component {
           {pageKeys.map((pageKey, index) => {
             const { path, title } = pages[pageKey];
             return (
-              <div
+              <HeaderTab
                 key={index}
-                className={`Header-tab ${path === activePath ? 'Header-active-tab' : ''}`}
-                data-test="Header-tab">
-                <NavLink to={path}>
-                  {title}
-                </NavLink>
-              </div>
+                path={path}
+                title={title}
+                isActivePath={activePath === path}
+              />
             );
           })}
         </div>
