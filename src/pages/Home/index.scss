@@ -1,0 +1,31 @@
+@import '../../styles/index';
+
+$intro-section-height: calc(100vh - 90px);
+
+.Home {
+  color: $primary-color;
+}
+
+.Home-intro-section {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  height: $intro-section-height;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2, h3 {
+    padding-bottom: $whitespace-4;
+    line-height: 35px;
+  }
+
+  span {
+    font-size: $text;
+  }
+
+  img {
+    width: 30px;
+    height: 15px;
+  }
+}
