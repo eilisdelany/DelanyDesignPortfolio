@@ -1,12 +1,11 @@
-@import '../../styles/index';
+@import "../../styles/index";
 
 $header-tab-height: 30px;
-$header-tab-min-width: 75px;
 
 .Header {
   max-width: $page-width;
   margin: 0 auto;
-  border-bottom: 1px solid $primary-color;
+  border-bottom: 3px solid $primary-color;
   padding: $whitespace-4 0px;
 }
 
@@ -18,45 +17,57 @@ $header-tab-min-width: 75px;
 
 .Header-tabs {
   float: right;
+  text-transform: uppercase;
 }
 
-.Header-tab {
+.HeaderTab {
   display: inline-block;
-  min-width: $header-tab-min-width;
-  text-align: center;
   height: $header-tab-height;
-  margin-left: $whitespace-5;
+  padding-left: $whitespace-5;
+  padding-right: $whitespace-1;
   vertical-align: middle;
   letter-spacing: 0.5px;
+  position: relative;
 
   a {
-    font-size: $label;
+    font-size: $text;
     line-height: $header-tab-height;
     color: $primary-color;
     text-decoration: none;
-    padding-bottom: $whitespace-1;
+    display: block;
+    text-align: left;
   }
 }
 
-.Header-tab:hover {
+.inactive-tab:hover,
+.active-tab {
   font-weight: bold;
 }
 
-.Header-active-tab a {
-  font-weight: bold;
-  border-bottom: 3px solid $secondary-color;
-}
+.tab-border {
+  visibility: unset;
+  position: absolute;
+  top: 15px;
+  left: 24px;
 
-.Header-inactive-tab a::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 3px;
-  background: $secondary-color;
-  transition: width .3s;
-}
+  .dot {
+    display: inline;
+    padding-right: 2px;
+  }
 
-.Header-inactive-tab a:hover::after {
-  width: 100%;
-  //transition: width .3s;
+  .line {
+    width: 90%;
+    height: 3px;
+    display: inline-block;
+    background: $secondary-color;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft;
+  }
+}
+@keyframes slideInFromLeft {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
 }
