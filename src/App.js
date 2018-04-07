@@ -3,6 +3,7 @@ import {BrowserRouter, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import Catalogue from './pages/Catalogue';
 import Archive from './pages/Archive';
 import DigitalLibrary from './pages/DigitalLibrary';
 import Contact from './pages/Contact';
@@ -22,6 +23,7 @@ class App extends Component {
             </header>
             <div className="App-content">
               <Route exact path={pages.ITS_ME.path} component={Home} />
+              <Route exact path={pages.CATALOGUE.path} component={Catalogue} />
               <Route
                 exact
                 path={pages.TOP_FIVE.path}

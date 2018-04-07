@@ -3,6 +3,10 @@ export const pages = {
     path: '/',
     title: 'It\'s me'
   },
+  CATALOGUE: {
+    path: '/catalogue',
+    title: 'Catalogue'
+  },
   TOP_FIVE: {
     path: '/top-five',
     title: 'Top five',
