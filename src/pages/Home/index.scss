@@ -12,6 +12,7 @@ $min-section-height: 300px;
   text-align: center;
   width: 400px;
   margin: 0 auto;
+  padding: 10px 0;
   height: $section-height;
   min-height: $min-section-height;
   display: flex;
@@ -24,8 +25,8 @@ $min-section-height: 300px;
   }
 
   img {
-    width: 30px;
-    height: 15px;
+    width: 35px;
+    height: 25px;
     padding-left: $whitespace-2;
   }
 }
