@@ -1,0 +1,50 @@
+@import '../../../styles/index';
+
+$border: 3px solid $primary-color;
+
+.FibonacciSection {
+  display: grid;
+  width: 100vw;
+  height: calc(100vh);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "mantra mantra mantra mantra grindin grindin grindin grindin"
+  "mantra mantra mantra mantra grindin grindin grindin grindin"
+  "mantra mantra mantra mantra grindin grindin grindin grindin"
+  "mantra mantra mantra mantra grindin grindin grindin grindin"
+  "mantra mantra mantra mantra pinchMe dreamDinner sayWhat sayWhat"
+  "mantra mantra mantra mantra pinchMe dreamDinner sayWhat sayWhat"
+  "mantra mantra mantra mantra realNews realNews sayWhat sayWhat"
+  "mantra mantra mantra mantra realNews realNews sayWhat sayWhat"
+}
+
+.mantra {
+  grid-area: mantra;
+  border-right: $border;
+}
+
+.grindin {
+  grid-area: grindin;
+  border-bottom: $border;
+}
+
+.say-what {
+  grid-area: sayWhat;
+  border-left: $border;
+}
+
+.real-news {
+  grid-area: realNews;
+  border-top: $border;
+}
+
+.pinch-me {
+  grid-area: pinchMe;
+  border-right: $border;
+}
+
+.dream-dinner {
+  grid-area: dreamDinner;
+}
+

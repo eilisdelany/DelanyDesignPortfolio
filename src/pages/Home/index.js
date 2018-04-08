@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import IntroSection from './IntroSection'
+import IntroSection from './IntroSection';
+import FibonacciSection from './FibonacciSection'
 import './index.scss';
 
 class Home extends Component {
@@ -11,6 +12,7 @@ class Home extends Component {
           <div className="teaser-text">{'I like you already'}</div>
           <div className="teaser-line" />
         </section>
+        <FibonacciSection />
       </div>
     );
   }
