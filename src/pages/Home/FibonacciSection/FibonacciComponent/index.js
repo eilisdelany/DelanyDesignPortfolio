@@ -18,6 +18,11 @@ class FibonacciComponent extends Component {
     this.setState({ isHovering: false });
   };
 
+  selectComponent = () => {
+    const { selectComponent, name } = this.props;
+    selectComponent(name);
+  }
+
   render() {
     const { name, title, description } = this.props;
     return (
@@ -25,6 +30,7 @@ class FibonacciComponent extends Component {
         className={`FibonacciComponent ${name}`}
         onMouseEnter={this.setHoverState}
         onMouseLeave={this.unsetHoverState}
+        onClick={this.selectComponent}
       >
       <div className="container">
         <span className="title">{title}</span>
@@ -46,6 +52,7 @@ class FibonacciComponent extends Component {
 FibonacciComponent.propTypes = {
   name: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  selectComponent: PropTypes.func.isRequired,
   description: PropTypes.string
 };
 
