@@ -26,10 +26,17 @@ class FibonacciComponent extends Component {
         onMouseEnter={this.setHoverState}
         onMouseLeave={this.unsetHoverState}
       >
-        <div>
-          <span className="title">{title}</span>
+      <div className="container">
+        <span className="title">{title}</span>
+          {this.state.isHovering && (
+            <div className="border-bottom">
+              <div className="dot"/>
+              <div className="line"/>
+          </div>
+          )}
           {(this.state.isHovering && description) &&
-            <span className="description">{description}</span>}
+            <span className="description">{description}</span>
+          }
         </div>
       </div>
     );
