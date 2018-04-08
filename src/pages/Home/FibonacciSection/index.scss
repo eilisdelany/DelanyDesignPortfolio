@@ -1,0 +1,163 @@
+@import '../../../styles/index';
+
+$border: 3px solid $primary-color;
+
+.FibonacciSection {
+  display: grid;
+  width: 100%;
+  height: calc(100vh);
+  grid-template-columns: 4fr 1fr 1fr 2fr;
+  grid-template-rows: 4fr 1fr 1fr 2fr;
+  grid-template-areas: 
+  "mantra grindin grindin grindin"
+  "mantra pinchMe dreamDinner sayWhat"
+  "mantra pinchMe dreamDinner sayWhat"
+  "mantra realNews realNews sayWhat"
+}
+
+.mantra {
+  grid-area: mantra;
+  border-right: $border;
+  position: relative;
+
+  .container {
+    position: absolute;
+    top: 33%;
+    left: 15%;
+    font-size: 5vw;
+  }
+
+  .description {
+    margin-top: $whitespace-4;
+    font-size: 2vw;
+    line-height: 2.5vw;
+    display: block;
+    width: 60%;
+  }
+}
+
+.grindin {
+  grid-area: grindin;
+  border-bottom: $border;
+  position: relative;
+
+  .container {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 6vh;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  }
+}
+
+.say-what {
+  grid-area: sayWhat;
+  border-left: $border;
+  position: relative;
+
+  .container {
+    position: absolute;
+    top: 45%;
+    right: 15%;
+    font-size: 2vw;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  }
+}
+
+.real-news {
+  grid-area: realNews;
+  border-top: $border;
+  position: relative;
+
+  .container {
+    position: absolute;
+    font-size: 3vh;
+    top: 35%;
+    bottom: 35%;
+    right: 15%;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+}
+
+.pinch-me {
+  grid-area: pinchMe;
+  border-right: $border;
+  position: relative;
+
+  .container {
+    position: absolute;
+    left: 30%;
+    top: calc(50% - 2vw);
+    font-size: 2vw;
+    width: 46px;
+  }
+}
+
+.dream-dinner {
+  grid-area: dreamDinner;
+  position: relative;
+
+  .container {
+    position: absolute;
+    left: calc(50% - (46px/2));
+    top: calc(50% - (2vh/2));
+    font-size: 2vh;
+    width: 46px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  }
+}
+
+.FibonacciComponent {
+
+  .title {
+    padding-bottom: $whitespace-1;
+  }
+
+  .border-bottom {
+    display: flex;
+    padding-top: $whitespace-1;
+  }
+
+  .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: $secondary-color;
+    margin-right: 5px;
+  }
+  .line {
+    height: 5px;
+    width: 70%;
+    background-color: $secondary-color;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft;
+  }
+}
+
+.FibonacciComponent:hover {
+  background-color: $hover-background-color;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}

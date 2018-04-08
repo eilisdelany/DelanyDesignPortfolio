@@ -1,0 +1,64 @@
+@import '../../styles/index';
+
+$section-height: calc(100vh - 90px);
+$min-section-height: 300px;
+
+.Home {
+  color: $primary-color;
+  font-size: $subtitle;
+}
+
+.IntroSection {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px 0;
+  height: $section-height;
+  min-height: $min-section-height;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    padding-bottom: $whitespace-4;
+    line-height: 35px;
+  }
+
+  img {
+    width: 35px;
+    height: 25px;
+    padding-left: $whitespace-2;
+  }
+}
+
+$teaserSectionWidth: 200px;
+
+.TeaserSection {
+  height: $section-height;
+  min-height: $min-section-height;
+  width: $teaserSectionWidth;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+
+  .teaser-text { 
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    width: 140px;
+    margin: 0 auto;
+  }
+
+  .teaser-line {
+    width: 3px;
+    background-color: $primary-color;
+    margin-top: 100px;
+    margin-left: calc((#{$teaserSectionWidth}/2) - 3px);
+    height: 40%;
+    min-height: 80px;
+  }
+}
