@@ -44,7 +44,7 @@ $border: 3px solid $primary-color;
   border-bottom: $border;
   position: relative;
 
-  span {
+  div {
     position: absolute;
     top: 35%;
     left: 10%;
@@ -62,7 +62,7 @@ $border: 3px solid $primary-color;
   border-left: $border;
   position: relative;
 
-  span {
+  div {
     position: absolute;
     top: 45%;
     right: 15%;
@@ -80,7 +80,7 @@ $border: 3px solid $primary-color;
   border-top: $border;
   position: relative;
 
-  span {
+  div {
     position: absolute;
     font-size: 3vh;
     top: 35%;
@@ -99,7 +99,7 @@ $border: 3px solid $primary-color;
   border-right: $border;
   position: relative;
 
-  span {
+  div {
     position: absolute;
     left: 30%;
     top: calc(50% - 2vw);
@@ -112,7 +112,7 @@ $border: 3px solid $primary-color;
   grid-area: dreamDinner;
   position: relative;
 
-  span {
+  div {
     position: absolute;
     left: calc(50% - (46px/2));
     top: calc(50% - (2vh/2));
@@ -126,6 +126,6 @@ $border: 3px solid $primary-color;
   }
 }
 
-.fibonacci-component:hover {
+.FibonacciComponent:hover {
   background-color: $hover-background-color;
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FibonacciComponent from './FibonacciComponent';
 import './index.scss';
 
 class FibonacciSection extends Component {
@@ -20,39 +21,34 @@ class FibonacciSection extends Component {
   render() {
     return (
       <div className="FibonacciSection">
-        <div
-          className="fibonacci-component mantra"
-          onMouseEnter={this.setIsHoverOnMantra}
-          onMouseLeave={this.unsetIsHoverOnMantra}
-        >
-          <div>
-            <span className="title">{'Mantra'}</span>
-            {this.state.isHoveringOnMantra && (
-              <span className="description">
-                {`Some insights into the type of person I am, and what I do and don't believe in.`}
-              </span>
-            )}
-          </div>
-        </div>
-        <div className="fibonacci-component grindin">
-          <span>{`Grindin'`}</span>
-        </div>
-        <div className="fibonacci-component say-what">
-          <span>{'Say Whattttt??'}</span>
-        </div>
-        <div className="fibonacci-component real-news">
-          <span>{'Real News'}</span>
-        </div>
-        <div className="fibonacci-component pinch-me">
-          <span>{'Pinch Me'}</span>
-        </div>
-        <div className="fibonacci-component dream-dinner">
-          <span>{'Dream Dinner'}</span>
-        </div>
+        <FibonacciComponent
+          name="mantra"
+          title="Mantra"
+          description={`Some insights into the type of person I am, and what I do and don't believe in.`}
+        />
+        <FibonacciComponent
+          name="grindin"
+          title={`Grindin'`}
+        />
+        <FibonacciComponent
+          name="say-what"
+          title="Say Whattttt??"
+        />
+        <FibonacciComponent
+          name="real-news"
+          title="Real News"
+        />
+        <FibonacciComponent
+          name="pinch-me"
+          title="Pinch Me"
+        />
+        <FibonacciComponent
+          name="dream-dinner"
+          title="Dream Dinner"
+        />
       </div>
     );
   }
 }
-
 
 export default FibonacciSection;
