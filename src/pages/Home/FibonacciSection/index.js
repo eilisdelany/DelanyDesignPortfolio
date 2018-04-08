@@ -2,26 +2,52 @@ import React, { Component } from 'react';
 import './index.scss';
 
 class FibonacciSection extends Component {
+  constructor () {
+    super();
+    this.state = {
+      isHoveringOnMantra: false
+    }
+  }
+
+  setIsHoverOnMantra = () => {
+    this.setState({ isHoveringOnMantra: true });
+  }
+
+  unsetIsHoverOnMantra = () => {
+    this.setState({ isHoveringOnMantra: false });
+  }
+
   render() {
     return (
       <div className="FibonacciSection">
-        <div className="mantra">
-          {'Mantra'}
+        <div
+          className="fibonacci-component mantra"
+          onMouseEnter={this.setIsHoverOnMantra}
+          onMouseLeave={this.unsetIsHoverOnMantra}
+        >
+          <div>
+            <span className="title">{'Mantra'}</span>
+            {this.state.isHoveringOnMantra && (
+              <span className="description">
+                {`Some insights into the type of person I am, and what I do and don't believe in.`}
+              </span>
+            )}
+          </div>
         </div>
-        <div className="grindin">
-          {`Grindin'`}
+        <div className="fibonacci-component grindin">
+          <span>{`Grindin'`}</span>
         </div>
-        <div className="say-what">
-          {'Say Whattttt??'}
+        <div className="fibonacci-component say-what">
+          <span>{'Say Whattttt??'}</span>
         </div>
-        <div className="real-news">
-          {'Real News'}
+        <div className="fibonacci-component real-news">
+          <span>{'Real News'}</span>
         </div>
-        <div className="pinch-me">
-          {'Pinch Me'}
+        <div className="fibonacci-component pinch-me">
+          <span>{'Pinch Me'}</span>
         </div>
-        <div className="dream-dinner">
-          {'Dream Dinner'}
+        <div className="fibonacci-component dream-dinner">
+          <span>{'Dream Dinner'}</span>
         </div>
       </div>
     );

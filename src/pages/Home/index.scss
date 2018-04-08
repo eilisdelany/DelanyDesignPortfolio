@@ -31,10 +31,12 @@ $min-section-height: 300px;
   }
 }
 
+$teaserSectionWidth: 200px;
+
 .teaser-section {
   height: $section-height;
   min-height: $min-section-height;
-  width: 200px;
+  width: $teaserSectionWidth;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -54,8 +56,9 @@ $min-section-height: 300px;
   .teaser-line {
     width: 3px;
     background-color: $primary-color;
-    margin: 100px auto 0;
-    height: 30%;
+    margin-top: 100px;
+    margin-left: calc((#{$teaserSectionWidth}/2) - 3px);
+    height: 40%;
     min-height: 80px;
   }
 }
