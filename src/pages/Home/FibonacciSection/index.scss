@@ -126,6 +126,10 @@ $border: 3px solid $primary-color;
   }
 }
 
+.FibonacciComponent {
+  transition: background-color 0.5s ease;
+}
+
 .FibonacciComponent:hover {
   background-color: $hover-background-color;
 }
