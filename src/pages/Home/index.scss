@@ -1,6 +1,6 @@
 @import '../../styles/index';
 
-$section-height: calc(100vh - 90px);
+$section-height: calc(100vh - #{$header-height});
 $min-section-height: 300px;
 
 .Home {
@@ -12,7 +12,7 @@ $min-section-height: 300px;
   text-align: center;
   width: 400px;
   margin: 0 auto;
-  padding: 10px 0;
+  padding-top: calc(#{$header-height} + #{$whitespace-2});
   height: $section-height;
   min-height: $min-section-height;
   display: flex;

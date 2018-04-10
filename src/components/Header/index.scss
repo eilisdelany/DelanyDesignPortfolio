@@ -1,13 +1,16 @@
 @import "../../styles/index";
 
-$header-tab-height: 30px;
-
 .Header {
   max-width: $page-width;
   margin: 0 auto;
-  border-bottom: 3px solid $primary-color;
-  padding: $whitespace-4 0px;
+  border-bottom: $header-border-size solid $primary-color;
+  padding: $header-padding 0px;
   background-color: $background-color;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: $background-color;
+  z-index:10;
 }
 
 .Header-logo {
@@ -24,7 +27,7 @@ $header-tab-height: 30px;
 .HeaderTab {
   display: inline-block;
   min-width: 75px;
-  height: $header-tab-height;
+  height: $header-content-height;
   padding-left: $whitespace-5;
   padding-right: $whitespace-1;
   vertical-align: middle;
@@ -33,7 +36,7 @@ $header-tab-height: 30px;
 
   a {
     font-size: $text;
-    line-height: $header-tab-height;
+    line-height: $header-content-height;
     color: $primary-color;
     text-decoration: none;
     display: block;
