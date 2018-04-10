@@ -1,16 +1,15 @@
 @import "../../styles/index";
 
 .Header {
-  max-width: $page-width;
-  margin: 0 auto;
   border-bottom: $header-border-size solid $primary-color;
-  padding: $header-padding 0px;
-  background-color: $background-color;
   position: fixed;
   left: 0;
   right: 0;
   background-color: $background-color;
-  z-index:10;
+  z-index: 10;
+  margin: 0 auto;
+  padding: $header-padding $whitespace-10;
+  min-width: 800px;
 }
 
 .Header-logo {
