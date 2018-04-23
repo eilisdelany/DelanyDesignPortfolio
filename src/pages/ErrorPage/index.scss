@@ -1,0 +1,45 @@
+@import '../../styles/index';
+
+$section-height: calc(100vh - #{$header-height});
+$min-section-height: 300px;
+
+.ErrorPage {
+  padding-top: calc(#{$header-height} + #{$whitespace-2});
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  height: $section-height;
+  min-height: $min-section-height;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $primary-color;
+  letter-spacing: 1px;
+  position: relative;
+
+  .title {
+    margin-left: -20%;
+  }
+  
+  .slanted-text {
+    color: $secondary-color;
+    transform: rotate(11deg);
+    display: inline-block;
+    margin-bottom: -20px;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+  }
+  
+  .description {
+    padding: $whitespace-4 0;
+    font-size: $title;
+    margin-bottom: 2px;
+  
+    a {
+      text-decoration: underline;
+      color: inherit;
+      cursor: pointer;
+    }
+  }
+}
