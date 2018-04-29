@@ -1,0 +1,16 @@
+@import '../../../../styles/index';
+
+.DreamDinner {
+  padding-top: $header-height;
+}
+
+.DreamDinner-row {
+  width: 1000px;
+
+  .dinner-guest {
+    display: inline;
+    float: left;
+    width: 50%;
+    padding-bottom: $whitespace-4;
+  }
+}
