@@ -4,9 +4,9 @@ import "./index.scss";
 
 class ContentLayout extends Component {
   render() {
-    const { subtitle, content, style } = this.props;
+    const { subtitle, content, highlightOnHover } = this.props;
     return (
-      <div className={`ContentLayout ${style}`}>
+      <div className={`ContentLayout ${highlightOnHover && 'ContentLayout-highlight'}`}>
         <div className="ContentLayout-subtitle-col">
           {`-- ${subtitle}`}
         </div>
@@ -25,6 +25,10 @@ class ContentLayout extends Component {
 ContentLayout.propTypes = {
   subtitle: PropTypes.string.isRequired,
   content: PropTypes.array.isRequired,
-  style: PropTypes.string,
+  highlightOnHover: PropTypes.bool.isRequired,
 };
+
+ContentLayout.defaultProps = {
+  highlightOnHover: false
+}
 export default ContentLayout;
