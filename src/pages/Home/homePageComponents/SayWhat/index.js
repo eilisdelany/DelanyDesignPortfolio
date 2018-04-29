@@ -1,15 +1,36 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import ComingSoonSection from '../../../../components/ComingSoonSection';
+import PageTitle from "../../../../components/PageTitle";
+import ContentLayout from "../../../../components/ContentLayout";
+import Tags from '../../../../components/Tags';
+import references from "../../../../archive/references";
+import "./index.scss";
 
 class SayWhat extends Component {
   render() {
-    return <ComingSoonSection />;
+    return (
+      <section className="SayWhat">
+        <PageTitle
+          text={`I don’t like talking about myself so I let other people do it for me.`}
+        />
+        <ContentLayout
+          subtitle={references.title}
+          content={references.content.map(({ quote, name, role, company }, index) => {
+            return (
+              <div key={index} className="SayWhat-row">
+                <span className="SayWhat-quote">{`"${quote}"`}</span>
+                <Tags tags={[name, role, company]} />
+              </div>
+            );
+          })}
+        />
+      </section>
+    );
   }
 }
 
 SayWhat.propTypes = {
-  goBack: PropTypes.string.isRequired
+  goBack: PropTypes.func.isRequired
 };
 
 export default SayWhat;

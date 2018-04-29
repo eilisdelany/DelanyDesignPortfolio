@@ -1,0 +1,16 @@
+@import '../../styles/index';
+
+.Tags {
+  font-weight: 600;
+
+  .dot {
+    display: inline;
+    width: 5px;
+    height: 5px;
+    padding: 3px 5px;
+  }
+
+}
+.Tag {
+  display: inline;
+}

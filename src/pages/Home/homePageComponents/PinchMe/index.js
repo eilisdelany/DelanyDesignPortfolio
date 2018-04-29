@@ -10,7 +10,7 @@ class PinchMe extends Component {
     return (
       <section className="PinchMe">
         <PageTitle
-          text={`Award make me cringe. Probably because I don't get them very often.`}
+          text={`Awards make me cringe. Probably because I don't get them very often.`}
         />
         <ContentLayout
           subtitle={pinchMe.title}
