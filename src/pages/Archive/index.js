@@ -15,7 +15,7 @@ class Archive extends Component {
             <ContentLayout
               key={index}
               subtitle={date}
-              style={'highlight-on-hover'}
+              highlight
               content={files.map(({ text, url }, index) => {
                 return (
                   <a

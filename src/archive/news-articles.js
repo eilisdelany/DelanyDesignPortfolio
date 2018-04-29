@@ -1,4 +1,4 @@
-export default [{
+export default {
   title: "Real News",
   files: [{
     text: "How Did I get Here?",
@@ -29,4 +29,4 @@ export default [{
     source: "Irish Examiner",
     url: "http://www.irishexaminer.com/ireland/young-irish-inventors-make-james-dyson-award-shortlist-354485.html"
   }]
-}];
+};

@@ -8,6 +8,11 @@
   flex-direction: row;
 }
 
+.ContentLayout-highlight:hover,
+.ContentLayout-highlight:focus {
+  background-color: $hover-background-color;
+}
+
 .ContentLayout-subtitle-col {
   width: 200px;
   font-weight: 500;
@@ -25,5 +30,5 @@
   font-size: $text;
   line-height: 22px;
   padding-bottom: $whitespace-4;
-  font-weight: 300;
+  font-weight: lighter;
 }
