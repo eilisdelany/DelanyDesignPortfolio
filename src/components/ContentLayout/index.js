@@ -8,7 +8,7 @@ class ContentLayout extends Component {
     return (
       <div className={`ContentLayout ${highlightOnHover && 'ContentLayout-highlight'}`}>
         <div className="ContentLayout-subtitle-col">
-          {`-- ${subtitle}`}
+          <span>{`-- ${subtitle}`}</span>
         </div>
         <div className="ContentLayout-content-col">
           {content.map((item, index) => {
