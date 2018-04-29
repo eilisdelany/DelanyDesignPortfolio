@@ -1,8 +1,10 @@
 @import '../../styles/index';
 
 .PageTitle {
-  font-weight: 550;
-  font-size: $subtitle;
+  font-weight: 500;
+  font-size: $title;
   color: $primary-color;
-  padding: $whitespace-10 0;
+  padding: $whitespace-12;
+  padding-left: 200px;
+  line-height: 27px;
 }
