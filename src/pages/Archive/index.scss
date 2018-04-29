@@ -1,7 +1,23 @@
 @import '../../styles/index';
 
 .Archive {
-  max-width: $page-width;
-  margin: 0 auto;
-  padding-top: calc(#{$header-height} + #{$whitespace-2});
+  padding-top: $header-height;
+}
+
+.Archive-link {
+  display: block;
+  padding-bottom: $whitespace-1;
+  text-decoration: none;
+  color: $primary-color;
+  cursor: pointer
+}
+
+.Archive-link:hover,
+.Archive-link:focus {
+  text-decoration: underline;
+}
+
+.highlight-on-hover:hover,
+.highlight-on-hover:focus {
+  background-color: $hover-background-color;
 }

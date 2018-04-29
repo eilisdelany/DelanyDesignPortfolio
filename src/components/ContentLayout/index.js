@@ -4,9 +4,9 @@ import "./index.scss";
 
 class ContentLayout extends Component {
   render() {
-    const { subtitle, content } = this.props;
+    const { subtitle, content, style } = this.props;
     return (
-      <div className="ContentLayout">
+      <div className={`ContentLayout ${style}`}>
         <div className="ContentLayout-subtitle-col">
           {`-- ${subtitle}`}
         </div>
@@ -24,6 +24,7 @@ class ContentLayout extends Component {
 
 ContentLayout.propTypes = {
   subtitle: PropTypes.string.isRequired,
-  content: PropTypes.array.isRequired
+  content: PropTypes.array.isRequired,
+  style: PropTypes.string,
 };
 export default ContentLayout;
