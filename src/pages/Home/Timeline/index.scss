@@ -1,0 +1,96 @@
+@import '../../../styles/index';
+
+$section-height: 200vh;
+$min-section-height: 300px;
+$timeline-width: 100vw;
+
+
+.Timeline {
+  height: $section-height;
+  min-height: $min-section-height;
+  width: $timeline-width;
+  position: relative;
+
+  .Timeline-line {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 3px;
+    background-color: $primary-color;
+    height: 80%;
+  }
+
+  .TimelineStep {
+    text-align: left;
+    width: 300px;
+    position: absolute;
+
+    .header {
+      font-size: $title;
+      margin-bottom: $whitespace-4;
+      font-weight: 600;
+    }
+
+    .subheader {
+      font-size: $subtitle;
+      line-height: $whitespace-4;
+    }
+
+    .content {
+      margin-top: $whitespace-4;
+      font-size: text;
+      font-weight: lighter;
+      line-height: $whitespace-4;
+    }
+  }
+
+  .position-0 {
+    top: 15%;
+    left: 15%;
+  }
+
+  .position-1 {
+    top: 25%;
+    left: 60%;
+  }
+
+  .position-2 {
+    top: 45%;
+    left: 20%;
+  }
+
+  .position-3 {
+    top: 55%;
+    left: 60%;
+  }
+
+  .Timeline-link {
+    position: absolute;
+    background-color: $primary-color;
+    height: 3px;
+  }
+
+  .Timeline-link-0 {
+    top: 20%;
+    right: 50%;
+    width: 15%;
+  }
+
+  .Timeline-link-1 {
+    top: 35%;
+    left: 50%;
+    width: 5%;
+  }
+
+  .Timeline-link-2 {
+    top: 55%;
+    right: 50%;
+    width: 5%;
+  }
+
+  .Timeline-link-3 {
+    top: 65%;
+    left: 50%;
+    width: 5%;
+  }
+}
