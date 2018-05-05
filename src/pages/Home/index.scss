@@ -34,7 +34,7 @@ $min-section-height: 300px;
 $teaserSectionWidth: 200px;
 
 .TeaserSection {
-  height: $section-height;
+  height: 200vh;
   min-height: $min-section-height;
   width: $teaserSectionWidth;
   margin: 0 auto;
@@ -58,7 +58,7 @@ $teaserSectionWidth: 200px;
     background-color: $primary-color;
     margin-top: 100px;
     margin-left: calc((#{$teaserSectionWidth}/2) - 3px);
-    height: 40%;
+    height: 80%;
     min-height: 80px;
   }
 }
