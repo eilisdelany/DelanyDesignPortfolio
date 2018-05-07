@@ -3,16 +3,3 @@
 .Archive {
   padding-top: $header-height;
 }
-
-.Archive-link {
-  display: block;
-  padding-bottom: $whitespace-1;
-  text-decoration: none;
-  color: $primary-color;
-  cursor: pointer
-}
-
-.Archive-link:hover,
-.Archive-link:focus {
-  text-decoration: underline;
-}

@@ -8,6 +8,8 @@ import Archive from './pages/Archive';
 import DigitalLibrary from './pages/DigitalLibrary';
 import Contact from './pages/Contact';
 import ErrorPage from './pages/ErrorPage';
+import Words from './components/Words';
+import TopFive from './components/TopFive';
 import blogPosts from './archive/blog-posts';
 import topFive from './archive/top-five';
 
@@ -33,6 +35,7 @@ class App extends Component {
                     <Archive
                       pageTitleText={pages.TOP_FIVE.pageTitle}
                       archive={topFive}
+                      Content={TopFive}
                       {...props}
                     />
                   )}
@@ -44,6 +47,7 @@ class App extends Component {
                     <Archive
                       pageTitleText={pages.WORDS.pageTitle}
                       archive={blogPosts}
+                      Content={Words}
                       {...props}
                     />
                   )}
