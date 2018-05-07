@@ -21,7 +21,9 @@ class FibonacciSection extends Component {
   };
 
   navigateToTimeline = () => {
-    // TODO
+    document.getElementById('timeline').scrollIntoView({ 
+      behavior: 'smooth' 
+    });
   }
 
   render() {
