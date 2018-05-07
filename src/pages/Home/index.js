@@ -4,11 +4,11 @@ import TeaserSection from "./TeaserSection";
 import FibonacciSection from "./FibonacciSection";
 import homePageComponents from "../../constants/homePageComponents";
 import Mantra from "./homePageComponents/Mantra";
-import Grindin from './homePageComponents/Grindin';
 import SayWhat from './homePageComponents/SayWhat';
 import RealNews from './homePageComponents/RealNews';
 import PinchMe from './homePageComponents/PinchMe';
 import DreamDinner from './homePageComponents/DreamDinner';
+import Timeline from './Timeline'
 import "./index.scss";
 
 class Home extends Component {
@@ -27,8 +27,6 @@ class Home extends Component {
     switch (this.state.selectedHomeComponent) {
       case homePageComponents.MANTRA:
         return <Mantra goBack={this.updateSelectedHomeComponent} />;
-      case homePageComponents.GRINDIN:
-        return <Grindin goBack={this.updateSelectedHomeComponent} />;
       case homePageComponents.SAY_WHAT:
         return <SayWhat goBack={this.updateSelectedHomeComponent} />;
       case homePageComponents.REAL_NEWS:
@@ -45,6 +43,7 @@ class Home extends Component {
             <FibonacciSection
               selectComponent={this.updateSelectedHomeComponent}
             />
+            <Timeline />
           </div>
         );
     }
