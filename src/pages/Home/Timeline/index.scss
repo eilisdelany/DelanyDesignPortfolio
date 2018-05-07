@@ -1,6 +1,6 @@
 @import '../../../styles/index';
 
-$section-height: 200vh;
+$section-height: 1500px;
 $min-section-height: 300px;
 $timeline-width: 100vw;
 
@@ -17,7 +17,7 @@ $timeline-width: 100vw;
     right: 50%;
     width: 3px;
     background-color: $primary-color;
-    height: 80%;
+    height: 85%;
   }
 
   .TimelineStep {
@@ -45,22 +45,22 @@ $timeline-width: 100vw;
   }
 
   .position-0 {
-    top: 15%;
+    top: 35%;
     left: 15%;
   }
 
   .position-1 {
-    top: 25%;
+    top: 50%;
     left: 60%;
   }
 
   .position-2 {
-    top: 45%;
-    left: 20%;
+    top: 65%;
+    left: 25%;
   }
 
   .position-3 {
-    top: 55%;
+    top: 80%;
     left: 60%;
   }
 
@@ -70,27 +70,61 @@ $timeline-width: 100vw;
     height: 3px;
   }
 
+
+  .notch {
+    height: 10px;
+    width: 3px;
+    background-color: #FA3C1A;
+    position: absolute;
+  }
+
+
   .Timeline-link-0 {
-    top: 20%;
+    top: 40%;
     right: 50%;
     width: 15%;
+
+    .notch-0 {
+      left: 25%;
+      bottom: 0;
+    }
+
+    .notch-1 {
+      left: 50%;
+      bottom: 0;
+    }
+
+    .notch-2 {
+      left: 75%;
+      bottom: 0;
+    }
   }
 
   .Timeline-link-1 {
-    top: 35%;
+    top: 55%;
     left: 50%;
     width: 5%;
+
+    .notch-0 {
+      left: 50%;
+      bottom: 0;
+    }
   }
 
   .Timeline-link-2 {
-    top: 55%;
+    top: 70%;
     right: 50%;
     width: 5%;
+
+    .notch-0 {
+      left: 50%;
+      bottom: 0;
+    }
   }
 
   .Timeline-link-3 {
-    top: 65%;
-    left: 50%;
-    width: 5%;
+    top: 85%;
+    left: 49.8%;
+    width: 2%;
   }
 }

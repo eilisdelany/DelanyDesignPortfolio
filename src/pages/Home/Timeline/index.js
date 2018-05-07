@@ -6,13 +6,12 @@ import "./index.scss";
 class Timeline extends Component {
   render() {
     return (
-      <div className="Timeline">
+      <div className="Timeline" id="timeline">
         <div className="Timeline-line" />
         {timeline.map(({ dates, place, role, work, years }, index) => {
           return (
-            <Fragment>
+            <Fragment key={index}>
             <TimelineStep
-              key={index}
               dates={dates}
               place={place}
               role={role}
@@ -20,7 +19,11 @@ class Timeline extends Component {
               years={years}
               position={index}
             />
-            <div className={`Timeline-link Timeline-link-${index}`} />
+            <div className={`Timeline-link Timeline-link-${index}`}>
+              {Array.from({length: years}, (year, yearIndex) => {
+                return <div key={yearIndex} className={`notch notch-${yearIndex}`} />;
+              })}
+            </div>
             </Fragment>
           );
         })}
