@@ -6,7 +6,7 @@ import "./index.scss";
 
 class Archive extends Component {
   render() {
-    const { pageTitleText, archive } = this.props;
+    const { pageTitleText, archive, Content } = this.props;
     return (
       <div className="Archive">
         <PageTitle text={pageTitleText} data-test="Archive-PageTitle" />
@@ -16,17 +16,9 @@ class Archive extends Component {
               key={index}
               subtitle={date}
               highlight
-              content={files.map(({ text, url }, index) => {
+              content={files.map((content, index) => {
                 return (
-                  <a
-                    key={index}
-                    href={url}
-                    target="_blank"
-                    className="Archive-link"
-                    data-test="Archive-link"
-                  >
-                    {text}
-                  </a>
+                  <Content props={content} />
                 );
               })}
               data-test="Archive-UrlLinksRow"
@@ -40,7 +32,8 @@ class Archive extends Component {
 
 Archive.propTypes = {
   pageTitleText: PropTypes.string.isRequired,
-  archive: PropTypes.array.isRequired
+  archive: PropTypes.array.isRequired,
+  Content: PropTypes.func.isRequired,
 };
 
 export default Archive;

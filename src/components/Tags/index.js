@@ -9,7 +9,7 @@ class Tags extends Component {
       <div className="Tags">
         {tags.map((tag, index) => {
           return (
-            <section className="Tag">
+            <section className="Tag" key={index}>
               <span>{tag}</span>
               {(index < tags.length - 1) && <img src={'/images/dot.png'} alt="dot" className="dot" />}
             </section>

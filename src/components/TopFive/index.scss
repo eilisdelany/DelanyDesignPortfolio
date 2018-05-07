@@ -1,0 +1,15 @@
+@import '../../styles/index';
+
+.TopFive-link {
+  display: block;
+  padding-bottom: $whitespace-1;
+  text-decoration: none;
+  color: $primary-color;
+  cursor: pointer
+}
+
+.TopFive-link:hover,
+.TopFive-link:focus {
+  text-decoration: underline;
+  text-decoration-color: $secondary-color;
+}
