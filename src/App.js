@@ -8,7 +8,6 @@ import Archive from './pages/Archive';
 import DigitalLibrary from './pages/DigitalLibrary';
 import Contact from './pages/Contact';
 import ErrorPage from './pages/ErrorPage';
-import WordsBlog from './pages/WordsBlog';
 import Words from './components/Words';
 import TopFive from './components/TopFive';
 import blogPosts from './archive/blog-posts';
@@ -53,7 +52,6 @@ class App extends Component {
                     />
                   )}
                 />
-                <Route exact path={`${pages.WORDS.path}/blog`} component={WordsBlog} />
                 <Route
                   exact
                   path={pages.HIT_LIST.path}

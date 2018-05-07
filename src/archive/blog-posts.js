@@ -1,26 +1,26 @@
 export default [{
-    date: "10.06.17",
-    files: [{
-      title: "A Missed Opportunity",
-      time: "2 minutes",
-      tags: ["Design", "AI", "Software", "Team Dynamics", "Communication"],
-      content: "Here is a lovely blog post"
-    }]
-  }, {
     date: "02.04.17",
     files: [{
-      title: "Life Advice For Fresh Grads",
+      title: "Business Design in an R&D context",
       time: "4 minutes",
-      tags: ["Career Progression", "Portfolio", "Graduates"],
-      content: "I wrote this blog post"
+      tags: ["Business Design", "Research and Development", "Technology", "Innovation Lab", "Business Intelligence"],
+      url: "https://medium.com/@delany.design/business-design-in-an-r-d-context-6870bf7b7407 "
+    }]
+  }, {
+    date: "10.06.17",
+    files: [{
+      title: "Multidisciplinary Misalignment",
+      time: "2 minutes",
+      tags: ["Communication", "Design", "AI", "Team Collaboration "],
+      url: "https://medium.com/@delany.design/a-missed-opportunity-c96cd37e95bf"
     }]
   },{
-    date: "17.01.17",
+    date: "04.04.16",
     files: [{
-      title: "A Missed Opportunity",
-      time: "7 minutes",
-      tags: ["Events", "Technology", "AI", "Big Data"],
-      content: "Please read my blogs, thx x."
+      title: "Practical advice for recent design graduates",
+      time: "5 minutes",
+      tags: ["Design", "Young Professionals", "Portfolio", "Career Advice", "Careers"],
+      url: "https://medium.com/@delany.design/elevating-customer-experience-through-persona-mapping-40695b83968f"
     }]
   }];
   

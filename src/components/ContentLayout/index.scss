@@ -3,7 +3,6 @@
 .ContentLayout {
   padding: $whitespace-6 0;
   font-size: $text;
-  color: $primary-color;
   display: flex;
   flex-direction: row;
 }
@@ -13,27 +12,18 @@
   background-color: $hover-background-color;
 }
 
-.ContentLayout-subtitle-col {
-  width: 200px;
-  font-weight: 500;
-  text-align: center;
-
-  span {
-    display: inline-block;
-    text-align: left
-  }
-}
-
 .ContentLayout-content {
   display: block;
   padding-bottom: $whitespace-1;
   text-decoration: none;
-  color: $primary-color;
 }
 
 .ContentLayout-row {
   font-size: $text;
   line-height: 22px;
-  padding-bottom: $whitespace-4;
   font-weight: lighter;
+}
+
+.ContentLayout-row-bottom-space {
+  padding-bottom: $whitespace-2;
 }

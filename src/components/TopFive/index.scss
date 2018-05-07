@@ -8,8 +8,7 @@
   cursor: pointer
 }
 
-.TopFive-link:hover,
-.TopFive-link:focus {
+.TopFive-link:hover {
   text-decoration: underline;
   text-decoration-color: $secondary-color;
 }
