@@ -3,3 +3,18 @@
 .Contact {
   padding-top: calc(#{$header-height} + #{$whitespace-2});
 }
+
+.Contact-paragraph {
+  padding-bottom: $whitespace-4;
+  display: block;
+}
+
+.Contact-link {
+  text-decoration: none;
+  color: $primary-color;
+}
+
+.Contact-link:hover {
+  text-decoration: underline;
+  text-decoration-color: $secondary-color;
+}
