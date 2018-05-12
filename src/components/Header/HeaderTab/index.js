@@ -20,7 +20,7 @@ class HeaderTab extends Component {
   };
 
   render() {
-    const { path, title, isActivePath } = this.props;
+    const { path, title, index, isActivePath } = this.props;
     return (
       <div
         className={`HeaderTab ${isActivePath ? "active-tab" : "inactive-tab"}`}
@@ -32,7 +32,7 @@ class HeaderTab extends Component {
         {(this.state.isOnHover || isActivePath) && (
           <div className="tab-border">
             <img src={`/images/header/dot.png`} className="dot" alt="dot" />
-            <img src={`/images/header/line.png`} className="line" alt="line" />
+            <img src={`/images/header/line.png`} className={`line line-${index}`} alt="line" />
           </div>
         )}
       </div>
@@ -43,6 +43,7 @@ class HeaderTab extends Component {
 HeaderTab.propTypes = {
   path: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  index: PropTypes.number.isRequired,
   isActivePath: PropTypes.bool.isRequired
 };
 

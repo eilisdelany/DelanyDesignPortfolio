@@ -60,18 +60,39 @@
   }
 
   .line {
-    width: 60px;
     height: 3px;
     display: inline-block;
     background: $secondary-color;
     animation: 0.3s ease-out 0s 1 slideInFromLeft;
   }
+
+  .line-0 {
+    width: $whitespace-11;
+  }
+
+  .line-1,
+  .line-2 {
+    width: $whitespace-14;
+  }
+
+  .line-3,
+  .line-4 {
+    width: $whitespace-12;
+  }
+
+  .line-5 {
+    width: $whitespace-16;
+  }
+
+
+
+
 }
 @keyframes slideInFromLeft {
   0% {
     width: 0%;
   }
   100% {
-    width: 60px;
+    width: 100%;
   }
 }

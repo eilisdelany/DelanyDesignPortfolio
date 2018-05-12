@@ -24,6 +24,7 @@ class Header extends Component {
                 key={index}
                 path={path}
                 title={title}
+                index={index}
                 isActivePath={activePath === path}
               />
             );
