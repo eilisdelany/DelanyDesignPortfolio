@@ -8,7 +8,7 @@ class ContentLayoutSubtitleColumn extends Component {
     return (
       <div className="ContentLayoutSubtitleColumn">
         <span className="ContentLayoutSubtitleColumn-text">
-          {`--`}
+          {`—`}
           <span className="ContentLayoutSubtitleColumn-subtitle">{subtitle}</span>
         </span>
       </div>

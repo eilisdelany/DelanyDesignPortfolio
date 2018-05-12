@@ -1,7 +1,7 @@
 @import '../../styles/index';
 
 .ContentLayout {
-  padding-bottom: $whitespace-6;
+  padding: $whitespace-6 0;
   font-size: $text;
   display: flex;
   flex-direction: row;
