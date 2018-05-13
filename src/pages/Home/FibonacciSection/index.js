@@ -29,7 +29,7 @@ class FibonacciSection extends Component {
   render() {
     const { selectComponent } = this.props;
     return (
-      <div className="FibonacciSection">
+      <div className="FibonacciSection" id="FibonacciSection">
         <FibonacciComponent
           name={homePageComponents.MANTRA}
           title="Mantra"

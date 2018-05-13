@@ -19,7 +19,7 @@ class SayWhat extends Component {
             return (
               <div key={index} className="SayWhat-row">
                 <span className="SayWhat-quote">{`"${quote}"`}</span>
-                <Tags tags={[name, role, company]} />
+                <Tags tags={[name, role, company]} bold />
               </div>
             );
           })}

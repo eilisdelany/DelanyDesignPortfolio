@@ -4,12 +4,12 @@ import "./index.scss";
 
 class Tags extends Component {
   render() {
-    const { tags } = this.props;
+    const { tags, bold } = this.props;
     return (
       <div className="Tags">
         {tags.map((tag, index) => {
           return (
-            <section className="Tag" key={index}>
+            <section className={`Tag ${bold && 'Tag-bold'}`} key={index}>
               <span>{tag}</span>
               {(index < tags.length - 1) && <img src={'/images/dot.png'} alt="dot" className="dot" />}
             </section>
@@ -20,7 +20,12 @@ class Tags extends Component {
   }
 }
 Tags.propTypes = {
-  tags: PropTypes.array.isRequired
+  tags: PropTypes.array.isRequired,
+  bold: PropTypes.bool.isRequired,
+};
+
+Tags.defaultProps = {
+  bold: false,
 };
 
 export default Tags;
