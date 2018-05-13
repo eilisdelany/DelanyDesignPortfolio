@@ -7,10 +7,14 @@ import dinnerGuests from "../../../../archive/dinner-guests";
 import "./index.scss";
 
 class DreamDinner extends Component {
-  renderGuest(name, reasons) {
+  renderGuest({ name, url, reasons }) {
     return (
       <div className="dinner-guest">
-        <span>{name}</span>
+        <span>
+          <a className="dinner-guest-url" href={url} target="_blank" rel="noopener noreferrer">
+            {name}
+          </a>
+        </span>
         <Tags tags={reasons} />
       </div>
     );
@@ -24,15 +28,12 @@ class DreamDinner extends Component {
         />
         <ContentLayout
           subtitle={dinnerGuests.title}
-          content={dinnerGuests.guests.map(({ name, reasons }, index) => {
+          content={dinnerGuests.guests.map((guest, index) => {
             return index % 2 === 0 ? (
               <div key={index} className="DreamDinner-row">
-                {this.renderGuest(name, reasons)}
+                {this.renderGuest(guest)}
                 {index + 1 < dinnerGuests.guests.length &&
-                  this.renderGuest(
-                    dinnerGuests.guests[index + 1].name,
-                    dinnerGuests.guests[index + 1].reasons
-                  )}
+                  this.renderGuest(dinnerGuests.guests[index + 1])}
               </div>
             ) : (
               ""

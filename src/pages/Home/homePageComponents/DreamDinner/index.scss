@@ -13,4 +13,15 @@
     width: 50%;
     padding-bottom: $whitespace-4;
   }
+
+  .dinner-guest-url {
+    color: $primary-color;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .dinner-guest-url:hover {
+    text-decoration: underline;
+    text-decoration-color: $secondary-color;
+  }
 }
