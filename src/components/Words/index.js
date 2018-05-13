@@ -11,6 +11,7 @@ class Words extends Component {
         <a
         href={url}
         target="_blank"
+        rel="noopener noreferrer"
         className="Words-link"
         >
           <span className="Words-title">{`${title} [${time}]`}</span>

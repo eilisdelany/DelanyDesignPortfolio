@@ -18,9 +18,9 @@ class RealNews extends Component {
           content={newsArticles.files.map(({ text, source, url }, index) => {
             return (
               <div key={index} className="RealNews-row">
-                  <a href={url} target="_blank">
-                    {text}
-                  </a>
+                <a href={url} target="_blank" rel="noopener noreferrer">
+                  {text}
+                </a>
                 <span>{source}</span>
               </div>
             );

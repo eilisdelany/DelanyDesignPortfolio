@@ -18,7 +18,14 @@ class PinchMe extends Component {
           content={pinchMe.content.map(({ competition, url, award }, index) => {
             return (
               <div key={index} className="PinchMe-row">
-                <a className="PinchMe-row-competition" href={url}>{competition}</a>
+                <a
+                  className="PinchMe-row-competition"
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {competition}
+                </a>
                 <span className="PinchMe-row-award">{award}</span>
               </div>
             );
