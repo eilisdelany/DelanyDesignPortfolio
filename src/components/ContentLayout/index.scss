@@ -24,6 +24,10 @@
   font-weight: lighter;
 }
 
-.ContentLayout-row-bottom-space {
+.ContentLayout-row-bottom-space-wide {
   padding-bottom: $whitespace-8;
+}
+
+.ContentLayout-row-bottom-space {
+  padding-bottom: $whitespace-4;
 }

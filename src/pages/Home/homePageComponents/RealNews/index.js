@@ -14,16 +14,14 @@ class RealNews extends Component {
         />
         <ContentLayout
           subtitle={newsArticles.title}
+          wide
           content={newsArticles.files.map(({ text, source, url }, index) => {
             return (
               <div key={index} className="RealNews-row">
-                <span>{text}</span>
-                <a
-                  href={url}
-                  target="_blank"
-                >
-                  {source}
-                </a>
+                  <a href={url} target="_blank">
+                    {text}
+                  </a>
+                <span>{source}</span>
               </div>
             );
           })}

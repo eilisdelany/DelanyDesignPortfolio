@@ -7,3 +7,13 @@ body {
   background-color: $background-color;
   color: $primary-color;
 }
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: $secondary-color;
+}

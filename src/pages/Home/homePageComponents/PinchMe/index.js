@@ -14,10 +14,11 @@ class PinchMe extends Component {
         />
         <ContentLayout
           subtitle={pinchMe.title}
-          content={pinchMe.content.map(({ competition, award }, index) => {
+          wide
+          content={pinchMe.content.map(({ competition, url, award }, index) => {
             return (
               <div key={index} className="PinchMe-row">
-                <span className="PinchMe-row-competition">{competition}</span>
+                <a className="PinchMe-row-competition" href={url}>{competition}</a>
                 <span className="PinchMe-row-award">{award}</span>
               </div>
             );

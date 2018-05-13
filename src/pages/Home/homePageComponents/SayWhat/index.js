@@ -15,6 +15,7 @@ class SayWhat extends Component {
         />
         <ContentLayout
           subtitle={references.title}
+          wide
           content={references.content.map(({ quote, name, role, company }, index) => {
             return (
               <div key={index} className="SayWhat-row">

@@ -12,7 +12,7 @@ class Mantra extends Component {
         <PageTitle
           text={`Approximately 2% of the worlds population are protoganists. I’m a member of that tribe, as is Oprah Winfrey and Barack Obama. We’re a determined group of people who firmly believe in people. Some of us are politicians or coaches, I’m a designer.`}
         />
-        <ContentLayout subtitle={mantra.title} content={mantra.content} />
+        <ContentLayout wide subtitle={mantra.title} content={mantra.content} />
       </section>
     );
   }
