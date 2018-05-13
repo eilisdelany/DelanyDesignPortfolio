@@ -1,4 +1,4 @@
-@import '../../../styles/index';
+@import '../../../../styles/index';
 
 $section-height: 1500px;
 $min-section-height: 300px;
@@ -45,17 +45,17 @@ $timeline-width: 100vw;
   }
 
   .position-0 {
-    top: 35%;
+    top: 15%;
     left: 15%;
   }
 
   .position-1 {
-    top: 50%;
+    top: 30%;
     left: 60%;
   }
 
   .position-2 {
-    top: 65%;
+    top: 55%;
     left: 25%;
   }
 
@@ -80,7 +80,7 @@ $timeline-width: 100vw;
 
 
   .Timeline-link-0 {
-    top: 40%;
+    top: 22%;
     right: 50%;
     width: 15%;
 
@@ -101,7 +101,7 @@ $timeline-width: 100vw;
   }
 
   .Timeline-link-1 {
-    top: 55%;
+    top: 35%;
     left: 50%;
     width: 5%;
 
@@ -112,7 +112,7 @@ $timeline-width: 100vw;
   }
 
   .Timeline-link-2 {
-    top: 70%;
+    top: 62%;
     right: 50%;
     width: 5%;
 

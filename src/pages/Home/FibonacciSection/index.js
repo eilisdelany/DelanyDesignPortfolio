@@ -20,16 +20,10 @@ class FibonacciSection extends Component {
     this.setState({ isHoveringOnMantra: false });
   };
 
-  navigateToTimeline = () => {
-    document.getElementById('timeline').scrollIntoView({ 
-      behavior: 'smooth' 
-    });
-  }
-
   render() {
     const { selectComponent } = this.props;
     return (
-      <div className="FibonacciSection" id="FibonacciSection">
+      <div className="FibonacciSection">
         <FibonacciComponent
           name={homePageComponents.MANTRA}
           title="Mantra"
@@ -39,7 +33,7 @@ class FibonacciSection extends Component {
         <FibonacciComponent
           name={homePageComponents.GRINDIN}
           title={`Grindin'`}
-          selectComponent={this.navigateToTimeline}
+          selectComponent={selectComponent}
         />
         <FibonacciComponent
           name={homePageComponents.SAY_WHAT}

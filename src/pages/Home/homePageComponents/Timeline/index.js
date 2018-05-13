@@ -1,9 +1,13 @@
 import React, { Component, Fragment } from "react";
 import TimelineStep from "./TimelineStep";
-import timeline from "../../../archive/timeline";
+import timeline from "../../../../archive/timeline";
 import "./index.scss";
 
 class Timeline extends Component {
+  componentDidMount() {
+    document.getElementById('timeline').scrollIntoView();
+  }
+
   render() {
     return (
       <div className="Timeline" id="timeline">
