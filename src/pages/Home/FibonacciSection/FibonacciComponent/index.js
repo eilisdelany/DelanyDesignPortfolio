@@ -25,6 +25,7 @@ class FibonacciComponent extends Component {
 
   render() {
     const { name, title, description } = this.props;
+    const { isHovering } = this.state;
     return (
       <div
         className={`FibonacciComponent ${name}`}
@@ -33,14 +34,14 @@ class FibonacciComponent extends Component {
         onClick={this.selectComponent}
       >
       <div className="container">
-        <span className="title">{title}</span>
-          {this.state.isHovering && (
+        <span className={`title ${isHovering && 'title-hovering'}`}>{title}</span>
+          {isHovering && (
             <div className="border-bottom">
               <div className="dot"/>
-              <div className="line"/>
+              <div className={`line line-${name}`}/>
           </div>
           )}
-          {(this.state.isHovering && description) &&
+          {(isHovering && description) &&
             <span className="description">{description}</span>
           }
         </div>

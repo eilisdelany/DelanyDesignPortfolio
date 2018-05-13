@@ -1,4 +1,4 @@
-@import '../../../styles/index';
+@import "../../../styles/index";
 
 $border: 3px solid $primary-color;
 
@@ -8,11 +8,15 @@ $border: 3px solid $primary-color;
   height: calc(100vh - #{$header-height});
   grid-template-columns: 4fr 1fr 1fr 2fr;
   grid-template-rows: 4fr 1fr 1fr 2fr;
-  grid-template-areas: 
-  "mantra grindin grindin grindin"
-  "mantra pinchMe dreamDinner sayWhat"
-  "mantra pinchMe dreamDinner sayWhat"
-  "mantra realNews realNews sayWhat"
+  grid-template-areas:
+    "mantra grindin grindin grindin"
+    "mantra pinchMe dreamDinner sayWhat"
+    "mantra pinchMe dreamDinner sayWhat"
+    "mantra realNews realNews sayWhat";
+}
+
+.FibonacciComponent:hover {
+  background-color: $hover-background-color;
 }
 
 .mantra {
@@ -111,8 +115,8 @@ $border: 3px solid $primary-color;
 
   .container {
     position: absolute;
-    left: calc(50% - (46px/2));
-    top: calc(50% - (2vh/2));
+    left: calc(50% - (46px / 2));
+    top: calc(50% - (2vh / 2));
     font-size: 2vh;
     width: 46px;
     -webkit-transform: rotate(90deg);
@@ -124,7 +128,6 @@ $border: 3px solid $primary-color;
 }
 
 .FibonacciComponent {
-
   .title {
     padding-bottom: $whitespace-1;
   }
@@ -141,23 +144,93 @@ $border: 3px solid $primary-color;
     background-color: $secondary-color;
     margin-right: 5px;
   }
+
   .line {
     height: 5px;
-    width: 70%;
     background-color: $secondary-color;
-    animation: 0.3s ease-out 0s 1 slideInFromLeft;
+  }
+
+  .line-mantra {
+    width: 15vw;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft-15vw;
+  }
+
+  .line-grindin {
+    width: 18vh;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft-18vh;
+  }
+
+  .line-say-what {
+    width: 12vw;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft-12vw;
+  }
+
+  .line-real-news {
+    width: 12vh;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft-12vh;
+  }
+
+  .line-pinch-me {
+    width: 3vw;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft-3vw;
+  }
+
+  .line-dream-dinner {
+    width: 5vh;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft-5vh;
   }
 }
 
-.FibonacciComponent:hover {
-  background-color: $hover-background-color;
-}
-
-@keyframes slideInFromLeft {
+@keyframes slideInFromLeft-5vh {
   0% {
     width: 0%;
   }
   100% {
-    width: 70%;
+    width: 5vh;
+  }
+}
+
+@keyframes slideInFromLeft-18vh {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 18vh;
+  }
+}
+
+@keyframes slideInFromLeft-12vh {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 12vh;
+  }
+}
+
+@keyframes slideInFromLeft-3vw {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 3vw;
+  }
+}
+
+@keyframes slideInFromLeft-12vw {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 12vw;
+  }
+}
+
+@keyframes slideInFromLeft-15vw {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 15vw;
   }
 }
