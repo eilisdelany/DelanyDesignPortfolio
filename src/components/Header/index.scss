@@ -64,36 +64,47 @@
     height: 3px;
     display: inline-block;
     background: $secondary-color;
-    animation: 0.3s ease-out 0s 1 slideInFromLeft;
   }
 
   .line-0 {
     width: $whitespace-11;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft11;
   }
 
   .line-1,
   .line-2 {
     width: $whitespace-14;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft14;
   }
 
   .line-3,
   .line-4 {
     width: $whitespace-12;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft12;
   }
 
   .line-5 {
     width: $whitespace-16;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft5;
   }
-
-
-
-
 }
-@keyframes slideInFromLeft {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
+
+@keyframes slideInFromLeft5 {
+  0% { width: 0%; }
+  100% { width: $whitespace-5; }
+}
+
+@keyframes slideInFromLeft11 {
+  0% { width: 0%; }
+  100% { width: $whitespace-11; }
+}
+
+@keyframes slideInFromLeft12 {
+  0% { width: 0%; }
+  100% { width: $whitespace-12; }
+}
+
+@keyframes slideInFromLeft14 {
+  0% { width: 0%; }
+  100% { width: $whitespace-14; }
 }
