@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import AOS from "aos";
 import PageTitle from "../../components/PageTitle";
 import "./index.scss";
@@ -10,7 +11,7 @@ class DigitalLibrary extends Component {
   render() {
     return (
       <div className="DigitalLibrary">
-        <PageTitle text="My personal library is in constant flux and never expands beyond ten books at a given time. I want this web page to act as a visual diary for those looking for more than bite-sized articles on digital devices." />
+        <PageTitle text={this.props.pageTitleText} />
         <img
           href={
             "https://www.bookbind.net/Leather-Slip-On-Style-REGULAR-BIBLE-Book-Cover-p/b-sod-30h.htm"
@@ -22,4 +23,7 @@ class DigitalLibrary extends Component {
     );
   }
 }
+DigitalLibrary.propTypes = {
+  pageTitleText: PropTypes.string.isRequired,
+};
 export default DigitalLibrary;
