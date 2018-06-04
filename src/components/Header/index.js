@@ -9,13 +9,7 @@ class Header extends Component {
     const activePath = this.props.location.pathname;
     return (
       <div className="Header">
-        <NavLink to={pages.ITS_ME.path}>
-          <img
-            className="Header-logo"
-            alt="eyelash logo"
-            src="/images/logo.png"
-          />
-        </NavLink>
+        <NavLink to={pages.ITS_ME.path} className="Header-logo" />
         <div className="Header-tabs">
           {pageKeys.map((pageKey, index) => {
             const { path, title } = pages[pageKey];

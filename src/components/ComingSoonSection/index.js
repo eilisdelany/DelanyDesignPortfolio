@@ -7,7 +7,7 @@ class ComingSoonSection extends Component {
       <div className="ComingSoonSection">
         <img
           className="ComingSoonSection-logo"
-          src="/images/logo.png"
+          src="/images/logo/wink.png"
           alt="eyelash logo"
         />
         <span className="ComingSoonSection-text">
