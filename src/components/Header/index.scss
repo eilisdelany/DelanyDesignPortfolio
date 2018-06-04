@@ -17,6 +17,13 @@
   height: $logo-height;
   display: inline-block;
   vertical-align: middle;
+  background-image: url('/images/logo/wink.png');
+  background-repeat: round;
+  transition: ease-in-out 0.08s;
+}
+
+.Header-logo:active {
+  background-image: url('/images/logo/open.png');
 }
 
 .Header-tabs {
@@ -84,10 +91,6 @@
   .line-5 {
     width: $whitespace-16;
   }
-
-
-
-
 }
 @keyframes slideInFromLeft {
   0% {
