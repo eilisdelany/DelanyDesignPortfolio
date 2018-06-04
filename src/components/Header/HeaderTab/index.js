@@ -28,13 +28,15 @@ class HeaderTab extends Component {
         onMouseEnter={this.showHoverState}
         onMouseLeave={this.hideHoverState}
       >
-        <NavLink to={path}>{title}</NavLink>
+        <NavLink to={path}>
+        {title}
         {(this.state.isOnHover || isActivePath) && (
           <div className="tab-border">
             <img src={`/images/header/dot.png`} className="dot" alt="dot" />
             <img src={`/images/header/line.png`} className={`line line-${index}`} alt="line" />
           </div>
         )}
+        </NavLink>
       </div>
     );
   }
