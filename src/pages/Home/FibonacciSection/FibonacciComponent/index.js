@@ -37,7 +37,7 @@ class FibonacciComponent extends Component {
           {this.state.isHovering && (
             <div className="border-bottom">
               <div className="dot"/>
-              <div className="line"/>
+              <div className={`line line-${name}`}/>
           </div>
           )}
           {(this.state.isHovering && description) &&

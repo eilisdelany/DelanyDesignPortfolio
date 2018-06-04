@@ -143,9 +143,29 @@ $border: 3px solid $primary-color;
   }
   .line {
     height: 5px;
-    width: 70%;
     background-color: $secondary-color;
-    animation: 0.3s ease-out 0s 1 slideInFromLeft;
+  }
+
+  .line-mantra {
+    width: 36%;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft36;
+  }
+
+  .line-grindin {
+    width: 90%;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft90;
+  }
+
+  .line-say-what,
+  .line-real-news,
+  .line-pinch-me {
+    width: 95%;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft95;
+  }
+
+  .line-dream-dinner {
+    width: 88%;
+    animation: 0.3s ease-out 0s 1 slideInFromLeft88;
   }
 }
 
@@ -153,11 +173,39 @@ $border: 3px solid $primary-color;
   background-color: $hover-background-color;
 }
 
-@keyframes slideInFromLeft {
+@keyframes slideInFromLeft36 {
   0% {
     width: 0%;
   }
   100% {
-    width: 70%;
+    width: 36%;
+  }
+}
+
+@keyframes slideInFromLeft88 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 88%;
+  }
+}
+
+
+@keyframes slideInFromLeft90 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes slideInFromLeft95 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
   }
 }
