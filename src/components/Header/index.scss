@@ -75,28 +75,24 @@
   }
 
   .line-0 {
+    max-width: $whitespace-11;
     width: $whitespace-11;
   }
 
   .line-1,
   .line-2 {
+    max-width: $whitespace-14;
     width: $whitespace-14;
   }
 
   .line-3,
   .line-4 {
+    max-width: $whitespace-12;
     width: $whitespace-12;
   }
 
   .line-5 {
-    width: $whitespace-16;
-  }
-}
-@keyframes slideInFromLeft {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
+    max-width: 78px;
+    width: 78px;
   }
 }
