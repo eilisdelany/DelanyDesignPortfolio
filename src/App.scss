@@ -1,7 +1,12 @@
-@import './styles/index';
+@import "./styles/index";
 
 .App {
-    min-width: 800px;
-    max-width: $max-width;
-    margin: 0 auto;
+  min-width: 800px;
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+.App-content {
+    // 1px for border
+    min-height: calc(100vh - (#{$footer-height} + 1px));
 }

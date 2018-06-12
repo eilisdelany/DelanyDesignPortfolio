@@ -1,0 +1,19 @@
+@import "../../styles/index";
+
+.Footer {
+  background-color: $background-color;
+  border-top: 1px solid $hover-background-color;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: $primary-color;
+  font-size: $subtext;
+  line-height: $text;
+
+  a, span {
+    padding: 0 $whitespace-11;
+    line-height: $footer-height;
+  }
+}
