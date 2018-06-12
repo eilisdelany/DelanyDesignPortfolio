@@ -1,16 +1,18 @@
 @import "../../styles/index";
 
+$footer-border-color: #c2c9de;
+
 .Footer {
   background-color: $background-color;
-  border-top: 1px solid $hover-background-color;
+  border-top: 2px solid $footer-border-color;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  color: $primary-color;
   font-size: $subtext;
   line-height: $text;
+  font-weight: $font-thin;
 
   a, span {
     padding: 0 $whitespace-11;
