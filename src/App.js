@@ -76,7 +76,7 @@ class App extends Component {
               </Switch>
             </div>
             <footer>
-              <Route path="/" render={ ( props ) => ( props.location.pathname !== "/") && <Footer /> } />
+              <Route path="/" component={Footer} />
             </footer>
         </div>
       </BrowserRouter>
