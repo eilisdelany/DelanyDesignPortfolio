@@ -4,6 +4,7 @@ import PageTitle from "../../../../components/PageTitle";
 import ContentLayout from "../../../../components/ContentLayout";
 import Tags from "../../../../components/Tags";
 import dinnerGuests from "../../../../archive/dinner-guests";
+import RerouteButton from "../../../../components/RerouteButton";
 import "./index.scss";
 
 class DreamDinner extends Component {
@@ -40,6 +41,7 @@ class DreamDinner extends Component {
             );
           })}
         />
+        <RerouteButton onClick={this.props.goBack} />
       </section>
     );
   }
