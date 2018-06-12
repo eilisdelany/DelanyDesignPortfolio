@@ -173,3 +173,26 @@ $border: 3px solid $primary-color;
 .FibonacciComponent:hover {
   background-color: $hover-background-color;
 }
+
+@media screen and (min-width: $max-width) {
+  .FibonacciSection {
+  
+  .mantra {
+    .container {
+      font-size: 135px;
+    }
+    .description {
+      font-size: 50px;
+      line-height: 65px;
+    }
+  }
+
+  .say-what {
+    font-size: 50px;
+  }
+
+  .pinch-me {
+    font-size: 40px;
+  }
+}
+}
