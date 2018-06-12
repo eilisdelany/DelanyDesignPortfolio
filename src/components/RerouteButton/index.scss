@@ -1,17 +1,17 @@
-@import '../../styles/index';
+@import "../../styles/index";
 
 .RerouteButton {
   position: absolute;
-  bottom: $whitespace-5;
+  top: $whitespace-20;
   right: $whitespace-5;
-  background-image: url('/images/logo/open.png');
-  background-repeat: round;
-  transition: ease-in-out 0.08s;
-  width: 112px;
-  height: 50px;
+  background-image: url("/images/back.png");
+  background-repeat: no-repeat;
+  width: $whitespace-18;
+  height: $whitespace-4;
   border: none;
+  cursor: pointer;
 }
 
-.RerouteButton:active {
-  background-image: url('/images/logo/wink.png');
+RerouteButton:focus {
+  outline: 0;
 }
