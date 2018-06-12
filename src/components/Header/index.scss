@@ -33,7 +33,7 @@
 
 .HeaderTab {
   display: inline-block;
-  min-width: 75px;
+  min-width: $whitespace-13;
   height: $header-content-height;
   padding-left: $whitespace-5;
   padding-right: $whitespace-1;
@@ -42,7 +42,7 @@
   position: relative;
 
   a {
-    font-size: $text;
+    font-size: $subtext;
     line-height: $header-content-height;
     color: $primary-color;
     text-decoration: none;
@@ -60,7 +60,7 @@
   visibility: unset;
   position: absolute;
   top: 10px;
-  left: 24px;
+  left: 25px;
 
   .dot {
     display: inline;
@@ -75,24 +75,24 @@
   }
 
   .line-0 {
-    max-width: $whitespace-11;
-    width: $whitespace-11;
+    max-width: $whitespace-9;
+    width: $whitespace-9;
   }
 
   .line-1,
   .line-2 {
-    max-width: $whitespace-14;
-    width: $whitespace-14;
-  }
-
-  .line-3,
-  .line-4 {
     max-width: $whitespace-12;
     width: $whitespace-12;
   }
 
+  .line-3,
+  .line-4 {
+    max-width: $whitespace-10;
+    width: $whitespace-10;
+  }
+
   .line-5 {
-    max-width: 78px;
-    width: 78px;
+    max-width: $whitespace-13;
+    width: $whitespace-13;
   }
 }
