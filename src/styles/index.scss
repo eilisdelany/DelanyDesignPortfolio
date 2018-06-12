@@ -7,8 +7,6 @@
 $page-width: 1200px;
 $max-width: 2000px;
 
-$footer-height: $whitespace-18;
-
 $logo-width: 80px;
 $logo-height: 20px;
 
@@ -19,3 +17,4 @@ $header-content-height: 30px;
 $header-padding: $whitespace-4;
 $header-border-size: 3px;
 $header-height: calc(#{$header-content-height} + (#{$header-padding} * 2) + #{$header-border-size});
+$footer-height: $header-height;
