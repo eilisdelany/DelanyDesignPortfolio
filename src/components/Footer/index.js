@@ -5,6 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer">
+        <div className="Footer-content">
         <span>{"Design by Eilís"}</span>
         <a
           href="https://www.linkedin.com/in/eibhlin-mcgeady-90735a95/"
@@ -13,6 +14,7 @@ class Footer extends Component {
         >
           {"Code by Eibhlín"}
         </a>
+        </div>
       </div>
     );
   }

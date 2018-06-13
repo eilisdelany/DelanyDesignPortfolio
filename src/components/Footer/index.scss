@@ -5,17 +5,17 @@ $footer-border-color: #c2c9de;
 .Footer {
   background-color: $background-color;
   border-top: 2px solid $footer-border-color;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
   font-size: $subtext;
   line-height: $text;
   font-weight: $font-thin;
+  padding: 0 $whitespace-11;
+}
 
-  a, span {
-    padding: 0 $whitespace-11;
-    line-height: $footer-height;
-  }
+.Footer-content {
+  max-width: $max-width;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: $footer-height;
 }
