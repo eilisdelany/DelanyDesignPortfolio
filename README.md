@@ -1,3 +1,9 @@
 # Delany Design Portfolio
 
-## Written with React 
+https://delany-design.herokuapp.com/
+
+- React 
+- react-router 
+- SASS
+- Enzyme
+ 
