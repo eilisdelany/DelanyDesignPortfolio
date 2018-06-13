@@ -67,7 +67,6 @@ class App extends Component {
               />
               <Route exact path={pages.CATALOGUE.path} component={Catalogue} />
               <Route exact path={`${pages.CATALOGUE.path}/:id`} component={Project} />
-
               <Route
                 exact
                 path={pages.TOP_FIVE.path}
