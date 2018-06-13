@@ -1,9 +1,9 @@
 @import '../../styles/index';
 
-$space: 150px;
+$space-between-items: 100px;
 
 .Catagloue {
-  padding-top: calc(#{$header-height} + #{$whitespace-2} + #{$space});
+  padding-top: calc(#{$header-height} + #{$whitespace-2} + #{$space-between-items});
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -11,7 +11,7 @@ $space: 150px;
   
   div {
     width: 50%;
-    padding-bottom: 150px;
+    padding-bottom: $space-between-items;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,6 +20,7 @@ $space: 150px;
 }
 
 .Catagloue-item {
+  transition: ease-in-out 0.2s;
 
   .name-description {
     padding-top: $whitespace-4;
@@ -39,6 +40,14 @@ $space: 150px;
     font-size: $title;
     font-weight: $font-bold;
   }
+}
+
+.hovering-item {
+  color: $secondary-color;
+}
+
+.non-hovering-item {
+  opacity: 0.5;
 }
 
 .rotate-1 {
