@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Catalogue from "./pages/Catalogue";
+import Project from "./pages/Catalogue/Project";
 import Archive from "./pages/Archive";
 import DigitalLibrary from "./pages/DigitalLibrary";
 import Contact from "./pages/Contact";
@@ -65,6 +66,8 @@ class App extends Component {
                 component={DreamDinner}
               />
               <Route exact path={pages.CATALOGUE.path} component={Catalogue} />
+              <Route exact path={`${pages.CATALOGUE.path}/:id`} component={Project} />
+
               <Route
                 exact
                 path={pages.TOP_FIVE.path}

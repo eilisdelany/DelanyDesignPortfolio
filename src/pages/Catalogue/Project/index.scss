@@ -1,0 +1,23 @@
+@import '../../../styles/index';
+
+.HiddenProject {
+
+  font-size: $text;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+
+  span {
+    display: block;
+  }
+
+  .secondary-text {
+    font-weight: $font-thin;
+    padding-top: $whitespace-4;
+  }
+
+  a {
+    font-weight: normal;
+  }
+}

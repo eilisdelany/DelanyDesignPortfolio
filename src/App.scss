@@ -4,6 +4,7 @@
   min-width: $min-width;
   margin: 0 auto;
   max-width: $max-width;
+  position: relative;
   // 2px for border
   min-height: calc(100vh - (#{$footer-height} + 2px));
 }
