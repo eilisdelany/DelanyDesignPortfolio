@@ -1,5 +1,75 @@
 @import '../../styles/index';
 
+$space-between-items: 100px;
+
 .Catagloue {
-  padding-top: calc(#{$header-height} + #{$whitespace-2});
+  padding-top: calc(#{$header-height} + #{$whitespace-2} + #{$space-between-items});
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  
+  div {
+    width: 50%;
+    padding-bottom: $space-between-items;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+
+.Catagloue-item {
+  transition: ease-in-out 0.2s;
+
+  .name-description {
+    padding-top: $whitespace-4;
+    text-transform: uppercase;
+    display: block;
+    font-size: $subtext;
+    line-height: $text;
+
+    .description {
+      font-weight: $font-thin;
+    }
+  }
+
+  .title {
+    padding-top: $whitespace-2;
+    display: block;
+    font-size: $title;
+    font-weight: $font-bold;
+  }
+}
+
+.hovering-item {
+  color: $secondary-color;
+}
+
+.non-hovering-item {
+  opacity: 0.5;
+}
+
+.rotate-1 {
+  transform: rotate(1deg);
+}
+
+.rotate--1 {
+  transform: rotate(-1deg);
+}
+
+.rotate-2 {
+  transform: rotate(2deg);
+}
+
+.rotate--2 {
+  transform: rotate(-2deg);
+}
+
+.rotate-3 {
+  transform: rotate(3deg);
+}
+
+.rotate--3 {
+  transform: rotate(-3deg);
 }

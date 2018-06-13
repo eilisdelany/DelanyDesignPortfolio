@@ -20,7 +20,7 @@ class Header extends Component {
                   path={path}
                   title={title}
                   index={index}
-                  isActivePath={activePath === path}
+                  isActivePath={activePath === path || activePath.includes(`${path}/`)}
                 />
               );
             })}
