@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import PageTitle from "../../../../components/PageTitle";
 import ContentLayout from "../../../../components/ContentLayout";
 import Tags from "../../../../components/Tags";
 import dinnerGuests from "../../../../archive/dinner-guests";
 import RerouteButton from "../../../../components/RerouteButton";
+import { pages } from '../../../../constants/pages';
 import "./index.scss";
 
 class DreamDinner extends Component {
@@ -41,14 +41,9 @@ class DreamDinner extends Component {
             );
           })}
         />
-        <RerouteButton onClick={this.props.goBack} />
+        <RerouteButton pathname={pages.ITS_ME.path} scrollToComponent />
       </section>
     );
   }
 }
-
-DreamDinner.propTypes = {
-  goBack: PropTypes.func.isRequired
-};
-
 export default DreamDinner;
