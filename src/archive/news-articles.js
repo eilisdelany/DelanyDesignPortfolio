@@ -2,6 +2,12 @@ export default {
   title: "Real News",
   files: [
     {
+      text: "Episode 23: Eilís talks Business Design",
+      source: "GradLife Podcast",
+      url:
+        "https://itunes.apple.com/ie/podcast/episode-23-business-design/id1249668733?i=1000413079823&mt=2"
+    },
+    {
       text: "How Did I get Here?",
       source: "Sketch Labs",
       url:
@@ -41,12 +47,6 @@ export default {
       source: "Irish Examiner",
       url:
         "http://www.irishexaminer.com/ireland/young-irish-inventors-make-james-dyson-award-shortlist-354485.html"
-    },
-    {
-      text: "Episode 23: Eilís talks Business Design",
-      source: "GradLife Podcast",
-      url:
-        "https://itunes.apple.com/ie/podcast/episode-23-business-design/id1249668733?i=1000413079823&mt=2"
     }
   ]
 };
