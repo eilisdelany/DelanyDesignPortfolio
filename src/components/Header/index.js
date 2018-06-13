@@ -9,20 +9,22 @@ class Header extends Component {
     const activePath = this.props.location.pathname;
     return (
       <div className="Header">
-        <NavLink to={pages.ITS_ME.path} className="Header-logo" />
-        <div className="Header-tabs">
-          {pageKeys.map((pageKey, index) => {
-            const { path, title } = pages[pageKey];
-            return (
-              <HeaderTab
-                key={index}
-                path={path}
-                title={title}
-                index={index}
-                isActivePath={activePath === path}
-              />
-            );
-          })}
+        <div className="Header-content">
+          <NavLink to={pages.ITS_ME.path} className="Header-logo" />
+          <div className="Header-tabs">
+            {pageKeys.map((pageKey, index) => {
+              const { path, title } = pages[pageKey];
+              return (
+                <HeaderTab
+                  key={index}
+                  path={path}
+                  title={title}
+                  index={index}
+                  isActivePath={activePath === path}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     );

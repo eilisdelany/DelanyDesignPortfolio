@@ -8,8 +8,13 @@
   background-color: $background-color;
   z-index: 10;
   margin: 0 auto;
-  padding: $header-padding $whitespace-10;
-  min-width: 800px;
+  min-width: $min-width;
+  padding: $header-padding 0;
+}
+
+.Header-content {
+  max-width: $max-width;
+  margin: 0 auto;
 }
 
 .Header-logo {
@@ -20,6 +25,7 @@
   background-image: url('/images/logo/wink.png');
   background-repeat: round;
   transition: ease-in-out 0.08s;
+  margin-left: $whitespace-11;
 }
 
 .Header-logo:active {
@@ -29,6 +35,7 @@
 .Header-tabs {
   float: right;
   text-transform: uppercase;
+  margin-right: $whitespace-10;
 }
 
 .HeaderTab {
