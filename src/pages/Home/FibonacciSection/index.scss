@@ -6,7 +6,7 @@ $border: 3px solid $primary-color;
   display: grid;
   width: 100%;
   min-height: 400px;
-  height: calc(100vh - #{$header-height}  - #{$footer-height});
+  height: calc(100vh - #{$header-height});
   grid-template-columns: 4fr 1fr 1fr 2fr;
   grid-template-rows: 4fr 1fr 1fr 2fr;
   grid-template-areas: 
