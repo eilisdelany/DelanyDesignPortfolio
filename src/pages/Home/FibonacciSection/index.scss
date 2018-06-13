@@ -25,13 +25,13 @@ $border: 3px solid $primary-color;
     position: absolute;
     top: 33%;
     left: 15%;
-    font-size: 5vw;
+    font-size: 5rem;
   }
 
   .description {
     margin-top: $whitespace-4;
-    font-size: 2vw;
-    line-height: 2.5vw;
+    font-size: 1.5rem;
+    line-height: 2rem;
     display: block;
     width: 60%;
   }
@@ -64,7 +64,7 @@ $border: 3px solid $primary-color;
     position: absolute;
     top: 45%;
     right: 15%;
-    font-size: 2vw;
+    font-size: 2rem;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -100,8 +100,8 @@ $border: 3px solid $primary-color;
   .container {
     position: absolute;
     left: 30%;
-    top: calc(50% - 2vw);
-    font-size: 2vw;
+    top: calc(50% - 2rem);
+    font-size: 2rem;
     width: 46px;
   }
 }
@@ -113,8 +113,8 @@ $border: 3px solid $primary-color;
   .container {
     position: absolute;
     left: calc(50% - (46px/2));
-    top: calc(50% - (2vh/2));
-    font-size: 2vh;
+    top: calc(50% - (0.8rem/2));
+    font-size: 0.8rem;
     width: 46px;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -166,8 +166,8 @@ $border: 3px solid $primary-color;
   }
 
   .line-dream-dinner {
-    width: 88%;
-    max-width: 88%;
+    width: 75%;
+    max-width: 75%;
   }
 }
 
