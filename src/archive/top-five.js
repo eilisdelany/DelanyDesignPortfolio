@@ -37,7 +37,7 @@ export default [
       url: "http://www.niti.gov.in/writereaddata/files/document_publication/NationalStrategy-for-AI-Discussion-Paper.pdf?utm_source=Benedict%27s+newsletter&utm_campaign=46fee441fc-Benedict%27s+Newsletter_COPY_01&utm_medium=email&utm_term=0_4999ca107f-46fee441fc-70638557"
   },
   {
-      text: "- Drinkfinity's $20 "vessel" is Pepsi's attempt to stay relevant.",
+      text: `- Drinkfinity's $20 "vessel" is Pepsi's attempt to stay relevant.`,
       url: "https://theoutline.com/post/4858/drinkfinity-vessel-pepsi-tries-to-stay-relevant-to-millennials-soda-seltzer?zd=1&zi=ahzjk2pm"
   },
   {
@@ -208,7 +208,7 @@ export default [
           url: "https://theoutline.com/post/4258/google-please-just-hire-one-normal-person"
   },
   {
-      text: "- IKEA vows "transformation" as it reshapes business model.",
+      text: `- IKEA vows "transformation" as it reshapes business model.`,
       url: "https://www.ft.com/content/1a66c838-3cc1-11e8-b7e0-52972418fec4"
   },
   {
@@ -408,7 +408,7 @@ export default [
         url: "https://www.theguardian.com/technology/2018/feb/27/apple-launching-technology-enabled-healthcare-service"
   },
   {
-    text: "- Station F's "Guild Model" for collaboration.",
+    text: `- Station F's "Guild Model" for collaboration.`,
     url: "https://medium.com/station-f/the-founders-program-guild-model-for-collaboration-917ce67f06f"
   },
   {
@@ -662,7 +662,7 @@ export default [
     url: "https://www.digitaltrends.com/cool-tech/ai-generates-images-based-on-text/"
   },
   {
-    text: "- WeWork's new startup incubator promises "Fertile Paradise."",
+    text: `- WeWork's new startup incubator promises "Fertile Paradise."`,
     url: "http://nautil.us/issue/55/trust/are-algorithms-building-the-new-infrastructure-of-racism?imm_mid=0fa701&cmp=em-data-na-na-newsltr_ai_20180115"
   },
   {
