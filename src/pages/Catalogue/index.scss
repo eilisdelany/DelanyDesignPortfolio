@@ -1,5 +1,66 @@
 @import '../../styles/index';
 
+$space: 150px;
+
 .Catagloue {
-  padding-top: calc(#{$header-height} + #{$whitespace-2});
+  padding-top: calc(#{$header-height} + #{$whitespace-2} + #{$space});
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  
+  div {
+    width: 50%;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+
+.Catagloue-item {
+
+  .name-description {
+    padding-top: $whitespace-4;
+    text-transform: uppercase;
+    display: block;
+    font-size: $subtext;
+    line-height: $text;
+
+    .description {
+      font-weight: $font-thin;
+    }
+  }
+
+  .title {
+    padding-top: $whitespace-2;
+    display: block;
+    font-size: $title;
+    font-weight: $font-bold;
+  }
+}
+
+.rotate-1 {
+  transform: rotate(1deg);
+}
+
+.rotate--1 {
+  transform: rotate(-1deg);
+}
+
+.rotate-2 {
+  transform: rotate(2deg);
+}
+
+.rotate--2 {
+  transform: rotate(-2deg);
+}
+
+.rotate-3 {
+  transform: rotate(3deg);
+}
+
+.rotate--3 {
+  transform: rotate(-3deg);
 }
