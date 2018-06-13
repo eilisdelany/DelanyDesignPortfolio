@@ -4,10 +4,24 @@ import "../index.scss";
 
 class CatalogueItem extends Component {
   render() {
-    const { title, name, department, imgUrl, rotation } = this.props;
+    const {
+      id,
+      title,
+      name,
+      department,
+      imgUrl,
+      rotation,
+      isHoveringItem,
+      updateHoveringItem
+    } = this.props;
 
     return (
-      <div className={`Catagloue-item rotate-${rotation}`}>
+      <div
+        className={`Catagloue-item rotate-${rotation} ${isHoveringItem >= 0 &&
+          (isHoveringItem === id ? "hovering-item" : "non-hovering-item")}`}
+        onMouseEnter={() => updateHoveringItem(id)}
+        onMouseLeave={() => updateHoveringItem()}
+      >
         <img src={imgUrl} alt={title} />
         <span className="name-description">
           {`${name} `}
@@ -20,10 +34,13 @@ class CatalogueItem extends Component {
 }
 
 CatalogueItem.propTypes = {
+  id: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   department: PropTypes.string.isRequired,
   imgUrl: PropTypes.string.isRequired,
-  rotation: PropTypes.number
+  rotation: PropTypes.number,
+  isHoveringItem: PropTypes.bool,
+  updateHoveringItem: PropTypes.func.isRequired
 };
 export default CatalogueItem;
