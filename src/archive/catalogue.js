@@ -36,7 +36,8 @@ export default [{
   title: "Leveraging Machine Learning techniques to moderate live video in real time.",
   name: "AI in Content Moderation and Enrichment",
   department: "Accenture Communication, Media and Technology",
-  id: "ai-mod"
+  id: "ai-mod",
+  locked: true,
 }, {
   title: "Promoting effective meetings backed by analytics.",
   name: "Smart Scribe",
