@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import PageTitle from "../../../../components/PageTitle";
 import ContentLayout from "../../../../components/ContentLayout";
 import pinchMe from "../../../../archive/pinch-me";
 import RerouteButton from "../../../../components/RerouteButton";
+import { pages } from '../../../../constants/pages';
 import "./index.scss";
 
 class PinchMe extends Component {
@@ -32,14 +32,9 @@ class PinchMe extends Component {
             );
           })}
         />
-        <RerouteButton onClick={this.props.goBack} />
+        <RerouteButton pathname={pages.ITS_ME.path} scrollToComponent />
       </section>
     );
   }
 }
-
-PinchMe.propTypes = {
-  goBack: PropTypes.func.isRequired
-};
-
 export default PinchMe;

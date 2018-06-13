@@ -13,10 +13,17 @@ import TopFive from './components/TopFive';
 import blogPosts from './archive/blog-posts';
 import topFive from './archive/top-five';
 
+import Mantra from './pages/Home/homePageComponents/Mantra';
+import Timeline from './pages/Home/homePageComponents/Timeline';
+import SayWhat from './pages/Home/homePageComponents/SayWhat';
+import RealNews from './pages/Home/homePageComponents/RealNews';
+import PinchMe from './pages/Home/homePageComponents/PinchMe';
+import DreamDinner from './pages/Home/homePageComponents/DreamDinner';
+
 import { pages } from './constants/pages';
 import './App.scss';
 
-class App extends Component {
+class App extends Component {  
   render() {
     return (
       <BrowserRouter>
@@ -27,6 +34,12 @@ class App extends Component {
             <div className="App-content">
               <Switch>
                 <Route exact path={pages.ITS_ME.path} component={Home} />
+                <Route exact path={pages.ITS_ME.subpages.MANTRA} component={Mantra} />
+                <Route exact path={pages.ITS_ME.subpages.GRINDIN} component={Timeline} />
+                <Route exact path={pages.ITS_ME.subpages.SAY_WHAT} component={SayWhat} />
+                <Route exact path={pages.ITS_ME.subpages.REAL_NEWS} component={RealNews} />
+                <Route exact path={pages.ITS_ME.subpages.PINCH_ME} component={PinchMe} />
+                <Route exact path={pages.ITS_ME.subpages.DREAM_DINNER} component={DreamDinner} />
                 <Route exact path={pages.CATALOGUE.path} component={Catalogue} />
                 <Route
                   exact

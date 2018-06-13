@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { NavLink } from "react-router-dom";
 import "../index.scss";
 
 class FibonacciComponent extends Component {
@@ -21,30 +22,29 @@ class FibonacciComponent extends Component {
   selectComponent = () => {
     const { selectComponent, name } = this.props;
     selectComponent(name);
-  }
+  };
 
   render() {
     const { name, title, description } = this.props;
     return (
-      <div
+      <NavLink
         className={`FibonacciComponent ${name}`}
         onMouseEnter={this.setHoverState}
         onMouseLeave={this.unsetHoverState}
-        onClick={this.selectComponent}
+        to={`/${name}`}
       >
-      <div className="container">
-        <span className="title">{title}</span>
+        <div className="container">
+          <span className="title">{title}</span>
           {this.state.isHovering && (
             <div className="border-bottom">
-              <div className="dot"/>
-              <div className={`line line-${name}`}/>
-          </div>
+              <div className="dot" />
+              <div className={`line line-${name}`} />
+            </div>
           )}
-          {(this.state.isHovering && description) &&
-            <span className="description">{description}</span>
-          }
+          {this.state.isHovering &&
+            description && <span className="description">{description}</span>}
         </div>
-      </div>
+      </NavLink>
     );
   }
 }
@@ -52,7 +52,6 @@ class FibonacciComponent extends Component {
 FibonacciComponent.propTypes = {
   name: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  selectComponent: PropTypes.func.isRequired,
   description: PropTypes.string
 };
 

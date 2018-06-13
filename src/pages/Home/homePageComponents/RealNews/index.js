@@ -1,12 +1,15 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import PageTitle from "../../../../components/PageTitle";
 import ContentLayout from "../../../../components/ContentLayout";
 import newsArticles from "../../../../archive/news-articles";
 import RerouteButton from "../../../../components/RerouteButton";
+import { pages } from '../../../../constants/pages';
 import "./index.scss";
 
 class RealNews extends Component {
+  componentDidMount () {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <section className="RealNews">
@@ -27,14 +30,10 @@ class RealNews extends Component {
             );
           })}
         />
-        <RerouteButton onClick={this.props.goBack} />
+        <RerouteButton pathname={pages.ITS_ME.path} scrollToComponent />
       </section>
     );
   }
 }
-
-RealNews.propTypes = {
-  goBack: PropTypes.func.isRequired
-};
 
 export default RealNews;

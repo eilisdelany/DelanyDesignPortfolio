@@ -1,18 +1,20 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import "./index.scss";
 
-const RerouteButton = ({ onClick }) => {
+const RerouteButton = ({ pathname, scrollToComponent }) => {
   return (
-    <button
+    <Link
       className="RerouteButton"
-      onClick={onClick}
+      to={{ pathname, state: { scrollToComponent } }}
     />
   )
 }
 
 RerouteButton.propTypes = {
-  onClick: PropTypes.func.isRequired,
+  pathname: PropTypes.string.isRequired,
+  scrollToComponent: PropTypes.bool,
 };
 
 export default RerouteButton;

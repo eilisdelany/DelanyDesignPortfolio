@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import TimelineStep from "./TimelineStep";
 import timeline from "../../../../archive/timeline";
 import RerouteButton from "../../../../components/RerouteButton";
+import { pages } from '../../../../constants/pages';
 import "./index.scss";
 
 class Timeline extends Component {
@@ -32,7 +33,7 @@ class Timeline extends Component {
             </Fragment>
           );
         })}
-        <RerouteButton onClick={this.props.goBack} />
+        <RerouteButton pathname={pages.ITS_ME.path} scrollToComponent />
       </div>
     );
   }

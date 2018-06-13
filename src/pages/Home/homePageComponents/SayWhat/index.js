@@ -1,13 +1,17 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import PageTitle from "../../../../components/PageTitle";
 import ContentLayout from "../../../../components/ContentLayout";
 import Tags from '../../../../components/Tags';
 import references from "../../../../archive/references";
 import RerouteButton from "../../../../components/RerouteButton";
+import { pages } from '../../../../constants/pages';
 import "./index.scss";
 
 class SayWhat extends Component {
+  componentDidMount () {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <section className="SayWhat">
@@ -26,14 +30,9 @@ class SayWhat extends Component {
             );
           })}
         />
-        <RerouteButton onClick={this.props.goBack} />
+        <RerouteButton pathname={pages.ITS_ME.path} scrollToComponent />
       </section>
     );
   }
 }
-
-SayWhat.propTypes = {
-  goBack: PropTypes.func.isRequired
-};
-
 export default SayWhat;
