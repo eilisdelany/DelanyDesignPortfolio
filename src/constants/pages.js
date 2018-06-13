@@ -19,7 +19,7 @@ export const pages = {
     path: "/top-five",
     title: "Top five",
     pageTitle:
-      "This is my digital treasure trove - a curated collection of links covering science, technology, design and personal growth."
+      "This is my digital treasure trove - a curated collection of links covering business, technology, design and personal growth."
   },
   WORDS: {
     path: "/words",

@@ -2,7 +2,7 @@ export default {
   title: "Dream dinner guests",
   guests: [
     {
-      name: "Lucy McRaeu",
+      name: "Lucy McRae",
       url: "https://www.lucymcrae.net",
       reasons: ["Science", "Technology", "Dance"]
     },
