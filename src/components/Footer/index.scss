@@ -9,6 +9,7 @@ $footer-border-color: #c2c9de;
   line-height: $text;
   font-weight: $font-thin;
   padding: 0 $whitespace-11;
+  min-width: $min-width;
 }
 
 .Footer-content {
