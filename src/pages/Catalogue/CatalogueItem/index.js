@@ -22,7 +22,7 @@ class CatalogueItem extends Component {
 
     return (
       <div
-        className={`Catagloue-item rotate-${rotation} ${isHoveringItem >= 0 &&
+        className={`Catagloue-item rotate-${rotation} ${isHoveringItem &&
           (isHoveringItem === id ? "hovering-item" : "non-hovering-item")}`}
         onMouseEnter={() => updateHoveringItem(id)}
         onMouseLeave={() => updateHoveringItem()}
