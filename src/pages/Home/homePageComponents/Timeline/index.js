@@ -6,13 +6,13 @@ import { pages } from '../../../../constants/pages';
 import "./index.scss";
 
 class Timeline extends Component {
-  componentDidMount() {
-    document.getElementById('timeline').scrollIntoView();
+  componentDidMount () {
+    window.scrollTo(0, 0);
   }
 
   render() {
     return (
-      <div className="Timeline" id="timeline">
+      <div className="Timeline">
         <div className="Timeline-line" />
         {timeline.map(({ dates, place, role, work, years }, index) => {
           return (

@@ -7,6 +7,10 @@ import { pages } from '../../../../constants/pages';
 import "./index.scss";
 
 class PinchMe extends Component {
+  componentDidMount () {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <section className="PinchMe">

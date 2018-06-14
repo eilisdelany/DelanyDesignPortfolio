@@ -8,6 +8,10 @@ import { pages } from '../../../../constants/pages';
 import "./index.scss";
 
 class DreamDinner extends Component {
+  componentDidMount () {
+    window.scrollTo(0, 0);
+  }
+
   renderGuest({ name, url, reasons }) {
     return (
       <div className="dinner-guest">
