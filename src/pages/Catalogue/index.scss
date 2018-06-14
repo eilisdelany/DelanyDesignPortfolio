@@ -22,6 +22,11 @@ $space-between-items: 100px;
 .Catagloue-item {
   transition: ease-in-out 0.2s;
 
+  img {
+    width: 100%;
+    height: auto;
+  }
+
   .name-description {
     padding-top: $whitespace-4;
     text-transform: uppercase;
