@@ -26,7 +26,7 @@ class FibonacciSection extends Component {
         <FibonacciComponent
           name={homePageComponents.MANTRA}
           title="Mantra"
-          description={`Some insights into the type of person I am, and what I do and don't believe in.`}
+          description={`My guiding design principles and processes.`}
         />
         <FibonacciComponent
           name={homePageComponents.GRINDIN}

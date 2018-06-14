@@ -2,24 +2,24 @@ export default [{
   dates: '2011 - 2015',
   place: 'Dublin Institute of Technology',
   role: 'Product Design',
-  work: ['Create design fundamentals', 'Rapid product development', 'Mathematics and physics', 'Manufacturing and materials', 'Management and strategy'],
+  work: ['Creative Design Fundamentals', 'Rapid Product Development', 'Mathematics and Physics', 'Manufacturing and Materials', 'Management and Strategy'],
   years: 3
 }, {
   dates: '2015 - 2016',
-  place: 'Clickworks',
-  role: 'Crand and Content Design',
-  work: ['Competitor audits', 'Brand strategy', 'Digital content curation', 'Trend scouting', 'Facilitation: workshops and events'],
+  place: 'Clickworks Ltd',
+  role: 'Research and Design',
+  work: ['Competitor Audits', 'Brand Strategy', 'Digital Content Curation', 'Trend Scouting', 'Facilitation: workshops and events'],
   years: 1
 },{
   dates: '2016 - 2018',
   place: 'Fjord @ The Dock, Accenture',
   role: 'Content Design',
-  work: ['Content patterns', 'Problem framing', 'Technical translation', 'Storytelling', 'Thought leadership'],
+  work: ['Content Strategy', 'Problem Framing', 'Technical Translation', 'Storytelling', 'Thought Leadership', 'Culture'],
   years: 1
 },{
   dates: 'Now',
   place: 'Fjord @ The Dock, Accenture',
   role: 'Business Design',
-  work: ['Research', 'Co-facilitation', 'New product development', 'Strategy', 'Culture'],
+  work: ['Research', 'Co-facilitation', 'New Product Development', 'Strategy', 'Culture'],
   years: 0
 }]
