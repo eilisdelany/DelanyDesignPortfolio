@@ -1,13 +1,13 @@
 @import "../../styles/index";
 
 .RerouteButton {
-  position: absolute;
-  top: $whitespace-20;
-  right: $whitespace-5;
+  position: fixed;
+  bottom: $whitespace-21;
+  right: $whitespace-12;
   background-image: url("/images/back.png");
-  background-repeat: no-repeat;
-  width: $whitespace-18;
-  height: $whitespace-4;
+  background-repeat: round;
+  width: $whitespace-11;
+  height: $whitespace-3;
   border: none;
   cursor: pointer;
 }
