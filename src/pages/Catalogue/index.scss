@@ -49,6 +49,7 @@ $space-between-items: 100px;
 
 .hovering-item {
   color: $secondary-color;
+  transform: rotate(2deg) !important;
 }
 
 .non-hovering-item {
