@@ -25,7 +25,7 @@ export const pages = {
     path: "/words",
     title: "Words",
     pageTitle:
-      "Now and again, I share my point of view. Some people care, some people don't."
+      "Now and again, I share my point of view. It passes time on commutes."
   },
   HIT_LIST: {
     path: "/hit-list",

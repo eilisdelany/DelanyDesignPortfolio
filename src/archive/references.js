@@ -6,12 +6,12 @@ export default {
     role: 'Group Director',
     company: 'Fjord Dublin'
   }, {
-    quote: `This was my first time seeing Eilís involved in a Dock asset project and I was impressed by the clarity she brought to a complex area and her ability to communicate a reasoned approach to stakeholders. Eilis lead our Design research outputs delivery at the Sprint check in and for someone of her level to be achieving this already is impressive. With proper coaching and development I see Eilis becoming a very strong Fjord team asset.`,
+    quote: `This was my first time seeing Eilís involved in a Dock asset project and I was impressed by the clarity she brought to a complex area and her ability to communicate a reasoned approach to stakeholders. Eilís lead our Design research outputs delivery at the Sprint check in and for someone of her level to be achieving this already is impressive. With proper coaching and development I see Eilís becoming a very strong Fjord team asset.`,
     name: 'Graham Nolan',
     role: 'Business Design Director',
     company: 'Fjord Dublin'
   }, {
-    quote: `Eilís is a smart, talented designer, who displays incredible versatility in her work at Fjord. She approaches every task with her innate creative spirit, energy and enthusiasm. She often acts as that connective tissue in projects, melding tech and design, and revelling in the glorious details and intricacies of the possible solution. Eilis has also done outstanding work on the culture team to help foster the sense of community and shared experiences that are so crucial to the team at Fjord.`,
+    quote: `Eilís is a smart, talented designer, who displays incredible versatility in her work at Fjord. She approaches every task with her innate creative spirit, energy and enthusiasm. She often acts as that connective tissue in projects, melding tech and design, and revelling in the glorious details and intricacies of the possible solution. Eilís has also done outstanding work on the culture team to help foster the sense of community and shared experiences that are so crucial to the team at Fjord.`,
     name: 'Heather McCormick',
     role: 'Content Designer',
     company: 'Fjord Dublin'
@@ -21,7 +21,7 @@ export default {
     role: 'Marketing Lead',
     company: 'Accenture The Dock'
   }, {
-    quote: `I worked with Eilís on developing a workshop on AI & Design which we delivered at the FJORD studio in London. During the two weeks we worked together, Eilis provided valuable insight into how to creatively communicate somewhat dry / technical AI concepts to a design audience and showed her inventive talent in translating them into engaging practical activities.`,
+    quote: `I worked with Eilís on developing a workshop on AI & Design which we delivered at the FJORD studio in London. During the two weeks we worked together, Eilís provided valuable insight into how to creatively communicate somewhat dry / technical AI concepts to a design audience and showed her inventive talent in translating them into engaging practical activities.`,
     name: 'Jivan Virdee',
     role: 'Data Designer',
     company: 'Fjord London'
