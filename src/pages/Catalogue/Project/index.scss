@@ -1,7 +1,44 @@
-@import '../../../styles/index';
+@import "../../../styles/index";
+
+.Project {
+  padding-top: $header-height;
+}
+
+.ProjectHeader {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.ProjectHeader-description {
+  padding: $whitespace-10 $whitespace-13;
+
+  .title {
+    font-size: 50px;
+    letter-spacing: 0.1px;
+    padding-bottom: $whitespace-2;
+  }
+}
+
+.ProjectHeader-labels {
+  display: inline-block;
+  padding-bottom: $whitespace-5;
+  .Tags {
+    display: inline-block;
+    font-size: $subtitle;
+  }
+
+  .Tag:first-child {
+    font-weight: $font-bold;
+  }
+}
+
+.ProjectBody-item {
+  padding-bottom: 150px;
+}
 
 .HiddenProject {
-
   font-size: $text;
   text-align: center;
   width: 100%;
