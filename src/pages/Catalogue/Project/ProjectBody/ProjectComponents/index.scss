@@ -1,0 +1,74 @@
+@import "../../../../../styles/index";
+
+.position {
+  display: flex;
+  justify-content: space-between;
+}
+
+.position-left {
+  flex-direction: row;
+}
+
+.position-right {
+  flex-direction: row-reverse;
+}
+
+.Quote {
+  padding: 0 $whitespace-10;
+  
+  div {
+    max-width: 700px;
+  }
+
+  .text {
+    font-size: 40px;
+    letter-spacing: 0.1px;
+    line-height: 54px;
+    font-weight: $font-bold;
+  }
+
+  .name {
+    display: block;
+    padding: $whitespace-3 0;
+  }
+}
+
+.TextImage {
+  display: flex;
+  justify-content: space-between;
+
+  .image {
+    flex: 3;
+    text-align: center;
+    img {
+      width: 100%;
+      height: auto;
+      float: right;
+    }
+    .img-caption {
+      display: inline-block;
+      color: $secondary-color;
+      padding-top: $whitespace-2;
+    }
+  }
+
+  .content {
+    flex: 2;
+    min-width: 300px;
+    height: auto;
+    padding: 0 $whitespace-10 $whitespace-4 $whitespace-14;
+    white-space: pre-wrap;
+    font-size: $text;
+    font-weight: $font-thin;
+    letter-spacing: 0.5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+      margin: 0;
+      padding-bottom: $whitespace-7;
+    }
+  }
+}
