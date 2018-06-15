@@ -9,7 +9,7 @@ class TextImage extends Component {
       <section className={`TextImage position position-${position}`}>
         <div className="image">
           <img src={`/images/catalogue/${image}.png`} alt={caption} />
-          <span className="img-caption">{caption}</span>
+          <span className="caption">{caption}</span>
         </div>
         <div className="content">
           <h4 className="title">{`- ${title}`}</h4>

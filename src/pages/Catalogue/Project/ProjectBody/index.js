@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import types from "../../../../archive/catalogue/types";
 import TextImage from "./ProjectComponents/TextImage";
 import Quote from "./ProjectComponents/Quote";
+import Video from "./ProjectComponents/Video";
 
 class ProjectBody extends Component {
   renderProjectItem(item, projectId) {
@@ -23,6 +24,14 @@ class ProjectBody extends Component {
             position={item.position}
             text={item.text}
             name={item.name}
+          />
+        );
+        case types.VIDEO:
+        return (
+          <Video
+            position={item.position}
+            url={item.url}
+            caption={item.caption}
           />
         );
       default:

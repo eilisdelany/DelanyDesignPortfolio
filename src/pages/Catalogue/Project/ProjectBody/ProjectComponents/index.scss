@@ -13,6 +13,12 @@
   flex-direction: row-reverse;
 }
 
+.caption {
+  display: block;
+  color: $secondary-color;
+  padding-top: $whitespace-2;
+}
+
 .Quote {
   padding: 0 $whitespace-10;
   
@@ -45,11 +51,6 @@
       height: auto;
       float: right;
     }
-    .img-caption {
-      display: inline-block;
-      color: $secondary-color;
-      padding-top: $whitespace-2;
-    }
   }
 
   .content {
@@ -70,5 +71,13 @@
       margin: 0;
       padding-bottom: $whitespace-7;
     }
+  }
+}
+
+.Video {
+  text-align: center;
+  .iframe {
+    height: 462px;
+    width: 763px;
   }
 }

@@ -51,7 +51,7 @@ export default [
         {
           type: types.VIDEO,
           position: "left",
-          video: "video_1",
+          url: "https://www.youtube.com/embed/tgbNymZ7vqY",
           caption: "Create Something Something"
         },
         {
