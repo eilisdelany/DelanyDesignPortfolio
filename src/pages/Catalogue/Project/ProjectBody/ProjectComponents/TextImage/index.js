@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import Text from "../Text";
 import "../index.scss";
 
 class TextImage extends Component {
@@ -11,10 +12,7 @@ class TextImage extends Component {
           <img src={`/images/catalogue/${image}.png`} alt={caption} />
           <span className="caption">{caption}</span>
         </div>
-        <div className="content">
-          <h4 className="title">{`- ${title}`}</h4>
-          <span className="text">{text}</span>
-        </div>
+        <Text title={title} text={text} />
       </section>
     );
   }

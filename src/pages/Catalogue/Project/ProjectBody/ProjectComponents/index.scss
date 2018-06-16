@@ -14,14 +14,35 @@
 }
 
 .caption {
-  display: block;
+  display: inline-block;
   color: $secondary-color;
   padding-top: $whitespace-2;
+  text-align: center;
+}
+
+.Text {
+  flex: 2;
+  min-width: 300px;
+  height: auto;
+  padding: 0 $whitespace-13;
+  white-space: pre-wrap;
+  font-size: $text;
+  font-weight: $font-thin;
+  letter-spacing: 0.5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .title {
+    margin: 0;
+    padding-bottom: $whitespace-7;
+  }
 }
 
 .Quote {
   padding: 0 $whitespace-10;
-  
+
   div {
     max-width: 700px;
   }
@@ -52,32 +73,110 @@
       float: right;
     }
   }
-
-  .content {
-    flex: 2;
-    min-width: 300px;
-    height: auto;
-    padding: 0 $whitespace-10 $whitespace-4 $whitespace-14;
-    white-space: pre-wrap;
-    font-size: $text;
-    font-weight: $font-thin;
-    letter-spacing: 0.5px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    .title {
-      margin: 0;
-      padding-bottom: $whitespace-7;
-    }
-  }
 }
 
 .Video {
-  text-align: center;
   .iframe {
     height: 462px;
     width: 763px;
+    border: none;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@mixin position-left($position) {
+  top: calc(#{$whitespace-4} * #{$position});
+  left: calc(#{$whitespace-4} * #{$position});
+}
+
+@mixin position-right($position) {
+  top: calc(#{$whitespace-4} * #{$position});
+  right: calc(#{$whitespace-4} * #{$position});
+}
+
+@mixin padding-bottom($number) {
+  padding-bottom: calc(#{$whitespace-4} * #{$number});
+}
+
+.slideshow {
+  flex: 3;
+  text-align: center;
+
+  .images {
+    position: relative;
+
+    &-left {
+      float: left;
+    }
+
+    &-right {
+      float: right;
+    }
+
+    &-1 {
+      @include padding-bottom(1);
+    }
+
+    &-2 {
+      @include padding-bottom(2);
+    }
+
+    &-3 {
+      @include padding-bottom(3);
+    }
+
+    &-4 {
+      @include padding-bottom(4);
+    }
+  }
+
+  .image {
+    width: 75%;
+    height: auto;
+
+    &:not(:first-child) {
+      position: absolute;
+    }
+
+    &-left-0 {
+      float: left;
+    }
+  
+    &-left-1 {
+      @include position-left(1);
+    }
+    &-left-2 {
+      @include position-left(2);
+    }
+    &-left-3 {
+      @include position-left(3);
+    }
+    &-left-4 {
+      @include position-left(4);
+    }
+
+    &-right-0 {
+      float: right;
+      display: block;
+    }
+  
+    &-right-1 {
+      @include position-right(1);
+    }
+  
+    &-right-2 {
+      @include position-right(2);
+    }
+  
+    &-right-3 {
+      @include position-right(3);
+    }
+  
+    &-right-4 {
+      @include position-right(4);
+    }
   }
 }

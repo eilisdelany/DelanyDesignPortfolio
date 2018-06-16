@@ -4,6 +4,7 @@ import types from "../../../../archive/catalogue/types";
 import TextImage from "./ProjectComponents/TextImage";
 import Quote from "./ProjectComponents/Quote";
 import Video from "./ProjectComponents/Video";
+import SlideshowText from "./ProjectComponents/SlideshowText";
 
 class ProjectBody extends Component {
   renderProjectItem(item, projectId) {
@@ -27,10 +28,21 @@ class ProjectBody extends Component {
           />
         );
         case types.VIDEO:
+          return (
+            <Video
+              position={item.position}
+              url={item.url}
+              caption={item.caption}
+            />
+          );
+        case types.SLIDESHOW_TEXT:
         return (
-          <Video
+          <SlideshowText
             position={item.position}
-            url={item.url}
+            title={item.title}
+            text={item.text}
+            projectId={projectId}
+            images={item.images}
             caption={item.caption}
           />
         );
