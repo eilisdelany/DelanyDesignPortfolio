@@ -1,11 +1,36 @@
 export default [
 
   {
+    date: "17.06.18",
+    files: [
+  {
+      text: "- Pay no attention to that man behind the curtain: Exposing and challenging government hacking for surveillance.",
+      url: "https://privacyinternational.org/advocacy-briefing/2064/pay-no-attention-man-behind-curtain-exposing-and-challenging-government"
+  },
+  {
+      text: "- The state of communities 2018 report.",
+      url: "http://co-matter.com/the-state-of-communities-2018-report/"
+  },
+  {
+      text: "- The Silk Road's alleged right-hand man will finally face a U.S court.",
+      url: "https://www.wired.com/story/silk-road-roger-clark-extradited/"
+  },
+  {
+      text: "- Meet Lil Miquela, a completely CGI Instagram influencer with over 1.2M followers and features in Vogue.",
+      url: "https://www.instagram.com/lilmiquela/?hl=en"
+  },
+  {
+      text: "- Inspiration walks: Permission to be delighted.",
+      url: "https://soundcloud.com/ideo_u/permission-to-be-delighted?in=ideo_u/sets/inspiration-walks"
+  }]
+  },
+
+  {
     date: "10.06.18",
     files: [
   {
-          text: "- Facebook knows exactly how many times you've searched for your ex.",
-          url: "https://qz.com/1303802/facebook-knows-exactly-how-many-times-youve-searched-for-your-ex/"
+      text: "- Facebook knows exactly how many times you've searched for your ex.",
+      url: "https://qz.com/1303802/facebook-knows-exactly-how-many-times-youve-searched-for-your-ex/"
   },
   {
       text: "- We asked body language experts to analyse the Trump-Kim Jong-un Summit.",
@@ -29,8 +54,8 @@ export default [
     date: "03.06.18",
     files: [
   {
-          text: "- Instagram is making stories shoppable.",
-          url: "https://www.refinery29.com/2018/06/201617/instagram-stories-shopping-tags"
+      text: "- Instagram is making stories shoppable.",
+      url: "https://www.refinery29.com/2018/06/201617/instagram-stories-shopping-tags"
   },
   {
       text: "- India's government published an AI strategy paper.",
@@ -54,8 +79,8 @@ export default [
     date: "27.05.18",
     files: [
   {
-          text: "- How Anna Delvey tricked New York's party people.",
-          url: "https://www.thecut.com/2018/05/how-anna-delvey-tricked-new-york.html"
+      text: "- How Anna Delvey tricked New York's party people.",
+      url: "https://www.thecut.com/2018/05/how-anna-delvey-tricked-new-york.html"
   },
   {
       text: "- Ben & Jerry's bets on Blockchain to cancel out the carbon in every scoop.",
@@ -79,8 +104,8 @@ export default [
     date: "20.05.18",
     files: [
   {
-          text: "- For trans women, Sephora is so much more than a beauty store.",
-          url: "https://www.refinery29.com/2018/05/200045/sephora-transgender-classes-for-confidence"
+      text: "- For trans women, Sephora is so much more than a beauty store.",
+      url: "https://www.refinery29.com/2018/05/200045/sephora-transgender-classes-for-confidence"
   },
   {
       text: "- Airbnb's new Travel Stories feature lets people show off videos from their trip.",
@@ -104,8 +129,8 @@ export default [
     date: "13.05.18",
     files: [
   {
-          text: "- I became a cancer patient, but was misdiagnosed.",
-          url: "https://opmed.doximity.com/i-became-a-cancer-patient-but-was-misdiagnosed-21aad6e92806"
+      text: "- I became a cancer patient, but was misdiagnosed.",
+      url: "https://opmed.doximity.com/i-became-a-cancer-patient-but-was-misdiagnosed-21aad6e92806"
   },
   {
       text: "- Facebook has disabled almost 1.3 billion fake accounts over the past six months.",
@@ -129,8 +154,8 @@ export default [
     date: "06.05.18",
     files: [
   {
-          text: "- Meanwhile in Paris...Wingly raises €2M in seed funding.",
-          url: "http://www.finsmes.com/2018/03/wingly-raises-e2m-in-seed-funding.html"
+      text: "- Meanwhile in Paris...Wingly raises €2M in seed funding.",
+      url: "http://www.finsmes.com/2018/03/wingly-raises-e2m-in-seed-funding.html"
   },
   {
       text: "- Google's I/O '18.'",
@@ -154,8 +179,8 @@ export default [
     date: "29.04.18",
     files: [
   {
-          text: "- Take the wheel and choose your own career direction.",
-          url: "https://blog.intercom.com/take-wheel-of-career-direction/"
+      text: "- Take the wheel and choose your own career direction.",
+      url: "https://blog.intercom.com/take-wheel-of-career-direction/"
   },
   {
       text: "- How can we be sure AI will behave? Perhaps by watching it argue with itself.",
@@ -179,8 +204,8 @@ export default [
     date: "22.04.18",
     files: [
   {
-          text: "- How will we live in the year 2030?",
-          url: "http://onesharedhouse2030.com"
+      text: "- How will we live in the year 2030?",
+      url: "http://onesharedhouse2030.com"
   },
   {
       text: "- An Oregon family's encounter with Amazon Alexa exposes the privacy problem of smart home devices.",
@@ -204,8 +229,8 @@ export default [
     date: "16.04.18",
     files: [
   {
-          text: "- Is Google evil?",
-          url: "https://theoutline.com/post/4258/google-please-just-hire-one-normal-person"
+      text: "- Is Google evil?",
+      url: "https://theoutline.com/post/4258/google-please-just-hire-one-normal-person"
   },
   {
       text: `- IKEA vows "transformation" as it reshapes business model.`,
@@ -229,8 +254,8 @@ export default [
   date: "15.04.18",
   files: [
   {
-        text: "- A face recognition application for people with visual impairments.",
-        url: "https://research.fb.com/publications/a-face-recognition-application-for-people-with-visual-impairments-understanding-use-beyond-the-lab/"
+    text: "- A face recognition application for people with visual impairments.",
+    url: "https://research.fb.com/publications/a-face-recognition-application-for-people-with-visual-impairments-understanding-use-beyond-the-lab/"
   },
   {
     text: "- An evolving collection of design patterns for data.",
@@ -254,8 +279,8 @@ export default [
   date: "08.04.18",
   files: [
   {
-        text: "- Today, Zuckerberg made it clear he doesn’t care about users.",
-        url: "https://theoutline.com/post/4128/mark-zuckerberg-kamala-harris-facebook-priorities-cambridge-analytica "
+    text: "- Today, Zuckerberg made it clear he doesn’t care about users.",
+    url: "https://theoutline.com/post/4128/mark-zuckerberg-kamala-harris-facebook-priorities-cambridge-analytica "
   },
   {
     text: "- The book that David Ogilvy said every marketer must read.",
@@ -279,8 +304,8 @@ export default [
   date: "01.04.18",
   files: [
   {
-        text: "- Facebook says it will not extend GDPR privacy protections beyond EU.",
-        url: "https://www.theverge.com/2018/4/3/17194504/facebook-mark-zuckerberg-gdpr-privacy-protections-europe"
+    text: "- Facebook says it will not extend GDPR privacy protections beyond EU.",
+    url: "https://www.theverge.com/2018/4/3/17194504/facebook-mark-zuckerberg-gdpr-privacy-protections-europe"
   },
   {
     text: "- Content designers should be in prison.",
@@ -304,8 +329,8 @@ export default [
   date: "25.03.18",
   files: [
   {
-        text: "- How socioeconomic disadvantage varies area-by-area in Australia.",
-        url: "https://www.theguardian.com/news/datablog/ng-interactive/2018/mar/27/how-socio-economic-disadvantage-varies-area-by-area-in-australia"
+    text: "- How socioeconomic disadvantage varies area-by-area in Australia.",
+    url: "https://www.theguardian.com/news/datablog/ng-interactive/2018/mar/27/how-socio-economic-disadvantage-varies-area-by-area-in-australia"
   },
   {
     text: "- Apple create emoji set to better represent users with disabilities.",
@@ -329,8 +354,8 @@ export default [
   date: "18.03.18",
   files: [
   {
-        text: "- The Design Genome Project.",
-        url: "https://www.invisionapp.com/enterprise/design-genome"
+    text: "- The Design Genome Project.",
+    url: "https://www.invisionapp.com/enterprise/design-genome"
   },
   {
     text: "- Brian Roettinger’s album cover for “Thirty Seconds To Mars” America can be customised via online generator.",
@@ -354,8 +379,8 @@ export default [
   date: "11.03.18",
   files: [
   {
-        text: "- How Refugees are helping create Blockchains brand new world.",
-        url: "https://www.wired.com/story/refugees-but-on-the-blockchain/"
+    text: "- How Refugees are helping create Blockchains brand new world.",
+    url: "https://www.wired.com/story/refugees-but-on-the-blockchain/"
   },
   {
     text: "- Will autonomy reignite our village high street?.",
@@ -379,8 +404,8 @@ export default [
   date: "04.03.18",
   files: [
   {
-        text: "- Design in Tech Report 2018.",
-        url: "https://www.slideshare.net/johnmaeda/design-in-tech-report-2018"
+    text: "- Design in Tech Report 2018.",
+    url: "https://www.slideshare.net/johnmaeda/design-in-tech-report-2018"
   },
   {
     text: "- Human development: Growing the whole human.",
@@ -404,8 +429,8 @@ export default [
   date: "25.02.18",
   files: [
   {
-        text: "- Apple to launch “technology” enabled healthcare service.",
-        url: "https://www.theguardian.com/technology/2018/feb/27/apple-launching-technology-enabled-healthcare-service"
+    text: "- Apple to launch “technology” enabled healthcare service.",
+    url: "https://www.theguardian.com/technology/2018/feb/27/apple-launching-technology-enabled-healthcare-service"
   },
   {
     text: `- Station F's "Guild Model" for collaboration.`,
@@ -429,8 +454,8 @@ export default [
   date: "18.02.18",
   files: [
   {
-        text: "- Airbnb take their service to the next level.",
-        url: "https://www.airbnb.co.uk/plus"
+    text: "- Airbnb take their service to the next level.",
+    url: "https://www.airbnb.co.uk/plus"
   },
   {
     text: "- In one Tweet, Kylie Jenner wiped out $1.3 Billion of Snap’s market value.",
@@ -454,8 +479,8 @@ export default [
   date: "11.02.19",
   files: [
   {
-      text: "- Adoptify: Spotify's latest pet project.",
-      url: "http://adoptify.de/?utm_campaign=Innovation%20of%20the%20Day%20opt-in%20experiment&utm_source=hs_email&utm_medium=email&utm_content=60625779&_hsenc=p2ANqtz-_DAjOPF6GhGwhbzRqgbl4Xc4nNDUhz0cs5WFwJOXUbjIgCB3HJHuMq3-jwauE_5zA5WpbczpezyqA6Pt5NfbvMV4bWIw&_hsmi=60626177"
+    text: "- Adoptify: Spotify's latest pet project.",
+    url: "http://adoptify.de/?utm_campaign=Innovation%20of%20the%20Day%20opt-in%20experiment&utm_source=hs_email&utm_medium=email&utm_content=60625779&_hsenc=p2ANqtz-_DAjOPF6GhGwhbzRqgbl4Xc4nNDUhz0cs5WFwJOXUbjIgCB3HJHuMq3-jwauE_5zA5WpbczpezyqA6Pt5NfbvMV4bWIw&_hsmi=60626177"
   },
   {
     text: "- Saudi Arabia’s robot citizen is eroding human rights.",
