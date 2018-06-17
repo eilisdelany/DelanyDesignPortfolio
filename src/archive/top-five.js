@@ -45,7 +45,7 @@ export default [
       url: "https://medium.com/onshift-design/convincing-your-organization-to-do-user-research-4a3a850cddc8"
   },
   {
-      text: "- Business Design as a career.",
+      text: "- Eilís talks Business Design.",
       url: "https://www.youtube.com/watch?v=NR0CYwwgLQA"
   }]
   },
