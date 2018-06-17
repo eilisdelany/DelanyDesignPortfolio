@@ -26,7 +26,7 @@ export default {
     role: 'Data Designer',
     company: 'Fjord London'
   }, {
-    quote: 'Over the course of her time in the Institute, Eilís showed a willingness to work as part of a team and individually. Her time keeping and commitment have been exemplary. Her written and verbal communication skills are of the highest order and her originality of ideas is one of her most valuable assets. As one of her final year totyrs, I found her to have a high moral and ethical outlook on all projects she became involved in.',
+    quote: 'Over the course of her time in the Institute, Eilís showed a willingness to work as part of a team and individually. Her time keeping and commitment have been exemplary. Her written and verbal communication skills are of the highest order and her originality of ideas is one of her most valuable assets. As one of her final year tutors, I found her to have a high moral and ethical outlook on all projects she became involved in.',
     name: 'Michael Ring',
     role: 'Program Chair for Product Design',
     company: 'Dublin Institute of Technology'
