@@ -1,6 +1,31 @@
 export default [
 
   {
+    date: "24.06.18",
+    files: [
+  {
+      text: "- Hawraf's guide to working with clients.",
+      url: "https://thecreativeindependent.com/guides/a-guide-to-working-with-clients/"
+  },
+  {
+      text: "- Apple's latest iOS 12 update features tools that help users control the amount of time they spend on their phones.",
+      url: "https://www.macworld.com/article/3252034/ios/ios-12-features-release-date-and-how-to-install.html"
+  },
+  {
+      text: "- Facebook built a new team to spot problems before they arise.",
+      url: "https://www.buzzfeed.com/alexkantrowitz/facebook-hired-a-team-of-ex-intel-officers-researchers-and?utm_term=.npvAxmryl&utm_source=Benedict%27s%2Bnewsletter&utm_campaign=bc1f96303e-Benedict%27s%2BNewsletter_COPY_01&utm_medium=email#.jo1mDZl4R"
+  },
+  {
+      text: "- Why workplace culture matters (and how to build a good one).",
+      url: "https://www.ideo.com/blog/why-workplace-culture-matters-and-how-to-build-a-good-one"
+  },
+  {
+      text: "- Money talks: Netflixonomics.",
+      url: "https://soundcloud.com/theeconomist"
+  }]
+  },
+
+  {
     date: "17.06.18",
     files: [
   {
@@ -41,8 +66,8 @@ export default [
       url: "https://hbr.org/2018/06/your-flex-work-culture-doesnt-help-employees-if-it-hurts-their-careers"
   },
   {
-      text: "- Convincing your organisation to do User Research.",
-      url: "https://medium.com/onshift-design/convincing-your-organization-to-do-user-research-4a3a850cddc8"
+      text: "- The NHS can lead the way in data ethics - but will it?",
+      url: "https://medium.com/writing-by-if/the-nhs-can-lead-the-way-in-data-ethics-but-will-it-88ebb8a94a908"
   },
   {
       text: "- Eilís talks Business Design.",
@@ -258,8 +283,8 @@ export default [
     url: "https://research.fb.com/publications/a-face-recognition-application-for-people-with-visual-impairments-understanding-use-beyond-the-lab/"
   },
   {
-    text: "- An evolving collection of design patterns for data.",
-    url: "https://catalogue.projectsbyif.com"
+    text: "- A16 Podcast: What to know about GDPR.",
+    url: "https://a16z.com/2018/04/12/gdpr-why-what-how-for-startups/?utm_source=Benedict%27s+newsletter&utm_campaign=74c2685218-Benedict%27s+Newsletter&utm_medium=email&utm_term=0_4999ca107f-74c2685218-70638557"
   },
   {
     text: "- Designing (and learning from) a teachable machine.",
@@ -412,8 +437,8 @@ export default [
     url: "http://www.instrument.com/articles/growing-the-whole-human"
   },
   {
-    text: "- The EU is giving teens a month of free train travel across Europe.",
-    url: "https://www.citylab.com/life/2018/03/european-union-interrail-travel-ticket-for-teenagers/554978/"
+    text: "- An evolving collection of design patterns for data.",
+    url: "https://catalogue.projectsbyif.com"
   },
   {
     text: "- Nuggets: Bite-size behavioural research for leading Decision-Makers.",
