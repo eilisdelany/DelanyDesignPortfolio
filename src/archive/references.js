@@ -16,6 +16,11 @@ export default {
     role: 'Content Designer',
     company: 'Fjord Dublin'
   }, {
+    quote: `Great team player, creative, flexible. Delivered great, thoughtful synthesis of customer needs and mindsets to inform solutions. Effectively led multiple working sessions with globally dispersed, multi-functional team to drive the creative process.`,
+    name: 'Shamik Lala',
+    role: 'Business Strategy Senior Manager',
+    company: 'Accenture Chicago'
+  }, {
     quote: `Proactive, collaborative and excellent communicator - Eilís took a very loose brief and seized an opportunity to open the doors of Fjord Dublin at The Dock to the design / creative community in Dublin, as part of the open studios event for 'The Future’. Contributing to helping local design community meet Fjordians, understand more about the work they do and where they work - contributing to broader marketplace awareness and addressing some of the perception challenges we are having in local market.`,
     name: 'Heather McCormick',
     role: 'Marketing Lead',
