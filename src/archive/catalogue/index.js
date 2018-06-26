@@ -51,7 +51,7 @@ export default [
         {
           type: types.VIDEO,
           position: "left",
-          url: "https://www.youtube.com/embed/tgbNymZ7vqY",
+          url: "https://www.youtube.com/embed/IR-4n_wwOSY",
           caption: "Create Something Something"
         },
         {
@@ -75,14 +75,9 @@ export default [
         {
           type: types.IMG_VIDEO,
           position: "left",
-          image: {
-            src: "img_9",
-            caption: "Create something something"
-          },
-          video: {
-            image: "video_2",
-            caption: "Create something something"
-          }
+          image: "img_9",
+          caption: "Create something something",
+          url: "https://www.youtube.com/embed/agKvdGN02Uo",
         },
         {
           type: types.QUOTE,
