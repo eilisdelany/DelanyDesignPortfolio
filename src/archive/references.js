@@ -12,7 +12,7 @@ export default {
     company: 'Fjord Dublin'
   }, {
     quote: `Eilís is a smart, talented designer, who displays incredible versatility in her work at Fjord. She approaches every task with her innate creative spirit, energy and enthusiasm. She often acts as that connective tissue in projects, melding tech and design, and revelling in the glorious details and intricacies of the possible solution. Eilís has also done outstanding work on the culture team to help foster the sense of community and shared experiences that are so crucial to the team at Fjord.`,
-    name: 'Heather McCormick',
+    name: 'Grace Hughes',
     role: 'Content Designer',
     company: 'Fjord Dublin'
   }, {
@@ -20,6 +20,11 @@ export default {
     name: 'Heather McCormick',
     role: 'Marketing Lead',
     company: 'Accenture The Dock'
+  }, {
+    quote: `In a high-pressure environment, you showed initiative, perseverance, and leadership well beyond the expectations for the assigned role and showed clear signs of capability to be a strong lead. You were able to move tasks forward independently and with confidence, which was an enormous asset.`,
+    name: 'April Durrett',
+    role: 'Business Design Lead',
+    company: 'Fjord Dublin'
   }, {
     quote: `I worked with Eilís on developing a workshop on AI & Design which we delivered at the FJORD studio in London. During the two weeks we worked together, Eilís provided valuable insight into how to creatively communicate somewhat dry / technical AI concepts to a design audience and showed her inventive talent in translating them into engaging practical activities.`,
     name: 'Jivan Virdee',
