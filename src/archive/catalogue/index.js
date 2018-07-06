@@ -87,7 +87,7 @@ export default [
           url: {
             src: "https://www.youtube.com/embed/agKvdGN02Uo",
             caption: "Group role-play: the journey of a tomato."
-          },
+          }
         },
         {
           type: types.QUOTE,
@@ -99,17 +99,21 @@ export default [
         {
           type: types.END,
           position: "right",
-          img: "img_10",
-          content: [
+          image: "img_10",
+          title: "Team",
+          text:
+            "Gemma Gallagher, Interaction Designer\nEilis Delany, Business Designer \nConnor Upton, Design Director   \n\nShoutout to\nJivan Virdee, Data Scientist\nGaurav Kaila, AI Specialist ",
+          feedback: [
             {
-              title: "Team",
               text:
-                "Gemma Gallagher, Interaction Designer\nEilis Delany, Business Designer \nConnor Upton, Design Director   \n\nShoutout to\nJivan Virdee, Data Scientist\nGaurav Kaila, AI Specialist "
+                "Eilís, was instrumental to the design and rollout of Fjords new workshop on Design & AI. Through her work, we have developed a unique asset that has supported training, thought leadership and client engagement.",
+              name: "Connor Upton, Director, Fjord."
             },
             {
-              title: "Feedback",
               text:
-                "“Eilís, was instrumental to the design and rollout of Fjords new workshop on Design & AI. Through her work, we have developed a unique asset that has supported training, thought leadership and client engagement.” \nConnor Upton, Director, Fjord.\n\n“Really pleased with the Dublin team for designing and facilitating this workshop on AI. The content is difficult and often misunderstood. I recieved a lot of positive feedback from the team here in London with requests for more information in certain areas”\nRichard Wiltshire, Principal Design Director for EALA, Fjord."
+                "Really pleased with the Dublin team for designing and facilitating this workshop on AI. The content is difficult and often misunderstood. I recieved a lot of positive feedback from the team here in London with requests for more information in certain areas",
+              name:
+                "Richard Wiltshire, Principal Design Director for EALA, Fjord."
             }
           ]
         }
