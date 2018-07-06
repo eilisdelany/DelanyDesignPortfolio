@@ -1,6 +1,31 @@
 export default [
 
   {
+    date: "01.07.18",
+    files: [
+  {
+      text: "- The power trip.",
+      url: "https://www.wsj.com/articles/SB10001424052748704407804575425561952689390"
+  },
+  {
+      text: "- From Here On: Purpose Design.",
+      url: "http://www.fromhereon.com/blog-list/purpose-design"
+  },
+  {
+      text: "- Amsterdam drained a canal and catalogued every single thing that was at the bottom, going back hundreds of years.",
+      url: "https://belowthesurface.amsterdam/en/vondsten"
+  },
+  {
+      text: "- Instagram Lite quietly launches to find a billion more users abroad.",
+      url: "https://techcrunch.com/2018/06/27/instagram-lite/"
+  },
+  {
+      text: "- All things compensation.",
+      url: "https://soundcloud.com/a16z/compensation-philosophies"
+  }]
+  },
+
+  {
     date: "24.06.18",
     files: [
   {
