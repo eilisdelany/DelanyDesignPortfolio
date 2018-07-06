@@ -17,5 +17,5 @@ $logo-height-large: calc(#{$logo-height} * 3);
 $header-content-height: 30px;
 $header-padding: $whitespace-4;
 $header-border-size: 3px;
-$header-height: calc(#{$header-content-height} + (#{$header-padding} * 2) + #{$header-border-size});
+$header-height: calc(#{$header-content-height} + (#{$header-padding} * 2) + #{$header-border-size} - 2px);
 $footer-height: $header-height;

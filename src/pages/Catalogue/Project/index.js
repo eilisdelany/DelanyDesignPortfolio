@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import HiddenProject from "./HiddenProject";
-import catalogue from "../../../archive/catalogue";
+import ProjectHeader from "./ProjectHeader";
+import ProjectBody from "./ProjectBody";
+import catalogue from "../../../archive/catalogue/index";
 
 class Project extends Component {
   render() {
@@ -15,8 +17,18 @@ class Project extends Component {
     if (item.locked) {
       return <HiddenProject />;
     }
-    // TODO
-    return <div />;
+    const { header, content } = item.project;
+    return (
+      <section className="Project">
+        <ProjectHeader
+          title={header.title}
+          image={`${item.id}/${header.image}`}
+          labels={header.labels}
+          when={header.when}
+        />
+        <ProjectBody content={content} projectId={item.id} />
+      </section>
+    );
   }
 }
 
