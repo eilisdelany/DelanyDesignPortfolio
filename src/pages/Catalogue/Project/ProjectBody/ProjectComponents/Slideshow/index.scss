@@ -1,0 +1,69 @@
+@import "../../../../../../styles/index";
+
+
+.Slideshow {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: $background-color;
+  overflow: hidden;
+  z-index: 1;
+  padding-top: $header-height;
+
+  &-content {
+    position: fixed;
+    height: calc(100vh - #{$header-height});
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &-images {
+    position: relative;
+    flex: 3;
+  }
+
+  .image {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    text-align: center;
+
+    img {
+      width: 60%;
+      height: auto;
+    }
+
+    &-current {
+      left: 22%;
+    }
+
+    &-prev {
+      right: 71%;
+      opacity: 0.2;
+    }
+
+    &-next {
+      left: 90%;
+      opacity: 0.2;
+    }
+  }
+
+  &-navigator {
+    flex: 1;
+    background-color: yellow;
+    .position-indicator {
+      width: 10px;
+      height: 10px;
+      padding: 0 $whitespace-2;
+      background-color: #E0DFDF;
+    }
+
+    .active {
+      background-color: $primary-color;
+    }
+  }
+}
