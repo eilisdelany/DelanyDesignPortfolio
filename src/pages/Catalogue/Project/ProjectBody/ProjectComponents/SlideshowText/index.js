@@ -10,12 +10,12 @@ class SlideshowText extends Component {
       <section className={`SlideshowText position position-${position}`}>
         <div className="slideshow">
           <div className={`images images-${images.length - 1} images-${position}`}>
-            {images.map((image, index) => {
+            {images.map(({ src }, index) => {
               return (
                 <img
                   key={index}
                   className={`image image-${position}-${index}`}
-                  src={`/images/catalogue/${projectId}/${image}.png`}
+                  src={`/images/catalogue/${projectId}/${src}.png`}
                   alt={caption}
                 />
               );

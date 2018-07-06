@@ -11,6 +11,10 @@ class Catalogue extends Component {
     };
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   updateHoveringItem = (hoveringItem) => {
     this.setState({ hoveringItem });
   }
