@@ -9,9 +9,12 @@ class Video extends Component {
       <section className={`Video position position-${position}`}>
         <div>
           <iframe
+            src={url}
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
             className="iframe"
             title={caption}
-            src={url}
           />
           <span className="caption">{caption}</span>
         </div>
