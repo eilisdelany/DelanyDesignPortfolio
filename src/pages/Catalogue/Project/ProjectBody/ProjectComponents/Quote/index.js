@@ -8,7 +8,7 @@ class Quote extends Component {
     return (
       <section className={`Quote position position-${position}`}>
         <div>
-          <span className="text">{text}</span>
+          <span className="text">{`“${text}”`}</span>
           <span className="name">{name}</span>
         </div>
       </section>
