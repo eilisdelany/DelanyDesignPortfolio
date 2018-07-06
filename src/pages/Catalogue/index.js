@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CatalogueItem from './CatalogueItem';
-import catalogue from '../../archive/catalogue';
+import catalogue from '../../archive/catalogue/index';
 import './index.scss';
 
 class Catalogue extends Component {
@@ -9,6 +9,10 @@ class Catalogue extends Component {
     this.state = {
       hoveringItem: undefined
     };
+  }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
   }
 
   updateHoveringItem = (hoveringItem) => {
