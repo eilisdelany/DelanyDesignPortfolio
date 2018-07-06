@@ -14,16 +14,14 @@ class ClosingContent extends Component {
         </div>
         <div className="Texts-section">
           <Text title={title} text={text} />
-          <div className="feedback">
-            <Text
-              title="Feedback"
-              text={feedback
-                .map(quote => {
-                  return `“${quote.text}”\n${quote.name}`;
-                })
-                .join("\n\n")}
-            />
-          </div>
+          <Text
+            title="Feedback"
+            text={feedback
+              .map(quote => {
+                return `“${quote.text}”\n${quote.name}`;
+              })
+              .join("\n\n")}
+          />
         </div>
       </section>
     );

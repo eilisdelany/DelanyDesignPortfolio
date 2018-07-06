@@ -22,7 +22,9 @@
 
 .Texts-section {
   flex: 2;
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .Text {
@@ -65,9 +67,11 @@
   }
 }
 
+.ClosingContent,
 .TextImage {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   .image {
     flex: 3;
@@ -130,8 +134,8 @@
 }
 
 .ClosingContent {
-  .feedback {
-    padding-top: $whitespace-6;
+  .Text:first-child {
+    padding-bottom: $whitespace-6;
   }
 }
 
