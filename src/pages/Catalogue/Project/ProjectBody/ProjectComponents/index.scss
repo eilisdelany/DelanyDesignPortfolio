@@ -44,7 +44,7 @@
   padding: 0 $whitespace-10;
 
   div {
-    max-width: 700px;
+    max-width: 1100px;
   }
 
   .text {
@@ -75,12 +75,49 @@
   }
 }
 
+.ImageVideo {
+  $video-width: 655px;
+  $video-height: 370px;
+
+  position: relative;
+
+  .image {
+    text-align: center;
+    width: 40%;
+    img {
+      width: 100%;
+      height: auto;
+      float: left;
+    }
+  }
+
+  .video {
+    position: absolute;
+    top: calc(50% - (#{$video-height}/2) - #{$whitespace-2});
+    display: flex;
+    flex-direction: column;
+
+    &-left {
+      left: 30%;
+    }
+  
+    &-right {
+      right: 30%;
+    }
+  }
+
+  .iframe {
+    height: $video-height;
+    width: $video-width;
+  }
+}
+
 .Video {
   .iframe {
     height: 462px;
     width: 763px;
-    border: none;
   }
+
   div {
     display: flex;
     flex-direction: column;

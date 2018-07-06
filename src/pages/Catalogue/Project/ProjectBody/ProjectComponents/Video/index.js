@@ -10,9 +10,9 @@ class Video extends Component {
         <div>
           <iframe
             src={url}
-            frameborder="0"
+            frameBorder="0"
             allow="autoplay; encrypted-media"
-            allowfullscreen
+            allowFullScreen
             className="iframe"
             title={caption}
           />
