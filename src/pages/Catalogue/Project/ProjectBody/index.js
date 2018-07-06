@@ -4,7 +4,10 @@ import types from "../../../../archive/catalogue/types";
 import TextImage from "./ProjectComponents/TextImage";
 import Quote from "./ProjectComponents/Quote";
 import Video from "./ProjectComponents/Video";
+import ImageVideo from "./ProjectComponents/ImageVideo";
 import SlideshowText from "./ProjectComponents/SlideshowText";
+import ClosingContent from "./ProjectComponents/ClosingContent";
+import "../index.scss";
 
 class ProjectBody extends Component {
   renderProjectItem(item, projectId) {
@@ -21,21 +24,17 @@ class ProjectBody extends Component {
         );
       case types.QUOTE:
         return (
-          <Quote
+          <Quote position={item.position} text={item.text} name={item.name} />
+        );
+      case types.VIDEO:
+        return (
+          <Video
             position={item.position}
-            text={item.text}
-            name={item.name}
+            url={item.url}
+            caption={item.caption}
           />
         );
-        case types.VIDEO:
-          return (
-            <Video
-              position={item.position}
-              url={item.url}
-              caption={item.caption}
-            />
-          );
-        case types.SLIDESHOW_TEXT:
+      case types.SLIDESHOW_TEXT:
         return (
           <SlideshowText
             position={item.position}
@@ -44,6 +43,25 @@ class ProjectBody extends Component {
             projectId={projectId}
             images={item.images}
             caption={item.caption}
+          />
+        );
+        case types.IMG_VIDEO:
+        return (
+          <ImageVideo
+            position={item.position}
+            url={item.url}
+            projectId={projectId}
+            image={item.image}
+          />
+        );
+        case types.END:
+        return (
+          <ClosingContent
+            position={item.position}
+            title={item.title}
+            text={item.text}
+            image={`${projectId}/${item.image}`}
+            feedback={item.feedback}
           />
         );
       default:

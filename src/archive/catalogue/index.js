@@ -64,7 +64,23 @@ export default [
           title: "Approach",
           text:
             "Over the past few months, this workshop has been delivered to teams and clients in Dublin, London, Stockholm and Melbourne. \n\nThe format changes with each group: a full-day workshop, a series of micro-lectures over the course of a few days, a single workshop activity etc. \n\nWe make a conscios effort to invite experts into the workshop to share their insights and learnings to ensure balance and accuracy. ",
-          images: ["img_4", "img_5", "img_6", "img_7"],
+          images: [
+            {
+              src: "img_4",
+              caption:
+                "Planning: Gemma Gallagher, Interaction Designer at Fjord."
+            },
+            { src: "img_5", caption: "Mapping and connecting our content." },
+            {
+              src: "img_6",
+              caption: "Feedback from participants and attendees."
+            },
+            {
+              src: "img_7",
+              caption:
+                "Making updates to the structure and flow of the content."
+            }
+          ],
           caption: "Planning: Gemma Gallagher, Interaction Designer at Fjord."
         },
         {
