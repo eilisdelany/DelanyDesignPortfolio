@@ -18,6 +18,7 @@ class SlideshowText extends Component {
 
   render() {
     const { position, title, text, projectId, images, caption } = this.props;
+    
     return (
       <section className={`SlideshowText position position-${position}`}>
         <div className="slideshow">
@@ -41,7 +42,7 @@ class SlideshowText extends Component {
         <Text title={title} text={text} />
         {this.state.showSlideshow && (
           <Slideshow
-            images={images}
+            images={[...images].reverse()}
             projectId={projectId}
             hideSlideshow={this.toggleSlideshow}
           />
@@ -55,7 +56,7 @@ SlideshowText.propTypes = {
   title: PropTypes.string.isRequired,
   projectId: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
-  images: PropTypes.arrayOf(PropTypes.string).isRequired,
+  images: PropTypes.arrayOf(PropTypes.object).isRequired,
   caption: PropTypes.string.isRequired
 };
 

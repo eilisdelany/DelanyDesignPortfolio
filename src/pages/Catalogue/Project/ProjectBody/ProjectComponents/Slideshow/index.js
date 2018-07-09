@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import Slider from "react-slick";
 import "./index.scss";
+
+function Arrow(props) {
+  const { type, onClick } = props;
+  return <div className={`Arrow Arrow-${type}`} onClick={onClick} />;
+}
 
 class Slideshow extends Component {
   constructor() {
@@ -26,34 +32,35 @@ class Slideshow extends Component {
   };
 
   render() {
-    const { images } = this.props;
-    const { imagePosition } = this.state;
+    const { images, projectId, hideSlideshow } = this.props;
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToScroll: 1,
+      centerMode: true,
+      slidesToShow: 1,
+      focusOnSelect: true,
+      nextArrow: <Arrow type="next" />,
+      prevArrow: <Arrow type="prev" />
+    };
     return (
       <div className="Slideshow">
         <div className="Slideshow-content">
-          <div className="Slideshow-images">
-            {this.renderImage(
-              "image-prev",
-              imagePosition === 0 ? images.length - 1 : imagePosition - 1
-            )}
-            {this.renderImage("image-current", imagePosition)}
-            {this.renderImage(
-              "image-next",
-              imagePosition === images.length - 1 ? 0 : imagePosition + 1
-            )}
-          </div>
-          <div className="Slideshow-navigator">
-            <button>prev</button>
-            {images.map((image, index) => {
+          <button className="Slideshow-back-button" onClick={hideSlideshow} />
+          <Slider {...settings}>
+            {images.map(({ src, caption }, index) => {
               return (
-                <div
-                  className={`position-indicator ${index === imagePosition &&
-                    "active"}`}
-                />
+                <div className="image" key={index}>
+                  <img
+                    src={`/images/catalogue/${projectId}/${src}.png`}
+                    alt={caption}
+                  />
+                  <span className="caption">{caption}</span>
+                </div>
               );
             })}
-            <button>next</button>
-          </div>
+          </Slider>
         </div>
       </div>
     );
