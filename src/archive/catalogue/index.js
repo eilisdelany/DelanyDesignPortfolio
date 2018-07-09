@@ -4,15 +4,15 @@ export default [
   {
     title: "Educating interdisciplinary teams on Human-AI collaboration.",
     name: "Human-Centric AI",
-    department: "Accenture, Fjord",
-    id: "human-centered-ai",
+    department: "Fjord, Accenture",
+    id: "human-centeric-ai",
     locked: false,
     project: {
       header: {
-        title: "Launching something cool to benefit someone in need.",
+        title: "Educating interdisciplinary teams on Human-AI collaboration.",
         image: "main",
         labels: ["Human-Centric AI", "Category", "Fjord"],
-        when: ["June 2017", "6 weeks", "Explore and Validate"]
+        when: ["June 2017", "Ongoing", "Dublin, London, Stockholm, Australia"]
       },
       content: [
         {
