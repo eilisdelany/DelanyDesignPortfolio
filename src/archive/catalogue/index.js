@@ -11,7 +11,7 @@ export default [
       header: {
         title: "Educating interdisciplinary teams on Human-AI collaboration.",
         image: "main",
-        labels: ["Human-Centric AI", "Category", "Fjord"],
+        labels: ["Human-Centric AI", "Thought Leadership", "Fjord, Accenture"],
         when: ["June 2017", "Ongoing", "Dublin, London, Stockholm, Australia"]
       },
       content: [
