@@ -4,6 +4,9 @@
 @import './font-family.scss';
 @import './keyframes.scss';
 
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
 $page-width: 1200px;
 $max-width: 1800px;
 $min-width: 800px;

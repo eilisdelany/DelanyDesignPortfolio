@@ -68,17 +68,17 @@ export default [
             {
               src: "img_4",
               caption:
-                "Planning: Gemma Gallagher, Interaction Designer at Fjord."
+                "Mapping and connecting our content."
             },
-            { src: "img_5", caption: "Mapping and connecting our content." },
+            { src: "img_5", caption: "Feedback from participants and attendees." },
             {
               src: "img_6",
-              caption: "Feedback from participants and attendees."
+              caption: "Making updates to the structure and flow of the content."
             },
             {
               src: "img_7",
               caption:
-                "Making updates to the structure and flow of the content."
+                "Planning: Gemma Gallagher, Interaction Designer at Fjord."
             }
           ],
           caption: "Planning: Gemma Gallagher, Interaction Designer at Fjord."
