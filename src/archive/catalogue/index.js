@@ -5,7 +5,7 @@ export default [
     title: "Educating interdisciplinary teams on Human-AI collaboration.",
     name: "Human-Centric AI",
     department: "Fjord, Accenture",
-    id: "human-centeric-ai",
+    id: "human-centered-ai",
     locked: false,
     project: {
       header: {
