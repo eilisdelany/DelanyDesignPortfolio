@@ -1,4 +1,28 @@
 export default [
+  {
+    date: "07.07.18",
+    files: [
+  {
+      text: "- The designer who changed Airbnb's entire strategy.",
+      url: "https://www.forbes.com/sites/emilyjoffrion/2018/07/09/the-designer-who-changed-airbnbs-entire-strategy/#5694ad1b2c36"
+  },
+  {
+      text: "- What tech giants really do with your data.",
+      url: "https://www.bbc.com/news/business-44702483"
+  },
+  {
+      text: "- Elon Musk leaves 'impractical kid-sized sub' at Thailand cave.",
+      url: "https://news.sky.com/story/elon-musk-leaves-impractical-kid-sized-sub-at-thailand-cave-11431747"
+  },
+  {
+      text: "- Uber loses human resources head in latest high-profile departure.",
+      url: "https://www.bloomberg.com/news/articles/2018-07-11/uber-says-human-resources-head-liane-hornsey-has-resigned"
+  },
+  {
+        text: "- The physics of taking the perfect World Cup penalty.",
+        url: "http://www.wired.co.uk/article/podcast-376"
+  }]
+  },
 
   {
     date: "01.07.18",
