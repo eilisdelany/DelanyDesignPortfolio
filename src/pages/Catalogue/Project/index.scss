@@ -58,3 +58,12 @@
     font-weight: normal;
   }
 }
+
+.BulletPointList {
+  list-style: url("/images/small-dot.svg");
+
+  li {
+    line-height: $title;
+    padding-bottom: $whitespace-2;
+  }
+}

@@ -29,8 +29,15 @@ export default [
           type: types.IMG_TEXT,
           position: "left",
           title: "How might we?",
-          text:
-            "How Might We develop content that explores Human-AI collaboration? \n\nWe wanted our workshop m​​aterial to be: \n- Context-aware: flexible content which could be tailored to suit different disciplines and levels of advancement, depending on attendees\n- Instantly applicable: practical activites and templates which could be used on live projects after the workshop \n- Collaborative: open format to encourage new methods and / or approaches ",
+          text: {
+            text:
+              "How Might We develop content that explores Human-AI collaboration? \n\nWe wanted our workshop m​​aterial to be:",
+            list: [
+              "Context-aware: flexible content which could be tailored to suit different disciplines and levels of advancement, depending on attendees",
+              "Instantly applicable: practical activites and templates which could be used on live projects after the workshop",
+              "Collaborative: open format to encourage new methods and / or approaches"
+            ]
+          },
           image: "img_2",
           caption: "Dynamic teams ideating in Dublin."
         },
@@ -38,8 +45,14 @@ export default [
           type: types.IMG_TEXT,
           position: "right",
           title: "Challenges",
-          text:
-            "The key challenges for this project were:\n\n - Avoiding bias: we reached out to various experts at The Dock to ensure our content encompassed multiple perspectives and approaches \n - Trial and error: all content was original, meaning we had to create new methods and activities from scratch - not always successful \n- Structure and suspense: balancing theoretical lessons, project learnings and demos, group activities etc.",
+          text: {
+            text: "The key challenges for this project were:",
+            list: [
+              "Avoiding bias: we reached out to various experts at The Dock to ensure our content encompassed multiple perspectives and approaches",
+              "Trial and error: all content was original, meaning we had to create new methods and activities from scratch - not always successful",
+              "Structure and suspense: balancing theoretical lessons, project learnings and demos, group activities etc."
+            ]
+          },
           image: "img_3",
           caption:
             " Learning from the experts: Gaurav Kaila, Analytics Specialist."
@@ -67,18 +80,21 @@ export default [
           images: [
             {
               src: "img_4",
-              caption:
-                "Planning: Gemma Gallagher, Interaction Designer at Fjord."
+              caption: "Mapping and connecting our content."
             },
-            { src: "img_5", caption: "Mapping and connecting our content." },
+            {
+              src: "img_5",
+              caption: "Feedback from participants and attendees."
+            },
             {
               src: "img_6",
-              caption: "Feedback from participants and attendees."
+              caption:
+                "Making updates to the structure and flow of the content."
             },
             {
               src: "img_7",
               caption:
-                "Making updates to the structure and flow of the content."
+                "Planning: Gemma Gallagher, Interaction Designer at Fjord."
             }
           ],
           caption: "Planning: Gemma Gallagher, Interaction Designer at Fjord."
@@ -87,8 +103,16 @@ export default [
           type: types.IMG_TEXT,
           position: "right",
           title: "Solution",
-          text:
-            "Current agenda: \n- AI 101: misconceptions, practical applications, umbrella technology.\n - What, not how: the problem not the technology, combining capabilities\n - Human-AI collaboration: centaur systems, relationships and approaches \n - Guidelines and principles: interactions, teammate qualities, considerations \n - Aligning terminology: levels of AI, language",
+          text: {
+            text: "Current agenda:",
+            list: [
+              "AI 101: misconceptions, practical applications, umbrella technology.",
+              "What, not how: the problem not the technology, combining capabilities.",
+              "Human-AI collaboration: centaur systems, relationships and approaches",
+              "Guidelines and principles: interactions, teammate qualities, considerations.",
+              "Aligning terminology: levels of AI, language"
+            ]
+          },
           image: "img_8",
           caption:
             "Groups combine several AI techniques to create one robust solution."
