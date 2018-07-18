@@ -2,6 +2,8 @@
 
 .Project {
   padding-top: $header-height;
+  max-width: $page-width;
+  margin: 0 auto;
 }
 
 .ProjectHeader {
