@@ -1,6 +1,31 @@
 export default [
   {
-    date: "07.07.18",
+    date: "15.07.18",
+    files: [
+  {
+      text: "- 35 innovators under 35.",
+      url: "https://www.technologyreview.com/lists/innovators-under-35/2018/"
+  },
+  {
+      text: "- Google have launched an Advanced Protection Program to safeguard anyone at risk of targeted attacks.",
+      url: "https://landing.google.com/advancedprotection/?utm_source=Benedict%27s+newsletter&utm_campaign=748f46ae50-Benedict%27s+Newsletter_COPY_01&utm_medium=email&utm_term=0_4999ca107f-748f46ae50-70638557"
+  },
+  {
+      text: "- Bill Moggrdige: What is design?",
+      url: "http://metacool.com/what-is-design-by-bill-moggridge/"
+  },
+  {
+      text: "- Research: we take more risks when we compete against rivals.",
+      url: "https://hbr.org/2018/07/research-we-take-more-risks-when-we-compete-against-rivals"
+  },
+  {
+        text: "- How this designer disrupted the bike industry with a bike subscription.",
+        url: "https://www.beyondusers.com/podcast/taco-carlier-vanmoof"
+  }]
+  },
+
+  {
+    date: "08.07.18",
     files: [
   {
       text: "- The designer who changed Airbnb's entire strategy.",
@@ -15,8 +40,8 @@ export default [
       url: "https://news.sky.com/story/elon-musk-leaves-impractical-kid-sized-sub-at-thailand-cave-11431747"
   },
   {
-      text: "- Uber loses human resources head in latest high-profile departure.",
-      url: "https://www.bloomberg.com/news/articles/2018-07-11/uber-says-human-resources-head-liane-hornsey-has-resigned"
+      text: "- David Webster: How can we help technology to be good?",
+      url: "https://www.youtube.com/watch?v=JlFCi0UCwFw"
   },
   {
         text: "- The physics of taking the perfect World Cup penalty.",
@@ -32,8 +57,8 @@ export default [
       url: "https://www.wsj.com/articles/SB10001424052748704407804575425561952689390"
   },
   {
-      text: "- From Here On: Purpose Design.",
-      url: "http://www.fromhereon.com/blog-list/purpose-design"
+      text: "- What it's actually like to work as a garbage man.",
+      url: "https://free.vice.com/en_us/article/bj3ywz/garbage-man-trash-collection"
   },
   {
       text: "- Amsterdam drained a canal and catalogued every single thing that was at the bottom, going back hundreds of years.",
