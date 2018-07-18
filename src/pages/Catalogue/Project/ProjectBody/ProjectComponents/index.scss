@@ -28,12 +28,12 @@
 }
 
 .Text {
+  font-size: $subtitle;
   flex: 2;
   min-width: 300px;
   height: auto;
   padding: 0 $whitespace-13;
   white-space: pre-wrap;
-  font-size: $text;
   font-weight: $font-thin;
   letter-spacing: 0.5px;
 
@@ -43,6 +43,7 @@
 
   .title {
     margin: 0;
+    font-size: $title;
     padding-bottom: $whitespace-7;
   }
 }

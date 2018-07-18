@@ -143,19 +143,10 @@ export default [
           title: "Team",
           text:
             "Gemma Gallagher, Interaction Designer\nEilis Delany, Business Designer \nConnor Upton, Design Director   \n\nShoutout to\nJivan Virdee, Data Scientist\nGaurav Kaila, AI Specialist ",
-          feedback: [
-            {
-              text:
-                "Eilís, was instrumental to the design and rollout of Fjords new workshop on Design & AI. Through her work, we have developed a unique asset that has supported training, thought leadership and client engagement.",
-              name: "Connor Upton, Director, Fjord."
-            },
-            {
-              text:
-                "Really pleased with the Dublin team for designing and facilitating this workshop on AI. The content is difficult and often misunderstood. I recieved a lot of positive feedback from the team here in London with requests for more information in certain areas",
-              name:
-                "Richard Wiltshire, Principal Design Director for EALA, Fjord."
-            }
-          ]
+          feedback: {
+            text:
+              "Eilís, was instrumental to the design and rollout of Fjords new workshop on Design & AI. Through her work, we have developed a unique asset that has supported training, thought leadership and client engagement. \nConnor Upton, Director, Fjord. \n\nReally pleased with the Dublin team for designing and facilitating this workshop on AI. The content is difficult and often misunderstood. I recieved a lot of positive feedback from the team here in London with requests for more information in certain areas. \nRichard Wiltshire, Principal Design Director for EALA, Fjord."
+          }
         }
       ]
     }
@@ -183,7 +174,160 @@ export default [
     department: "Dublin Institute of Technology",
     id: "sense",
     rotation: -1,
-    locked: true
+    locked: false,
+    project: {
+      header: {
+        title: "Augmenting firefighting performances through tactile feedback.",
+        image: "main",
+        labels: [
+          "Sense",
+          "Product Design",
+          "Dublin Institute of Technology, Dublin Fire Brigade"
+        ],
+        when: ["September 2014", "10 months", "Thesis"]
+      },
+      content: [
+        {
+          type: types.IMG_TEXT,
+          position: "right",
+          title: "Background",
+          text:
+            "Firefighting continues to be one of the most dangerous professions to date. \n\nThe vast amount of smoke, heat and noise within a fire makes predicting and interpreting conditions almost impossible.\n\nThick, heavy uniforms are restrictive and suppress the senses. Vision is extremely impaired and distorts orientation. Communication is difficult because of background noise and excessive smoke which compromises analogue radio signals. \n\nQuick decisions must be made on limited fragments of information.",
+          image: "img_1",
+          caption:
+            "Key finding: as uniform layers increase, the senses decrease."
+        },
+        {
+          type: types.IMG_TEXT,
+          position: "left",
+          title: "How might we?",
+          text: {
+            text:
+              "How Might We help firefighters better navigate in harsh environments?\n\nObjectives for this project were to make it:",
+            list: [
+              "Wildly explorative: abstract research around the theme of perception, inspired by nature and neuroscience",
+              "Driven by real users on-the-ground: Dublin Fire Brigade to provide continual feedback, prototypes to be used as cost-effective research probes",
+              "Accessible: practical, intuitive, compatible with existing equipment and regulations"
+            ]
+          },
+          image: "img_2",
+          caption: "Early ideation: can we hack nature?"
+        },
+        {
+          type: types.IMG_TEXT,
+          position: "right",
+          title: "Challenges",
+          text: {
+            text: "The key challenges for this project were:",
+            list: [
+              "Managing the process: pulling tangible insights from speculative research, keeping the momentum when building and testing ideas, time",
+              "Focusing on the right problem: trusting the users when prioritising what part of the uniform to augment (helmet v’s glove)",
+              "Tools and software: learning how to code, building organic shapes in SolidWorks and Rhino, sourcing physical components that could withstand high temperatures"
+            ]
+          },
+          image: "img_3",
+          caption: "Exploring the options: helmets and electronics."
+        },
+        {
+          type: types.QUOTE,
+          position: "right",
+          text: "You have the understanding of no visibility in fires.",
+          name: "Derek McGuinness, Logistics Officer, Dublin Fire Brigade"
+        },
+        {
+          type: types.VIDEO,
+          position: "left",
+          url: "https://www.youtube.com/embed/d-fBS1M1wIk",
+          caption: "Simulating a fire scene to test the prototype."
+        },
+        {
+          type: types.SLIDESHOW_TEXT,
+          position: "left",
+          title: "Approach",
+          text: {
+            text:
+              "Sense was developed as part of my Final Year Thesis but was by no means a solo effort. \n\nHere’s what brought this ten-month project to life: ",
+            list: [
+              "IDEO’s Human-Centered Design toolkit informed my process",
+              "The mixed team at Dublin Fire Brigade provided me with first-hand insights",
+              "The folk in DIT helped me explore a range of prototyping techniques, using physical materials, code and various 3D Modeling software programs"
+            ]
+          },
+          images: [
+            {
+              src: "img_7",
+              caption: "Heat-testing at Marino Training Centre, Dublin."
+            },
+            {
+              src: "img_5",
+              caption: "Hacking the inner shell of the helmet."
+            },
+            {
+              src: "img_6",
+              caption: "Preparing the initial electronics."
+            },
+            {
+              src: "img_4",
+              caption: "Prototype: sensor was over-exposed to heat and failed."
+            }
+          ],
+          caption: "Prototype: sensor was over-exposed to heat and failed."
+        },
+        {
+          type: types.IMG_TEXT,
+          position: "right",
+          title: "Solution",
+          text:
+            "Sense is small device which can be retrofitted to any type of firefighting helmet with very little effort. \n\nIts core purpose is to provide the user with an improved perception of their environment when navigating in harsh conditions with low visibility i.e. industrial fires. \n\nAn ultrasonic proximity sensor helps the user engage in non-contact obstacle detection through tactile feedback. \n\nThis feedback will intensify if a user comes too close to an obstacle and can be turned on / off on-demand.",
+          image: "img_8",
+          caption:
+            "An ultrasonic proximity sensor is mounted behind the front plate."
+        },
+        {
+          type: types.IMG_VIDEO,
+          position: "left",
+          image: {
+            src: "img_9",
+            caption: "Final year exhibition in DIT, Grangegorman."
+          },
+          url: {
+            src: "https://www.youtube.com/embed/IGnHJ74pCso",
+            caption: "Sense is recognised by a wider audience."
+          }
+        },
+        {
+          type: types.QUOTE,
+          position: "left",
+          text:
+            "We were fascinated by Eilís’ train of thought, the level of research undertaken, her awareness of firefighting and her knowledge of the product, Sense.",
+          name: "Patrick Fleming, Chief Fire Officer, Dublin Fire Brigade."
+        },
+        {
+          type: types.END,
+          position: "right",
+          image: "img_10",
+          title: "Team",
+          caption: "Dublin Fire Brigade training centre in Marino, Dublin.",
+          text: {
+            text: "Eilis Delany, Final Year, Product Design \n\nShout out to\n",
+            list: [
+              "Derek Mc Guinness, Dublin Fire Brigade",
+              "Richie McDonald, Dublin Fire Brigade ",
+              "Dr. Ted Burke, Electrical Engineering, DIT",
+              "Dr. John McGrory, Electrical Engineering, DIT"
+            ]
+          },
+          feedback: {
+            text: "James Dyson Awards: Global Finalist",
+            list: [
+              "Global Irish Design Challenge: Speaker and exhibitor",
+              "Institute of Designers in Ireland Graduate Design Awards: Highly Commended ",
+              "Dublin Institute of Technology: Best Visual Presentation of the Class of 2015"
+            ]
+          }
+        }
+      ]
+    }
   },
   {
     title: "Exploring new opportunities for business model disruption.",
