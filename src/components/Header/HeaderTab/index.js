@@ -32,7 +32,7 @@ class HeaderTab extends Component {
         {title}
         {(this.state.isOnHover || isActivePath) && (
           <div className="tab-border">
-            <img src={`/images/header/dot.png`} className="dot" alt="dot" />
+            <div className="dot" />
             <img src={`/images/header/line.png`} className={`line line-${index}`} alt="line" />
           </div>
         )}

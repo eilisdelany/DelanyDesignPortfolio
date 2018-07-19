@@ -40,7 +40,7 @@
 
 .HeaderTab {
   display: inline-block;
-  min-width: $whitespace-13;
+  min-width: $whitespace-14;
   height: $header-content-height;
   padding-left: $whitespace-5;
   padding-right: $whitespace-1;
@@ -70,13 +70,17 @@
   left: 25px;
 
   .dot {
-    display: inline;
-    padding-right: 2px;
+    display: inline-block;
+    margin-right: 4px;
+    background-color: $secondary-color;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
   }
 
   .line {
-    height: 3px;
     display: inline-block;
+    height: 4px;
     background: $secondary-color;
     animation: 0.3s ease-out 0s 1 slideInFromLeft;
   }
@@ -99,7 +103,7 @@
   }
 
   .line-5 {
-    max-width: $whitespace-13;
-    width: $whitespace-13;
+    max-width: $whitespace-12;
+    width: $whitespace-12;
   }
 }
