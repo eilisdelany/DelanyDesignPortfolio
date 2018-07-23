@@ -1,5 +1,30 @@
 export default [
   {
+    date: "22.07.18",
+    files: [
+  {
+      text: "- Why bad technology dominates our lives, according to Don Norman.",
+      url: "https://www.fastcompany.com/90202172/why-bad-technology-dominates-our-lives-according-to-don-norman"
+  },
+  {
+      text: "- HBR survey reveals 68% of CEOs admit they weren't prepared for the job.",
+      url: "https://accenture.myhbp.org/leadingedge/asset/view/H04G4Q-PDF-ENG"
+  },
+  {
+      text: "- Smart home tech is being turned into a tool for domestic abuse.",
+      url: "https://www.wired.co.uk/article/internet-of-things-smart-home-domestic-abuse"
+  },
+  {
+      text: "- The four-day work week is good for business.",
+      url: "https://www.fastcompany.com/90205776/the-four-day-work-week-works"
+  },
+  {
+        text: "- High growth in companies (and tech).",
+        url: "https://soundcloud.com/a16z/high-growth-company-tech"
+  }]
+  },
+
+  {
     date: "15.07.18",
     files: [
   {
@@ -11,7 +36,7 @@ export default [
       url: "https://landing.google.com/advancedprotection/?utm_source=Benedict%27s+newsletter&utm_campaign=748f46ae50-Benedict%27s+Newsletter_COPY_01&utm_medium=email&utm_term=0_4999ca107f-748f46ae50-70638557"
   },
   {
-      text: "- Bill Moggrdige: What is design?",
+      text: "- Bill Moggridge: What is design?",
       url: "http://metacool.com/what-is-design-by-bill-moggridge/"
   },
   {
@@ -19,8 +44,8 @@ export default [
       url: "https://hbr.org/2018/07/research-we-take-more-risks-when-we-compete-against-rivals"
   },
   {
-        text: "- How this designer disrupted the bike industry with a bike subscription.",
-        url: "https://www.beyondusers.com/podcast/taco-carlier-vanmoof"
+        text: "- Inside the rise and reign of supergiant Venture Capital rounds.",
+        url: "https://news.crunchbase.com/news/inside-the-rise-and-reign-of-supergiant-venture-capital-rounds/"
   }]
   },
 
