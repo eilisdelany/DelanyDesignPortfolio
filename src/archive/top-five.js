@@ -15,11 +15,11 @@ export default [
       url: "https://www.wired.co.uk/article/internet-of-things-smart-home-domestic-abuse"
   },
   {
-      text: "- The four-day work week is good for business.",
-      url: "https://www.fastcompany.com/90205776/the-four-day-work-week-works"
+      text: "- Everything is alive.",
+      url: "http://www.everythingisalive.com"
   },
   {
-        text: "- High growth in companies (and tech).",
+        text: "- High growth in companies (and tech.",
         url: "https://soundcloud.com/a16z/high-growth-company-tech"
   }]
   },
