@@ -19,7 +19,7 @@ export default [
       url: "http://www.everythingisalive.com"
   },
   {
-        text: "- High growth in companies (and tech.",
+        text: "- High growth in companies (and tech).",
         url: "https://soundcloud.com/a16z/high-growth-company-tech"
   }]
   },

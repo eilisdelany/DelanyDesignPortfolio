@@ -50,7 +50,8 @@
     "build": "node scripts/build.js",
     "test": "NODE_ENV=development mocha --compilers js:babel-core/register --require ignore-styles ./test/**/*.spec.js",
     "test:watch": "NODE_ENV=development mocha --watch --compilers js:babel-core/register --require ignore-styles ./test/**/*.spec.js",
-    "prod:start": "node server/server.js"
+    "prod:start": "node server/server.js",
+    "deploy": "npm run build && mv build/index.html build/200.html && surge build delany-design.surge.sh && surge build delany-design.ie && surge build delany-design.com && surge build delany-design.co.uk"
   },
   "babel": {
     "presets": [
