@@ -1,5 +1,28 @@
 export default [
   {
+    date: "29.07.18",
+    files: [
+  {
+      text: "- If you can't stand up, stand out.",
+      url: "https://www.izzywheels.com"
+  },
+  {
+      text: "- GOV.UK release a data ethics framework.",
+      url: "https://www.gov.uk/government/publications/data-ethics-framework/data-ethics-framework"
+  },
+  {
+      text: "- Top Sequoia-led deals of 2018 so far.",
+      url: "https://news.crunchbase.com/news/money-grows-on-this-tree-top-sequoia-led-deals-of-2018-so-far/"
+  },
+  {
+      text: "- Why General Magic might just be one of the most important tech companies in the history of Silicon Valley.",
+      url: "https://www.fastcompany.com/90201773/trailer-a-new-film-on-silicon-valleys-most-important-failure"
+  },
+  {
+        text: "- The untold story of Silk Road, part 1.",
+        url: "https://www.wired.com/2015/04/silk-road-1/?mbid=social_linkedin"
+  },
+  {
     date: "22.07.18",
     files: [
   {

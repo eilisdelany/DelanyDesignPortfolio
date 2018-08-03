@@ -47,7 +47,7 @@ export default {
     company: 'Fjord London'
   }, {
     quote: `Eilís is a great collaborator. Many times she jumped in to help with various pieces of the work - how to best present materials for the client or best complete a task. She was key in creating a collaborative relationship with the strategy team. She is great at simplifying ambiguity and her inputs throughout the project helped drive the work forward.`,
-    role: 'Greta Besser',
+    name: 'Greta Besser',
     role: 'Management Consultant',
     company: 'Accenture Strategy'
   }, {
