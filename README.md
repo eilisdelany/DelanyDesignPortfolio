@@ -1,6 +1,6 @@
 # Delany Design Portfolio
 
-https://delany-design.herokuapp.com/
+http://delany-design.ie/
 
 - React 
 - react-router 
