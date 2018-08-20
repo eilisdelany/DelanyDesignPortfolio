@@ -1,5 +1,198 @@
-@import '../../styles/index';
+@import "../../styles/index";
 
 .DigitalLibrary {
   padding-top: calc(#{$header-height} + #{$whitespace-2});
+  height: 300vh;
+
+  .PageTitle {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.DigitalLibrary-container {
+  position: relative;
+  height: 100%;
+}
+
+.DigitalLibrary-book {
+  position: absolute;
+
+  &-0 {
+    top: 5%;
+    right: 20%;
+    transform: rotate(6deg);
+
+    img {
+      height: 196px;
+      width: 156px;
+    }
+  }
+
+  &-1 {
+    top: 15%;
+    left: 5%;
+    transform: rotate(-19deg);
+
+    img {
+      height: 245px;
+      width: 187px;
+    }
+  }
+
+  &-2 {
+    top: 15%;
+    right: 30%;
+    transform: rotate(5deg);
+
+    img {
+      height: 357.81px;
+      width: 271.39px;
+    }
+  }
+
+  &-3 {
+    top: 20%;
+    left: 35%;
+    transform: rotate(1deg);
+
+    img {
+      height: 315.63px;
+      width: 215.82px;
+    }
+  }
+
+  &-4 {
+    top: 30%;
+    left: 37%;
+    transform: rotate(2deg);
+
+    img {
+      height: 355.12px;
+      width: 233.63px;
+    }
+  }
+
+  &-5 {
+    top: 35%;
+    right: 2%;
+    transform: rotate(4deg);
+
+    img {
+      height: 293.18px;
+      width: 227.96px;
+    }
+  }
+
+  &-6 {
+    top: 40%;
+    right: 25%;
+    transform: rotate(-1deg);
+
+    img {
+      height: 287.29px;
+      width: 190.09px;
+    }
+  }
+
+  &-7 {
+    top: 50%;
+    right: 2%;
+    transform: rotate(7deg);
+
+    img {
+      height: 240.35px;
+      width: 304.61px;
+    }
+  }
+
+  &-8 {
+    top: 50%;
+    left: 0%;
+    transform: rotate(11deg);
+
+    img {
+      height: 347.62px;
+      width: 239.47px;
+    }
+  }
+
+  &-9 {
+    top: 55%;
+    left: 50%;
+    transform: rotate(-2deg);
+
+    img {
+      height: 347.81px;
+      width: 228.01px;
+    }
+  }
+
+  &-10 {
+    top: 55%;
+    left: 25%;
+    transform: rotate(-5deg);
+
+    img {
+      height: 400px;
+      width: 280px;
+    }
+  }
+
+  &-11 {
+    top: 65%;
+    right: 20%;
+    transform: rotate(10deg);
+
+    img {
+      height: 380px;
+      width: 250px;
+    }
+  }
+
+  &-12 {
+    top: 75%;
+    left: 20%;
+    transform: rotate(-10deg);
+
+    img {
+      height: 380px;
+      width: 250px;
+    }
+  }
+
+  &-13 {
+    top: 80%;
+    left: 40%;
+    transform: rotate(5deg);
+
+    img {
+      height: 420px;
+      width: 300px;
+    }
+  }
+
+  &-14 {
+    top: 80%;
+    right: 10%;
+    transform: rotate(15deg);
+
+    img {
+      height: 350px;
+      width: 250px;
+    }
+  }
+
+  &-15 {
+    top: 70%;
+    left: 5%;
+    transform: rotate(-5deg);
+
+    img {
+      height: 380px;
+      width: 260px;
+    }
+  }
 }

@@ -37,7 +37,7 @@ class Text extends Component {
 }
 Text.propTypes = {
   title: PropTypes.string.isRequired,
-  text: PropTypes.oneOfType(PropTypes.string, PropTypes.object).isRequired
+  text: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired
 };
 
 export default Text;
