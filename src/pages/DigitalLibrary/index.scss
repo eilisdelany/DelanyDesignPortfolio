@@ -1,8 +1,20 @@
 @import "../../styles/index";
 
 .DigitalLibrary {
-  padding-top: calc(#{$header-height} + #{$whitespace-2});
-  height: 300vh;
+  padding-top: $header-height;
+  height: 400vh;
+
+  &-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $background-color;
+    opacity: 0.8;
+    z-index: 1;
+    height: 100vh;
+  }
 
   .PageTitle {
     margin: 0 auto;
@@ -19,32 +31,22 @@
 
 .DigitalLibrary-book {
   position: absolute;
+  cursor: pointer;
 
   &-0 {
-    top: 5%;
-    right: 20%;
+    top: 0;
+    right: 10%;
     transform: rotate(6deg);
 
     img {
-      height: 196px;
-      width: 156px;
+      height: 229.51px;
+      width: 156.93px;
     }
   }
 
   &-1 {
-    top: 15%;
-    left: 5%;
-    transform: rotate(-19deg);
-
-    img {
-      height: 245px;
-      width: 187px;
-    }
-  }
-
-  &-2 {
-    top: 15%;
-    right: 30%;
+    top: 7%;
+    right: 20%;
     transform: rotate(5deg);
 
     img {
@@ -53,19 +55,30 @@
     }
   }
 
+  &-2 {
+    top: 8%;
+    left: 5%;
+    transform: rotate(-19deg);
+
+    img {
+      height: 245.53px;
+      width: 187.18px;
+    }
+  }
+
   &-3 {
-    top: 20%;
+    top: 12%;
     left: 35%;
     transform: rotate(1deg);
 
     img {
-      height: 315.63px;
-      width: 215.82px;
+      height: 347px;
+      width: 211px;
     }
   }
 
   &-4 {
-    top: 30%;
+    top: 18%;
     left: 37%;
     transform: rotate(2deg);
 
@@ -76,41 +89,30 @@
   }
 
   &-5 {
-    top: 35%;
-    right: 2%;
-    transform: rotate(4deg);
+    top: 20%;
+    right: 20%;
+    transform: rotate(-1deg);
 
     img {
-      height: 293.18px;
-      width: 227.96px;
+      height: 290.09px;
+      width: 198.75px;
     }
   }
 
   &-6 {
-    top: 40%;
-    right: 25%;
-    transform: rotate(-1deg);
+    top: 27%;
+    right: 10%;
+    transform: rotate(7deg);
 
     img {
-      height: 287.29px;
-      width: 190.09px;
+      height: 298.02px;
+      width: 238.31px;
     }
   }
 
   &-7 {
-    top: 50%;
-    right: 2%;
-    transform: rotate(7deg);
-
-    img {
-      height: 240.35px;
-      width: 304.61px;
-    }
-  }
-
-  &-8 {
-    top: 50%;
-    left: 0%;
+    top: 30%;
+    left: -2%;
     transform: rotate(11deg);
 
     img {
@@ -119,9 +121,9 @@
     }
   }
 
-  &-9 {
-    top: 55%;
-    left: 50%;
+  &-8 {
+    top: 34%;
+    left: 40%;
     transform: rotate(-2deg);
 
     img {
@@ -130,69 +132,160 @@
     }
   }
 
-  &-10 {
-    top: 55%;
-    left: 25%;
-    transform: rotate(-5deg);
+  &-9 {
+    top: 43%;
+    right: 20%;
+    transform: rotate(6deg);
 
     img {
-      height: 400px;
-      width: 280px;
+      height: 235.24px;
+      width: 156.93px;
+    }
+  }
+
+  &-10 {
+    top: 48%;
+    left: 3%;
+    transform: rotate(-19deg);
+
+    img {
+      height: 248.38px;
+      width: 199.88px;
     }
   }
 
   &-11 {
-    top: 65%;
-    right: 20%;
-    transform: rotate(10deg);
+    top: 50%;
+    right: 25%;
+    transform: rotate(5deg);
 
     img {
-      height: 380px;
-      width: 250px;
+      height: 349.03px;
+      width: 271.39px;
     }
   }
 
   &-12 {
-    top: 75%;
-    left: 20%;
-    transform: rotate(-10deg);
+    top: 55%;
+    left: 30%;
+    transform: rotate(1deg);
 
     img {
-      height: 380px;
-      width: 250px;
+      height: 314.3px;
+      width: 211px;
     }
   }
 
   &-13 {
-    top: 80%;
-    left: 40%;
-    transform: rotate(5deg);
+    top: 63%;
+    left: 32%;
+    transform: rotate(2deg);
 
     img {
-      height: 420px;
-      width: 300px;
+      height: 356.07px;
+      width: 235.6px;
     }
   }
 
   &-14 {
-    top: 80%;
-    right: 10%;
-    transform: rotate(15deg);
+    top: 65%;
+    right: 20%;
+    transform: rotate(-1deg);
 
     img {
-      height: 350px;
-      width: 250px;
+      height: 312.5px;
+      width: 198.75px;
     }
   }
 
   &-15 {
     top: 70%;
-    left: 5%;
-    transform: rotate(-5deg);
+    right: 0;
+    transform: rotate(7deg);
 
     img {
-      height: 380px;
-      width: 260px;
+      height: 238px;
+      width: 302px;
     }
+  }
+
+  &-16 {
+    top: 72%;
+    left: 0;
+    transform: rotate(11deg);
+
+    img {
+      height: 367.59px;
+      width: 239.47px;
+    }
+  }
+
+  &-17 {
+    top: 75%;
+    left: 35%;
+    transform: rotate(-2deg);
+
+    img {
+      height: 343px;
+      width: 226px;
+    }
+  }
+
+  &-18 {
+    top: 80%;
+    right: 5%;
+    transform: rotate(6deg);
+
+    img {
+      height: 225.2px;
+      width: 156.93px;
+    }
+  }
+
+  &-19 {
+    top: 85%;
+    left: 0%;
+    transform: rotate(-19deg);
+
+    img {
+      height: 299.02px;
+      width: 199.88px;
+    }
+  }
+
+  &-20 {
+    top: 85%;
+    right: 30%;
+    transform: rotate(5deg);
+
+    img {
+      height: 366.11px;
+      width: 271.39px;
+    }
+  }
+}
+
+.BookSummaryOverlay {
+  width: 600px;
+  height: 100vh;
+  border-left: 3px solid $primary-color;
+  position: fixed;
+  right: 0;
+  background-color: $background-color;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-description {
+    text-align: left;
+    width: 70%;
+    margin: $whitespace-6 0;
+  }
+
+  img {
+    width: 70%;
+    height: auto;
+    box-shadow: 1px 9px 15px 0 $shadow-color;
   }
 }
