@@ -279,6 +279,13 @@
   align-items: center;
   overflow: scroll;
 
+  &-close {
+    position: absolute;
+    top: $whitespace-5;
+    right: $whitespace-5;
+    cursor: pointer;
+  }
+
   &-description {
     text-align: left;
     width: 70%;

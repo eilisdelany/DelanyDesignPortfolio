@@ -7,6 +7,12 @@ class BookSummaryOverlay extends Component {
     const { id, name, author, summary, tags, close } = this.props;
     return (
       <div className="BookSummaryOverlay">
+        <img
+          className="BookSummaryOverlay-close"
+          src="/images/close.svg"
+          alt="close"
+          onClick={close}
+        />
         <div className="BookSummaryOverlay-description">
           <h4>{name}</h4>
           <h4>{author}</h4>
