@@ -2,6 +2,7 @@
 
 .DigitalLibrary {
   padding-top: $header-height;
+  padding-bottom: $footer-height;
   height: 400vh;
 
   &-overlay {
@@ -276,16 +277,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: scroll;
 
   &-description {
     text-align: left;
     width: 70%;
-    margin: $whitespace-6 0;
+    margin: $whitespace-8 0;
+    white-space: pre-line;
   }
 
-  img {
-    width: 70%;
-    height: auto;
+  &-img {
+    width: auto;
+    height: 40%;
     box-shadow: 1px 9px 15px 0 $shadow-color;
   }
 }

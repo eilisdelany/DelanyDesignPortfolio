@@ -9,58 +9,55 @@ class DigitalLibrary extends Component {
   constructor() {
     super();
     this.state = {
-      selectedBook: undefined
+      selectedBookIndex: undefined
     };
   }
 
-  selectBook = selectedBook => {
-    this.setState({ selectedBook });
+  selectBook = selectedBookIndex => {
+    this.setState({ selectedBookIndex });
   };
 
   render() {
-    const { selectedBook } = this.state;
+    const { selectedBookIndex } = this.state;
+    const selectedBook = books[selectedBookIndex];
     return (
       <ParallaxProvider>
         <div className="DigitalLibrary">
-          {selectedBook >= 0 && (
+          {selectedBook && (
             <section>
               <div className="DigitalLibrary-overlay" />
               <BookSummaryOverlay
-                id={books[selectedBook].id}
-                name={books[selectedBook].name}
-                summary={books[selectedBook].summary}
+                id={selectedBook.id}
+                name={selectedBook.name}
+                tags={selectedBook.tags}
+                author={selectedBook.author}
+                summary={selectedBook.summary}
+                reference={selectedBook.reference}
                 close={this.selectBook}
               />
             </section>
           )}
-          <PageTitle
-            text="My personal library is in constant flux and never expands beyond ten books at a given time. I want this web page to act as a visual diary for those looking for more than bite-sized articles on digital devices."
-          />
+          <PageTitle text="My personal library is in constant flux and never expands beyond ten books at a given time. I want this web page to act as a visual diary for those looking for more than bite-sized articles on digital devices." />
           <div className="DigitalLibrary-container">
-            {books.map(
-              (
-                { id, name, offsetXMax, offsetXMin, offsetYMax, offsetYMin },
-                index
-              ) => {
-                return (
-                  <Parallax
-                    key={index}
-                    slowerScrollRate={index % 3 !== 0}
-                    offsetXMin={offsetXMin}
-                    offsetXMax={offsetXMax}
-                    offsetYMin={offsetYMin}
-                    offsetYMax={offsetYMax}
-                    className={`DigitalLibrary-book DigitalLibrary-book-${index}`}
-                  >
-                    <img
-                      src={`/images/hit-list/${id}.png`}
-                      alt={name}
-                      onClick={() => this.selectBook(index)}
-                    />
-                  </Parallax>
-                );
-              }
-            )}
+            {books.map(({ id, name, offsets }, index) => {
+              return (
+                <Parallax
+                  key={index}
+                  slowerScrollRate={index % 3 !== 0}
+                  offsetXMin={offsets.xMin}
+                  offsetXMax={offsets.xMax}
+                  offsetYMin={offsets.yMin}
+                  offsetYMax={offsets.yMax}
+                  className={`DigitalLibrary-book DigitalLibrary-book-${index}`}
+                >
+                  <img
+                    src={`/images/hit-list/${id}.png`}
+                    alt={name}
+                    onClick={() => this.selectBook(index)}
+                  />
+                </Parallax>
+              );
+            })}
           </div>
         </div>
       </ParallaxProvider>
