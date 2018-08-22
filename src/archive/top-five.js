@@ -1,5 +1,79 @@
 export default [
   {
+    date: "20.08.18",
+    files: [
+  {
+      text: "- Lightform allows everyone to create AR visuals in seconds.",
+      url: "https://lightform.com"
+  },
+  {
+      text: "- Why is the process of buying sperm so terrible?",
+      url: "https://www.fastcompany.com/90221832/why-is-the-process-of-buying-sperm-so-terrible"
+  },
+  {
+      text: "- Pew Research release their latest study on public attitudes toward technology companies.",
+      url: "http://www.pewinternet.org/2018/06/28/public-attitudes-toward-technology-companies/?utm_campaign=platform-newsletter&utm_medium=email&utm_source=platform-newsletter"
+  },
+  {
+      text: "- Revolut release their latest teaser for Europes first metal bank card.",
+      url: "https://www.youtube.com/watch?v=6vFkKEpBJ_w"
+  },
+  {
+      text: "- Managing someone who's too collaborative",
+      url: "https://www.stitcher.com/podcast/hbr-ideacast/e/55880646?autoplay=true"
+  }]
+  },
+
+  {
+    date: "13.08.18",
+    files: [
+  {
+      text: "- Andreessen Horowitz backs diversity with their exclusive new fund.",
+      url: "https://www.wsj.com/articles/kevin-durant-will-smith-top-the-lineup-for-a-new-venture-capital-fund-for-black-investors-1534152601"
+  },
+  {
+      text: "- Turns out near-death experiences are psychedelic, not religious.",
+      url: "https://www.wired.co.uk/article/near-death-experiences-psychedelic-religious"
+  },
+  {
+      text: "- Ivory Lane, a fictitious luxury brand, highlights the shortcomings of wildlife laws in Singapore.",
+      url: "http://www.ivorylane.shop"
+  },
+  {
+      text: "- DuckDuckGo is the search engine that doesn't track you.",
+      url: "https://duckduckgo.com/?&t=hg"
+  },
+  {   text: "- What kind of idiot gets phished?",
+      url: "https://www.gimletmedia.com/reply-all/97-what-kind-of-idiot-gets-phished-re-broadcast#episode-player"
+  }]
+  },
+
+  {
+    date: "06.08.18",
+    files: [
+  {
+      text: "- Business Innovation Design blog.",
+      url: "http://businessinnovation.design/blog/"
+  },
+  {
+      text: "- Starbucks and Mc Donald's launch a global initiative to produce a sustainable coffee cup.",
+      url: ""http://www.closedlooppartners.com/the-center/nextgen-cup-challenge/
+  },
+  {
+      text: "- FarePilot helps drivers identify where the most profitable rides will appear around the city.",
+      url: "https://www.farepilot.com"
+  },
+  {
+      text: "- New York City just voted to cap Uber and Lyft vehicles and that could make rides more expensive.",
+      url: "https://www.cnbc.com/2018/08/08/new-york-city-votes-to-cap-uber-and-lyft-vehicles.html"
+  },
+  {
+      text: "- Why opening up at work is harder for minorities.",
+      url: "https://www.stitcher.com/podcast/hbr-ideacast/e/55677176"
+  }]
+  },
+
+  {
     date: "29.07.18",
     files: [
       {
