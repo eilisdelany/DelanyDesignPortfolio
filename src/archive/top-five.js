@@ -57,7 +57,7 @@ export default [
   },
   {
       text: "- Starbucks and Mc Donald's launch a global initiative to produce a sustainable coffee cup.",
-      url: ""http://www.closedlooppartners.com/the-center/nextgen-cup-challenge/
+      url: "http://www.closedlooppartners.com/the-center/nextgen-cup-challenge/"
   },
   {
       text: "- FarePilot helps drivers identify where the most profitable rides will appear around the city.",
