@@ -1,5 +1,301 @@
-@import '../../styles/index';
+@import "../../styles/index";
 
 .DigitalLibrary {
-  padding-top: calc(#{$header-height} + #{$whitespace-2});
+  padding-top: $header-height;
+  padding-bottom: $footer-height;
+  height: 400vh;
+
+  &-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $background-color;
+    opacity: 0.8;
+    z-index: 1;
+    height: 100vh;
+  }
+
+  .PageTitle {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.DigitalLibrary-container {
+  position: relative;
+  height: 100%;
+}
+
+.DigitalLibrary-book {
+  position: absolute;
+  cursor: pointer;
+
+  &-0 {
+    top: 0;
+    right: 10%;
+    transform: rotate(6deg);
+
+    img {
+      height: 229.51px;
+      width: 156.93px;
+    }
+  }
+
+  &-1 {
+    top: 7%;
+    right: 20%;
+    transform: rotate(5deg);
+
+    img {
+      height: 357.81px;
+      width: 271.39px;
+    }
+  }
+
+  &-2 {
+    top: 8%;
+    left: 5%;
+    transform: rotate(-19deg);
+
+    img {
+      height: 245.53px;
+      width: 187.18px;
+    }
+  }
+
+  &-3 {
+    top: 12%;
+    left: 35%;
+    transform: rotate(1deg);
+
+    img {
+      height: 347px;
+      width: 211px;
+    }
+  }
+
+  &-4 {
+    top: 18%;
+    left: 37%;
+    transform: rotate(2deg);
+
+    img {
+      height: 355.12px;
+      width: 233.63px;
+    }
+  }
+
+  &-5 {
+    top: 20%;
+    right: 20%;
+    transform: rotate(-1deg);
+
+    img {
+      height: 290.09px;
+      width: 198.75px;
+    }
+  }
+
+  &-6 {
+    top: 27%;
+    right: 10%;
+    transform: rotate(7deg);
+
+    img {
+      height: 298.02px;
+      width: 238.31px;
+    }
+  }
+
+  &-7 {
+    top: 30%;
+    left: -2%;
+    transform: rotate(11deg);
+
+    img {
+      height: 347.62px;
+      width: 239.47px;
+    }
+  }
+
+  &-8 {
+    top: 34%;
+    left: 40%;
+    transform: rotate(-2deg);
+
+    img {
+      height: 347.81px;
+      width: 228.01px;
+    }
+  }
+
+  &-9 {
+    top: 43%;
+    right: 20%;
+    transform: rotate(6deg);
+
+    img {
+      height: 235.24px;
+      width: 156.93px;
+    }
+  }
+
+  &-10 {
+    top: 48%;
+    left: 3%;
+    transform: rotate(-19deg);
+
+    img {
+      height: 248.38px;
+      width: 199.88px;
+    }
+  }
+
+  &-11 {
+    top: 50%;
+    right: 25%;
+    transform: rotate(5deg);
+
+    img {
+      height: 349.03px;
+      width: 271.39px;
+    }
+  }
+
+  &-12 {
+    top: 55%;
+    left: 30%;
+    transform: rotate(1deg);
+
+    img {
+      height: 314.3px;
+      width: 211px;
+    }
+  }
+
+  &-13 {
+    top: 63%;
+    left: 32%;
+    transform: rotate(2deg);
+
+    img {
+      height: 356.07px;
+      width: 235.6px;
+    }
+  }
+
+  &-14 {
+    top: 65%;
+    right: 20%;
+    transform: rotate(-1deg);
+
+    img {
+      height: 312.5px;
+      width: 198.75px;
+    }
+  }
+
+  &-15 {
+    top: 70%;
+    right: 0;
+    transform: rotate(7deg);
+
+    img {
+      height: 238px;
+      width: 302px;
+    }
+  }
+
+  &-16 {
+    top: 72%;
+    left: 0;
+    transform: rotate(11deg);
+
+    img {
+      height: 367.59px;
+      width: 239.47px;
+    }
+  }
+
+  &-17 {
+    top: 75%;
+    left: 35%;
+    transform: rotate(-2deg);
+
+    img {
+      height: 343px;
+      width: 226px;
+    }
+  }
+
+  &-18 {
+    top: 80%;
+    right: 5%;
+    transform: rotate(6deg);
+
+    img {
+      height: 225.2px;
+      width: 156.93px;
+    }
+  }
+
+  &-19 {
+    top: 85%;
+    left: 0%;
+    transform: rotate(-19deg);
+
+    img {
+      height: 299.02px;
+      width: 199.88px;
+    }
+  }
+
+  &-20 {
+    top: 85%;
+    right: 30%;
+    transform: rotate(5deg);
+
+    img {
+      height: 366.11px;
+      width: 271.39px;
+    }
+  }
+}
+
+.BookSummaryOverlay {
+  width: 600px;
+  height: 100vh;
+  border-left: 3px solid $primary-color;
+  position: fixed;
+  right: 0;
+  background-color: $background-color;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+
+  &-close {
+    position: absolute;
+    top: $whitespace-5;
+    right: $whitespace-5;
+    cursor: pointer;
+  }
+
+  &-description {
+    text-align: left;
+    width: 70%;
+    margin: $whitespace-8 0;
+    white-space: pre-line;
+  }
+
+  &-img {
+    width: auto;
+    height: 40%;
+    box-shadow: 1px 9px 15px 0 $shadow-color;
+  }
 }
