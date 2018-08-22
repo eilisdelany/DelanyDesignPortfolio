@@ -4,7 +4,7 @@ import Tags from "../../../components/Tags";
 
 class BookSummaryOverlay extends Component {
   render() {
-    const { id, name, author, summary, tags, close } = this.props;
+    const { id, name, author, summary, tags, reference, close } = this.props;
     return (
       <div className="BookSummaryOverlay">
         <img
@@ -18,6 +18,7 @@ class BookSummaryOverlay extends Component {
           <h4>{author}</h4>
           <Tags tags={tags} bold={true} />
           <p>{summary}</p>
+          <p>{`Click `}<a href={reference} target="_blank" rel="noopener noreferrer">{'here'}</a>{' for a little more detail.'}</p>
         </div>
         <img
           className="BookSummaryOverlay-img"

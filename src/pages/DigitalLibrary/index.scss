@@ -281,8 +281,8 @@
 
   &-close {
     position: absolute;
-    top: $whitespace-5;
-    right: $whitespace-5;
+    top: $whitespace-3;
+    right: $whitespace-3;
     cursor: pointer;
   }
 
@@ -291,6 +291,7 @@
     width: 70%;
     margin: $whitespace-8 0;
     white-space: pre-line;
+    font-weight: $font-thin;
   }
 
   &-img {
