@@ -1,4 +1,30 @@
 export default [
+
+{
+    date: "27.08.18",
+    files: [
+  {
+      text: "- Chanel's men's make-up line is the first for a major brand, but it won't be the last.",
+      url: "https://qz.com/quartzy/1363786/chanel-has-entered-the-mens-makeup-space-with-boy-de-chanel/"
+  },
+  {
+      text: "- Nike gets tripped up while trying to change its culture.",
+      url: "https://www.bloomberg.com/news/articles/2018-08-30/nike-gets-tripped-up-while-trying-to-change-its-culture?srnd=premium-europe"
+  },
+  {
+      text: "- 11 Tweets that turned the Stock Market upside down.",
+      url: "https://www.ogilvy.com/feed/11-tweets-that-turned-the-stock-market-upside-down/"
+  },
+  {
+      text: "- The most popular personality test in the world is a joke.",
+      url: "https://theoutline.com/post/6071/the-personality-brokers-review-myers-briggs-type-indicator"
+  },
+  {
+      text: "- The hottest startups in Tel Aviv.",
+      url: "https://www.wired.co.uk/article/best-startups-in-tel-aviv-2018"
+  }]
+  },
+
   {
     date: "20.08.18",
     files: [
@@ -19,7 +45,7 @@ export default [
       url: "https://www.youtube.com/watch?v=6vFkKEpBJ_w"
   },
   {
-      text: "- Managing someone who's too collaborative",
+      text: "- Managing someone who's too collaborative.",
       url: "https://www.stitcher.com/podcast/hbr-ideacast/e/55880646?autoplay=true"
   }]
   },
