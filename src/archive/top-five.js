@@ -1,6 +1,30 @@
 export default [
+  {
+      date: "03.09.18",
+      files: [
+    {
+        text: "- Brands are paying influencers $75K+ to trash their competitors.",
+        url: "https://theoutline.com/post/6067/brands-are-paying-influencers-75k-to-trash-their-competitors"
+    },
+    {
+        text: "- AXA launches Fizzy: insurance that uses blockchain technology to automatically refund travellers for delayed flights.",
+        url: "https://fizzy.axa/en-gb/"
+    },
+    {
+        text: "- Frog's Design Mind Quarterly, Summer 2018.",
+        url: "https://info2.frogdesign.com/designmind_qtr_summer18"
+    },
+    {
+        text: "- Women's clothing brand Eileen Fisher opens an experimental Making Space store in Brooklyn to encourage sustainable living.",
+        url: "https://www.eileenfisher.com/makingspace"
+    },
+    {
+        text: "- Babbage: Content liability.",
+        url: "https://soundcloud.com/theeconomist/babbage-content-liability"
+    }]
+    },
 
-{
+  {
     date: "27.08.18",
     files: [
   {
