@@ -1,5 +1,30 @@
 export default [
   {
+      date: "10.09.18",
+      files: [
+    {
+        text: "- Why I encourage my best employees to consider outside job offers.",
+        url: "https://hbr.org/2018/09/why-i-encourage-my-best-employees-to-consider-outside-job-offers"
+    },
+    {
+        text: "- Miss America, swimsuit-free, enters the era of wokeness.",
+        url: "https://www.newyorker.com/news/dispatch/miss-america-swimsuit-free-enters-the-era-of-wokeness"
+    },
+    {
+        text: "- How new jets with less legroom help fight climate change.",
+        url: "https://www.bloomberg.com/news/articles/2018-09-12/how-new-jets-with-less-legroom-help-fight-climate-change?srnd=premium"
+    },
+    {
+        text: "- Lucy McRae's Biometric Mirror explores the accuracy and flaws of AI.",
+        url: "https://www.lucymcrae.net/biometric-mirror-"
+    },
+    {
+        text: "- Nike has made billions selling rebellion to young people.",
+        url: "https://www.vox.com/2018/9/6/17824234/nike-young-people-targeting-trump-black-marketing"
+    }]
+    },
+
+  {
       date: "03.09.18",
       files: [
     {
