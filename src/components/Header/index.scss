@@ -64,10 +64,10 @@
 }
 
 .tab-border {
-  visibility: unset;
   position: absolute;
   top: 10px;
   left: 25px;
+  visibility: hidden;
 
   .dot {
     display: inline-block;
@@ -82,7 +82,6 @@
     display: inline-block;
     height: 4px;
     background: $secondary-color;
-    animation: 0.3s ease-out 0s 1 slideInFromLeft;
   }
 
   .line-0 {
@@ -105,5 +104,13 @@
   .line-5 {
     max-width: $whitespace-12;
     width: $whitespace-12;
+  }
+}
+
+.tab-border-visible {
+  visibility: visible;
+
+  .line {
+    animation: 0.3s ease-out 0s 1 slideInFromLeft;
   }
 }
