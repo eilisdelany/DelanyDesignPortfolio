@@ -1,5 +1,30 @@
 export default [
   {
+      date: "17.09.18",
+      files: [
+    {
+        text: "- We need to rethink our ideas about aging.",
+        url: "https://medium.com/s/youthnow/we-need-to-rethink-our-ideas-about-aging-1d080dd9b3a8"
+    },
+    {
+        text: "- Leaders with social heart: 100 creative changemakers.",
+        url: "https://the-dots.com/projects/leaders-with-social-heart-100-creative-changemakers-248117?utm_source=icon"
+    },
+    {
+        text: "- S19 premier their VR documentary which reminds us about the devastating earthquake that struck Mexico City.",
+        url: "https://vimeo.com/284055115?utm_campaign=Innovation%20of%20the%20Day%20&utm_source=hs_email&utm_medium=email&utm_content=66043885&_hsenc=p2ANqtz-_fWqcPxa4jm1pGhxYWU46BZHZZu5Ca9-nHaNw6pFPq5-55I1wj9gxAsLO-x_73Lm2ATp8NyGFUVMxa5H9huA8yEYyE_A&_hsmi=66044180"
+    },
+    {
+        text: "- Political posters by Shepard Fairey and others are coming to 20,000 US classrooms..",
+        url: "https://observer.com/2018/09/we-the-future-kickstarter-schools-get-shepard-fairey-munk-one-political-posters/?ref=ksr_home"
+    },
+    {
+        text: "- Ear Hustle: stories of life inside prison, shared and produced by those living it.",
+        url: "https://www.radiotopia.fm/podcasts/ear-hustle"
+    }]
+    },
+
+  {
       date: "10.09.18",
       files: [
     {
