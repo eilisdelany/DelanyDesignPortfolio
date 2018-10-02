@@ -1,4 +1,55 @@
 export default [
+
+  {
+      date: "01.10.18",
+      files: [
+    {
+        text: "- Inc: Women entrepreneurship report.",
+        url: "https://www.inc.com/women-entrepreneurship-report/index.html?cid=hmsp1_1"
+    },
+    {
+        text: "- Amazon makes a 4-star debut in New York.",
+        url: "https://www.ft.com/content/098b96ee-c2a7-11e8-95b1-d36dfef1b89a"
+    },
+    {
+        text: "- For the first time, the FBI used Apple's Face ID to get suspect's information off an iPhone.",
+        url: "https://mic.com/articles/191623/for-the-first-time-the-fbi-used-apples-face-id-to-get-suspects-information-off-an-iphone#.v6wbj4ZKW"
+    },
+    {
+        text: "- Town Square is a 1950's-style town that offers an interactive experience for seniors with dementia or Alzheimer's.",
+        url: "https://glenner.org/town-square/?utm_campaign=Innovation%20of%20the%20Day%20&utm_source=hs_email&utm_medium=email&utm_content=66348158&_hsenc=p2ANqtz-_KhKNQ794O2o-bZ81MOZ-6BfRXaei6Wldc5Xp5ZyV0Q_ZsdYUFRKb33KO66OJ55XRfCsO6ZTNTiHoF1nQNvH5MlSTvfQ&_hsmi=66348107"
+    },
+    {
+        text: "- How U.S teens talk about sexual assault.",
+        url: "https://www.bbc.com/news/av/world-us-canada-45714130/kavanaugh-and-metoo-how-us-teens-talk-about-sexual-assault"
+    }]
+    },
+
+  {
+      date: "24.09.18",
+      files: [
+    {
+        text: "- Sephora will start selling a cannabis-infused face mask this week.",
+        url: "https://qz.com/quartzy/1392273/hello-calm-origins-cannabis-infused-face-mask-launches-at-sephora-this-week/"
+    },
+    {
+        text: "- An in-depth  infographic about cognitive bias codex.",
+        url: "http://www.visualcapitalist.com/wp-content/uploads/2017/09/cognitive-bias-infographic.html"
+    },
+    {
+        text: "- The creation vocation.",
+        url: "https://media.joinef.com/blog/the-creation-vocation"
+    },
+    {
+        text: "- Leaked Andreessen Horowitz data reveals how much Silicon Valley startup execs really get paid.",
+        url: "https://www.businessinsider.in/Leaked-Andreessen-Horowitz-data-reveals-how-much-Silicon-Valley-startup-execs-really-get-paid-from-CEOs-to-Sales-VPs/articleshow/66000804.cms"
+    },
+    {
+        text: "- International student enrollment is declining in the U.S.",
+        url: "https://www.forbes.com/sites/niallmccarthy/2018/05/30/international-student-enrollment-declining-in-the-u-s-infographic/#5256ce8a1cfb"
+    }]
+    },
+
   {
       date: "17.09.18",
       files: [
@@ -15,12 +66,12 @@ export default [
         url: "https://vimeo.com/284055115?utm_campaign=Innovation%20of%20the%20Day%20&utm_source=hs_email&utm_medium=email&utm_content=66043885&_hsenc=p2ANqtz-_fWqcPxa4jm1pGhxYWU46BZHZZu5Ca9-nHaNw6pFPq5-55I1wj9gxAsLO-x_73Lm2ATp8NyGFUVMxa5H9huA8yEYyE_A&_hsmi=66044180"
     },
     {
-        text: "- Political posters by Shepard Fairey and others are coming to 20,000 US classrooms..",
+        text: "- Political posters by Shepard Fairey and others are coming to 20,000 US classrooms.",
         url: "https://observer.com/2018/09/we-the-future-kickstarter-schools-get-shepard-fairey-munk-one-political-posters/?ref=ksr_home"
     },
     {
-        text: "- Ear Hustle: stories of life inside prison, shared and produced by those living it.",
-        url: "https://www.radiotopia.fm/podcasts/ear-hustle"
+        text: "- Walter Cronkite imagines life in The 21st Century in March 1967.",
+        url: "https://www.youtube.com/watch?v=__MGYrcapdk&nohtml5=False&utm_source=Benedict%27s+newsletter&utm_campaign=c168f772dc-Benedict%27s+Newsletter_COPY_01&utm_medium=email&utm_term=0_4999ca107f-c168f772dc-70638557"
     }]
     },
 
