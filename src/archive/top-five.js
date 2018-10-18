@@ -1,4 +1,53 @@
 export default [
+  {
+      date: "15.10.18",
+      files: [
+    {
+        text: "- Data, ethics and AI: practical activities for data scientists and other designers.",
+        url: "https://medium.com/ideo-stories/data-ethics-and-ai-276723a1a2fc"
+    },
+    {
+        text: "- Shopify says day 1 demand for cannabis in Canada is outpacing estimates.",
+        url: "https://cheddar.com/videos/shopify-says-demand-for-cannabis-in-canada-outpacing-estimates-on-day-1"
+    },
+    {
+        text: "- One innovation culture, please.",
+        url: "https://www.futurice.com/blog/one-innovation-culture-please"
+    },
+    {
+        text: "- Facebook finally launches Portal - the latest smart-home device.",
+        url: "https://portal.facebook.com/"
+    },
+    {
+        text: "- Europe's biggest luxury brands are nervous about China.",
+        url: "https://www.bloomberg.com/news/articles/2018-10-18/europe-s-biggest-luxury-brands-are-nervous-about-china?srnd=premium"
+    }]
+    },
+
+    {
+      date: "08.10.18",
+      files: [
+    {
+        text: "- a16z on mentors and mentees.",
+        url: "https://a16z.com/2018/07/12/mentors-mentees/"
+    },
+    {
+        text: "- Thinking in triplicate.",
+        url: "https://medium.com/mule-design/a-three-part-plan-to-save-the-world-98653a20a12f"
+    },
+    {
+        text: "- ASOS launch Collusion: a new brand for the coming age.",
+        url: "https://www.collusion.com"
+    },
+    {
+        text: "- Escape the mistakes of the screen: how to design great voice services.",
+        url: "https://www.futurice.com/blog/how-to-design-great-voice-services-for-kids"
+    },
+    {
+        text: "- IMAGINE podcast: Utopia in practice.",
+        url: "https://space10.io/imagine-podcast-episode-3-utopia-in-practice/"
+    }]
+    },
 
   {
       date: "01.10.18",
@@ -33,8 +82,8 @@ export default [
         url: "https://qz.com/quartzy/1392273/hello-calm-origins-cannabis-infused-face-mask-launches-at-sephora-this-week/"
     },
     {
-        text: "- An in-depth  infographic about cognitive bias codex.",
-        url: "http://www.visualcapitalist.com/wp-content/uploads/2017/09/cognitive-bias-infographic.html"
+        text: "- InVision presents: DesignBetter.",
+        url: "https://www.designbetter.co/"
     },
     {
         text: "- The creation vocation.",
