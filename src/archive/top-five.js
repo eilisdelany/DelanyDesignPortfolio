@@ -1,5 +1,30 @@
 export default [
   {
+      date: "22.10.18",
+      files: [
+    {
+        text: "- The lost art of concentration: being distracted in a digital world.",
+        url: "https://www.theguardian.com/lifeandstyle/2018/oct/14/the-lost-art-of-concentration-being-distracted-in-a-digital-world?"
+    },
+    {
+        text: "- McKinsey Quarterly: The business value of design.",
+        url: "https://www.mckinsey.com/business-functions/mckinsey-design/our-insights/the-business-value-of-design"
+    },
+    {
+        text: "- A new IKEA report is an unsettling look at life in the 21st Century.",
+        url: "https://medium.com/fast-company/a-new-ikea-report-is-an-unsettling-look-at-life-in-the-21st-century-82754cb81fe2"
+    },
+    {
+        text: "- How to make sure you're not using data just to justify the decisions you've already made.",
+        url: "https://hbr.org/2018/10/how-to-make-sure-youre-not-using-data-just-to-justify-decisions-youve-already-made"
+    },
+    {
+        text: "- BBC's history of ideas: What makes us human?",
+        url: "https://www.bbc.co.uk/programmes/b04yk3w5"
+    }]
+    },
+
+    {
       date: "15.10.18",
       files: [
     {
