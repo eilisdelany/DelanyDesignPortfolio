@@ -1,4 +1,80 @@
 export default [
+
+  {
+      date: "12.11.18",
+      files: [
+    {
+        text: "- Apple partners with moview studio A24 to make feature-length films.",
+        url: "https://www.wsj.com/articles/apple-partners-with-movie-studio-a24-to-make-feature-length-films-1542314191"
+    },
+    {
+        text: "- How a traveling vinegar seller built a buillion-dollar sushi empire.",
+        url: "https://www.bloomberg.com/news/articles/2018-11-15/how-a-traveling-vinegar-seller-built-billion-dollar-sushi-empire"
+    },
+    {
+        text: "- Is this the future of conference branding?",
+        url: "https://eyeondesign.aiga.org/is-this-the-future-of-conference-branding/"
+    },
+    {
+        text: "-  Meet the 30 under 30 in Asia 2019.",
+        url: "https://www.forbes.com/30-under-30-asia/2018/?ss=30under30#3a7ddae25aeb"
+    },
+    {
+        text: "- Everything is alive: Ayo, the balloon.",
+        url: "https://www.everythingisalive.com"
+    }]
+    },
+
+  {
+      date: "05.11.18",
+      files: [
+    {
+        text: "- Digital psychology.",
+        url: "https://digitalpsychology.io"
+    },
+    {
+        text: "- It's all about Business Model innovation, not new technology.",
+        url: "https://blogs.wsj.com/cio/2018/11/02/its-all-about-business-model-innovation-not-new-technology/?utm_source=Master+Email+List&utm_campaign=0c84939120-EMAIL_CAMPAIGN_2018_05_10_COPY_01&utm_medium=email&utm_term=0_fd75a09316-0c84939120-336653285&mc_cid=0c84939120&mc_eid=f865567dac"
+    },
+    {
+        text: "- Rael raises $17.5M as tampon startups go organic.",
+        url: "https://news.crunchbase.com/news/rael-raises-17-5m-as-tampon-startups-go-organic/"
+    },
+    {
+        text: "- FDA approves first Microsoft HoloLens augmented reality system for surgical use.",
+        url: "https://www.healthimaging.com/topics/advanced-visualization/fda-approves-augmented-reality-system-microsoft-hololens"
+    },
+    {
+        text: "- Adele: Design systems and pattern libraries repository.",
+        url: "https://adele.uxpin.com"
+    }]
+    },
+
+  {
+      date: "29.10.18",
+      files: [
+    {
+        text: "- The truth behind ASMR and the craze for videos causing 'head orgasms'.",
+        url: "https://www.newscientist.com/article/mg24032020-300-the-truth-behind-asmr-and-the-craze-for-videos-causing-head-orgasms/"
+    },
+    {
+        text: "- The secret anxiety of the upwardly mobile.",
+        url: "https://theoutline.com/post/6435/the-secret-anxiety-of-the-upwardly-mobile"
+    },
+    {
+        text: "- Easyjet launches app allowing passengers to book flights based on Instagram pictures.",
+        url: "https://www.independent.co.uk/travel/news-and-advice/easyjet-app-look-and-book-instagram-pictures-flights-social-media-a8588481.html"
+    },
+    {
+        text: "-  Designing future organisations.",
+        url: "https://medium.com/design-voices/designing-future-organisations-5a4ef8eb0e3e"
+    },
+    {
+        text: "- Monzo: Designing good mental health into the way we bank.",
+        url: "https://www.designcouncil.org.uk/news-opinion/monzo-designing-good-mental-health-way-we-bank"
+    }]
+    },
+
   {
       date: "22.10.18",
       files: [
