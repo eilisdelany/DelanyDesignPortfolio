@@ -4,7 +4,7 @@ export default [
       date: "12.11.18",
       files: [
     {
-        text: "- Apple partners with moview studio A24 to make feature-length films.",
+        text: "- Apple partners with movie studio A24 to make feature-length films.",
         url: "https://www.wsj.com/articles/apple-partners-with-movie-studio-a24-to-make-feature-length-films-1542314191"
     },
     {
