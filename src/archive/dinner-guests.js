@@ -17,24 +17,24 @@ export default {
       reasons: ["Nature", "Travel", "Wisdom"]
     },
     {
+      name: "Meryl Streep",
+      url: "https://www.youtube.com/watch?v=4vlM8vr5Aco",
+      reasons: ["Humour", "Self-worth", "Determination"]
+    },
+    {
+      name: "John Maeda",
+      url: "https://maedastudio.com",
+      reasons: ["Musing", "Creativity", "Tofu"]
+    },
+    {
+      name: "Ruth Bader Ginsburg",
+      url: "https://www.rbgmovie.co.uk",
+      reasons: ["Intelligence", "Poise", "Outlook"]
+    },
+    {
       name: "Paul Williams",
       url: "https://99percentinvisible.org/episode/the-architect-of-hollywood/",
       reasons: ["Architecture", "Courage", "Experimentation"]
-    },
-    {
-      name: "Nelly Ben Hayoun",
-      url: "http://nellyben.com",
-      reasons: ["Politics", "Outer-space", "Swag"]
-    },
-    {
-      name: "Jane Chen",
-      url: "https://soundcloud.com/ideo-futures/episode-39",
-      reasons: ["Agility", "Empathy", "Surfing"]
-    },
-    {
-      name: "Meryl Streep",
-      url: "https://www.youtube.com/watch?v=4vlM8vr5Aco",
-      reasons: ["Humour", "Self-worth", "Focus"]
     },
     {
       name: "Yotam Ottolenghi",
