@@ -32,9 +32,9 @@ export default {
       reasons: ["Intelligence", "Poise", "Outlook"]
     },
     {
-      name: "Paul Williams",
-      url: "https://99percentinvisible.org/episode/the-architect-of-hollywood/",
-      reasons: ["Architecture", "Courage", "Experimentation"]
+      name: "Franca Sozzani",
+      url: "https://www.imdb.com/title/tt5317286/",
+      reasons: ["Style", "Courage", "Independence"]
     },
     {
       name: "Yotam Ottolenghi",
