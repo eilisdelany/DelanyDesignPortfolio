@@ -4,7 +4,7 @@ export default [
     date: "25.03.19",
     files: [
       {
-        text: "- Pattern un-recognition: How the design process lets us reassemble data when our brains crave patterns but markets want us to break them.",
+        text: "- Pattern un-recognition: how the design process lets us reassemble data when our brains crave patterns but markets want us to break them.",
         url: "https://www.frogdesign.com/designmind/pattern-un-recognition/"
       },
       {
@@ -37,7 +37,7 @@ export default [
         url: "https://medium.com/s/story/growth-but-at-what-cost-e2fb0961bfd2"
       },
       {
-        text: "- Women in Science: Struggles and Success, the tale of Mileva Einstein-Maric, Einstein's wife.",
+        text: "- Women in Science: the tale of Mileva Einstein-Maric, Einstein's wife.",
         url: "https://mitpress.mit.edu/blog/women-science-struggle-success-tale-mileva-einstein-maric-einsteins-wife"
       },
       {
@@ -54,7 +54,7 @@ export default [
     date: "11.03.19",
     files: [
       {
-        text: "- The new good: Exploring the potential of philosophy of technology to contribute to human-computer interaction.",
+        text: "- The new good: exploring the potential of philosophy of technology to contribute to human-computer interaction.",
         url: "https://www.researchgate.net/publication/221514378_The_new_good_Exploring_the_potential_of_philosophy_of_technology_to_contribute_to_human-computer_interaction"
       },
       {
@@ -62,7 +62,7 @@ export default [
         url: "https://uxplanet.org/user-research-as-a-team-sport-for-the-entire-organization-c1eb613dc787"
       },
       {
-        text: "- Erving Goffman: The presentation of self in everyday life, 1959.",
+        text: "- Erving Goffman: the presentation of self in everyday life, 1959.",
         url: "https://books.google.ie/books?hl=en&lr=&id=TlIAzT5uT-IC&oi=fnd&pg=PA120&dq=erving+goffman+the+presentation+of+self+paper&ots=ItIbipIlpb&sig=JMSbxetwg4hu8nm9ywVxEhPR3bg&redir_esc=y#v=onepage&q&f=false"
       },
       {
@@ -87,11 +87,11 @@ export default [
         url: "https://wellcomecollection.org/articles/W1byZiYAACgAqzV7"
       },
       {
-        text: "- Davos panel: The Evolution of Consciousness.",
+        text: "- Davos panel: the evolution of consciousness.",
         url: "https://www.youtube.com/watch?v=o2aAx3wk6dg&feature=youtu.be"
       },
       {
-        text: "- The Value of Inconvenient Design.",
+        text: "- The value of inconvenient design.",
         url: "https://medium.com/s/user-friendly/the-power-of-inconvenience-f0ae1773dd77"
       },
       {
@@ -166,7 +166,7 @@ export default [
         url: "https://www.theguardian.com/business/2019/feb/01/rutger-bregman-world-economic-forum-davos-speech-tax-billionaires-capitalism"
       },
       {
-        text: "- John Maeda on Recovering and reinvention.",
+        text: "- John Maeda on recovering and reinvention.",
         url: "https://vimeo.com/320636277"
       },
       {
@@ -270,7 +270,7 @@ export default [
         url: "https://medium.com/s/user-friendly/why-im-done-saying-user-user-experience-and-ux-in-2019-4fdfc6b7de23"
       },
       {
-        text: "- Matt Webb: Post-truth society and the technological trends and drivers behind it.",
+        text: "- Matt Webb: post-truth society and the technological trends and drivers behind it.",
         url: "http://video.techfestival.co/matt-webb-at-techfestival-2018-post-truth-society"
       }]
   },
@@ -320,7 +320,7 @@ export default [
         url: "https://wellcomecollection.org/articles/XDdj3BAAAMRtGdkL"
       },
       {
-        text: "- Bruce Sterling: Nobody is technologically going to solve civilization.",
+        text: "- Bruce Sterling: nobody is technologically going to solve civilization.",
         url: "http://video.techfestival.co/bruce-sterling-at-techfestival-2018-nobody-is"
       }]
   },
@@ -333,11 +333,11 @@ export default [
         url: "http://behavioralscientist.org/history-panic-entertainment-technology/"
       },
       {
-        text: "- Audio story: My quest to get my (hijacked) brain back.",
+        text: "- Audio story: my quest to get my (hijacked) brain back.",
         url: "http://behavioralscientist.org/quest-get-hijacked-brain-back/"
       },
       {
-        text: "- John Maeda: How art, technology and design inform creative leaders.",
+        text: "- John Maeda: how art, technology and design inform creative leaders.",
         url: "https://www.ted.com/talks/john_maeda_how_art_technology_and_design_inform_creative_leaders"
       },
       {
@@ -358,7 +358,7 @@ export default [
         url: "http://behavioralscientist.org/the-assault-on-empathy/"
       },
       {
-        text: "- Lorna Ross: How technology is reshaping design and re-wiring designers.",
+        text: "- Lorna Ross: how technology is reshaping design and re-wiring designers.",
         url: "https://www.youtube.com/watch?v=3NNXopaVBNk&index=3&list=PLe-6OG8CRPNOjETdm2tvllecHU83HUBmL&t=0s"
       },
       {
@@ -370,7 +370,7 @@ export default [
         url: "https://www.forbes.com/sites/oreillymedia/2011/11/10/anthropology-shows-the-truth-about-tech-use/#5f9525507cb1"
       },
       {
-        text: "- Jared Diamond: What is the far far future of humans in the universe?",
+        text: "- Jared Diamond: what is the far far future of humans in the universe?",
         url: "https://www.youtube.com/watch?v=5rLPBZzAk-w"
       }]
   },
@@ -412,11 +412,11 @@ export default [
         url: "https://www.newscientist.com/article/mg24032011-300-memory-special-how-can-two-people-recall-an-event-so-differently/"
       },
       {
-        text: "- Ze Frank: Are you human?.",
+        text: "- Ze Frank: are you human?.",
         url: "https://www.ted.com/talks/ze_frank_are_you_human#t-8219"
       },
       {
-        text: "- A new Tech Manifesto: Six demands from a citizen to Bit Tech.",
+        text: "- A new Tech Manifesto: six demands from a citizen to Bit Tech.",
         url: "https://medium.com/s/trustissues/a-new-tech-manifesto-21d251058af3"
       },
       {
@@ -429,7 +429,7 @@ export default [
     date: "26.11.18",
     files: [
       {
-        text: "- Conversation is global: How differnt countries approach messaging.",
+        text: "- Conversation is global: how differnt countries approach messaging.",
         url: "https://medium.com/space10/conversation-is-global-how-different-countries-approach-messaging-d200dc2e6af5"
       },
       {
@@ -437,11 +437,11 @@ export default [
         url: "https://digitalmindfulness.net/technology-vs-humans-gerd-leonhard/"
       },
       {
-        text: "- Trinity Panel Discussion: What does it mean to be Human in the 21st Century?",
+        text: "- Trinity Panel Discussion: what does it mean to be Human in the 21st Century?",
         url: "https://soundcloud.com/tlrhub/what-it-means-to-be-human-in-the-21st-century?in=tlrhub/sets/what-it-means-to-be-human-in"
       },
       {
-        text: "- Lessons from a machine: A critical look at machines teaching children.",
+        text: "- Lessons from a machine: a critical look at machines teaching children.",
         url: "https://promila.net/Lessons-from-a-machine"
       },
       {
@@ -454,11 +454,11 @@ export default [
     date: "19.11.18",
     files: [
       {
-        text: "- Playing for Team Human: A podcast series by Douglas Rushkoff.",
+        text: "- Playing for Team Human: a podcast series by Douglas Rushkoff.",
         url: "https://teamhuman.fm/trading-cards/"
       },
       {
-        text: "- The promise of better: Six critical design projects that engage with synthetic biology and its vision-making processes, using techniques from designed fictions to curation.",
+        text: "- The promise of better: six critical design projects that engage with synthetic biology and its vision-making processes, using techniques from designed fictions to curation.",
         url: "https://www.daisyginsberg.com/work/better/"
       },
       {
@@ -479,7 +479,7 @@ export default [
     date: "12.11.18",
     files: [
       {
-        text: "- The British Museum presents: A history of the world in 100 objects.",
+        text: "- The British Museum presents: a history of the world in 100 objects.",
         url: "https://www.britishmuseum.org/explore/a_history_of_the_world/objects.aspx#1"
       },
       {
@@ -495,7 +495,7 @@ export default [
         url: "https://www.forbes.com/30-under-30-asia/2018/?ss=30under30#3a7ddae25aeb"
       },
       {
-        text: "- Guardian podcast: Why Silicon Valley can't fix itself.",
+        text: "- Guardian podcast: why Silicon Valley can't fix itself.",
         url: "https://itunes.apple.com/ie/podcast/the-guardians-audio-long-reads/id587347784?mt=2&i=1000412738409"
       }]
   },
@@ -512,7 +512,7 @@ export default [
         url: "https://blogs.wsj.com/cio/2018/11/02/its-all-about-business-model-innovation-not-new-technology/?utm_source=Master+Email+List&utm_campaign=0c84939120-EMAIL_CAMPAIGN_2018_05_10_COPY_01&utm_medium=email&utm_term=0_fd75a09316-0c84939120-336653285&mc_cid=0c84939120&mc_eid=f865567dac"
       },
       {
-        text: "- Escaping Facebook: Is it possible to delete Facebook? How GDPR pushed me into finally doing it.",
+        text: "- Is it possible to delete Facebook? How GDPR pushed me into finally doing it.",
         url: "https://medium.com/@ow/escaping-facebook-6f2e5bf968ba"
       },
       {
@@ -558,7 +558,7 @@ export default [
         url: "https://www.theguardian.com/lifeandstyle/2018/oct/14/the-lost-art-of-concentration-being-distracted-in-a-digital-world?"
       },
       {
-        text: "- McKinsey Quarterly: The business value of design.",
+        text: "- McKinsey Quarterly: the business value of design.",
         url: "https://www.mckinsey.com/business-functions/mckinsey-design/our-insights/the-business-value-of-design"
       },
       {
@@ -570,7 +570,7 @@ export default [
         url: "https://hbr.org/2018/10/how-to-make-sure-youre-not-using-data-just-to-justify-decisions-youve-already-made"
       },
       {
-        text: "- BBC's history of ideas: What makes us human?",
+        text: "- BBC's history of ideas: what makes us human?",
         url: "https://www.bbc.co.uk/programmes/b04yk3w5"
       }]
   },
@@ -591,7 +591,7 @@ export default [
         url: "https://www.futurice.com/blog/one-innovation-culture-please"
       },
       {
-        text: "- Copywriting for Interfaces: Types of Copy in Web and Mobile UI.",
+        text: "- Copywriting for Interfaces: types of copy in web and mobile UI.",
         url: "https://uxplanet.org/copywriting-for-interfaces-types-of-copy-in-web-and-mobile-ui-6326f92865f8"
       },
       {
@@ -612,7 +612,7 @@ export default [
         url: "https://medium.com/mule-design/a-three-part-plan-to-save-the-world-98653a20a12f"
       },
       {
-        text: "- The myth of the she-devil: Why we judge female criminals more harshly.",
+        text: "- The myth of the she-devil: why we judge female criminals more harshly.",
         url: "https://www.theguardian.com/uk-news/2018/oct/02/the-myth-of-the-she-devil-why-we-judge-female-criminals-more-harshly"
       },
       {
@@ -745,7 +745,7 @@ export default [
         url: "https://www.eileenfisher.com/makingspace"
       },
       {
-        text: "- Babbage: Content liability.",
+        text: "- Babbage: content liability.",
         url: "https://soundcloud.com/theeconomist/babbage-content-liability"
       }]
   },
@@ -912,7 +912,7 @@ export default [
         url: "https://landing.google.com/advancedprotection/?utm_source=Benedict%27s+newsletter&utm_campaign=748f46ae50-Benedict%27s+Newsletter_COPY_01&utm_medium=email&utm_term=0_4999ca107f-748f46ae50-70638557"
       },
       {
-        text: "- Bill Moggridge: What is design?",
+        text: "- Bill Moggridge: what is Design?",
         url: "http://metacool.com/what-is-design-by-bill-moggridge/"
       },
       {
@@ -941,7 +941,7 @@ export default [
         url: "https://news.sky.com/story/elon-musk-leaves-impractical-kid-sized-sub-at-thailand-cave-11431747"
       },
       {
-        text: "- David Webster: How can we help technology to be good?",
+        text: "- David Webster: how can we help technology to be good?",
         url: "https://www.youtube.com/watch?v=JlFCi0UCwFw"
       },
       {
@@ -1220,7 +1220,7 @@ export default [
         url: "https://www.inc.com/carmine-gallo/jeff-bezos-bans-powerpoint-in-meetings-his-replacement-is-brilliant.html"
       },
       {
-        text: "- Kate Rutter: How to measure and quantify design.",
+        text: "- Kate Rutter: how to measure and quantify design.",
         url: "https://www.beyondusers.com/podcast/kate-rutter"
       }]
   },
@@ -1258,7 +1258,7 @@ export default [
         url: "https://research.fb.com/publications/a-face-recognition-application-for-people-with-visual-impairments-understanding-use-beyond-the-lab/"
       },
       {
-        text: "- A16 Podcast: What to know about GDPR.",
+        text: "- A16 Podcast: what to know about GDPR.",
         url: "https://a16z.com/2018/04/12/gdpr-why-what-how-for-startups/?utm_source=Benedict%27s+newsletter&utm_campaign=74c2685218-Benedict%27s+Newsletter&utm_medium=email&utm_term=0_4999ca107f-74c2685218-70638557"
       },
       {
@@ -1308,7 +1308,7 @@ export default [
         url: "https://www.theverge.com/2018/4/3/17194504/facebook-mark-zuckerberg-gdpr-privacy-protections-europe"
       },
       {
-        text: "- Content designers should be in prison.",
+        text: "- Content Designers should be in prison.",
         url: "http://contentdesign.london/content-design/content-designers-prison/"
       },
       {
@@ -1408,7 +1408,7 @@ export default [
         url: "https://www.slideshare.net/johnmaeda/design-in-tech-report-2018"
       },
       {
-        text: "- Human development: Growing the whole human.",
+        text: "- Human development: growing the whole human.",
         url: "http://www.instrument.com/articles/growing-the-whole-human"
       },
       {
@@ -1416,7 +1416,7 @@ export default [
         url: "https://catalogue.projectsbyif.com"
       },
       {
-        text: "- Nuggets: Bite-size behavioural research for leading Decision-Makers.",
+        text: "- Nuggets: bite-size behavioural research for leading Decision-Makers.",
         url: "http://coglode.com"
       },
       {
@@ -1476,7 +1476,7 @@ export default [
   },
 
   {
-    date: "11.02.19",
+    date: "11.02.18",
     files: [
       {
         text: "- Adoptify: Spotify's latest pet project.",
@@ -1504,7 +1504,7 @@ export default [
     date: "04.02.18",
     files: [
       {
-        text: "- Targets of fake porn: Deep-fakes are at the mercy of big platforms.",
+        text: "- Targets of fake porn: deep-fakes are at the mercy of big platforms.",
         url: "https://motherboard.vice.com/en_us/article/59kzx3/targets-of-fake-porn-deepfakes-are-at-the-mercy-of-big-platforms"
       },
       {
@@ -1541,7 +1541,7 @@ export default [
         url: "https://blog.intercom.com/onboarding-focus-culture/"
       },
       {
-        text: "- Neural artistic style transfer: A comprehensive look.",
+        text: "- Neural artistic style transfer: a comprehensive look.",
         url: "https://medium.com/artists-and-machine-intelligence/neural-artistic-style-transfer-a-comprehensive-look-f54d8649c199"
       },
       {
@@ -1570,8 +1570,8 @@ export default [
         url: "https://wepresent.wetransfer.com"
       },
       {
-        text: "- Steve Vassallo: The way to design.",
-        url: "https://soundcloud.com/ideo-futures"
+        text: "- Contagious cities.",
+        url: "https://wellcome.ac.uk/what-we-do/our-work/contagious-cities"
       }]
   },
 
@@ -1579,7 +1579,7 @@ export default [
     date: "14.01.18",
     files: [
       {
-        text: "- Playing for real: The way to design.",
+        text: "- Playing for real: the way to design.",
         url: "https://thewaytodesign.com/manifesto/playing-for-real/"
       },
       {
@@ -1587,7 +1587,7 @@ export default [
         url: "https://childrensdesignguide.org"
       },
       {
-        text: "- Google Map’s moat: How far ahead of Apple Maps is Google Maps?",
+        text: "- Google Map’s moat: how far ahead of Apple Maps is Google Maps?",
         url: "https://www.washingtonpost.com/news/world/wp/2018/01/07/feature/in-china-facial-recognition-is-sharp-end-of-a-drive-for-total-surveillance/?utm_term=.bc4c026acf4c"
       },
       {
@@ -1595,7 +1595,7 @@ export default [
         url: "https://medium.com/ideo-stories/design-for-augmented-intelligence-9685c4db6fbb"
       },
       {
-        text: "- Purpose and personality: Chatbots and conversational commerce.",
+        text: "- Purpose and personality: chatbots and conversational commerce.",
         url: "https://soundcloud.com/user-965468369/how-your-chatbots-personality-impacts-user-satisfaction "
       }]
   },
@@ -1641,7 +1641,7 @@ export default [
         url: "https://techcrunch.com/2018/01/02/these-psychedelic-stickers-blow-ai-minds/ "
       },
       {
-        text: "- Who Serves Whom?",
+        text: "- Who serves whom?",
         url: "https://ia.net/topics/who-serves-whom/"
       },
       {
@@ -1670,7 +1670,7 @@ export default [
         url: "https://www.google.ie/search?client=safari&rls=en&q=google+searching+for+syria&ie=UTF-8&oe=UTF-8&gws_rd=cr&dcr=0&ei=xtzNWrXeMoq0wAT3joC4DQ"
       },
       {
-        text: "- Un-driven snow: Activists trace winter car routes to reshape city streets.",
+        text: "- Un-driven snow: activists trace winter car routes to reshape city streets.",
         url: "https://99percentinvisible.org/article/undriven-snow-activists-trace-winter-car-routes-reshape-city-streets/"
       }]
   },
@@ -1745,7 +1745,7 @@ export default [
         url: "https://medium.com/elegant-tools/building-design-collaboration-into-your-workflow-1e1c683ffcb2"
       },
       {
-        text: "- Claudia Ciarpella: Playful vocal interfaces.",
+        text: "- Claudia Ciarpella: playful vocal interfaces.",
         url: "https://vimeo.com/244517114"
       }]
   },
