@@ -1,377 +1,853 @@
 export default [
 
   {
-      date: "12.11.18",
-      files: [
-    {
-        text: "- Apple partners with movie studio A24 to make feature-length films.",
-        url: "https://www.wsj.com/articles/apple-partners-with-movie-studio-a24-to-make-feature-length-films-1542314191"
-    },
-    {
-        text: "- How a traveling vinegar seller built a buillion-dollar sushi empire.",
-        url: "https://www.bloomberg.com/news/articles/2018-11-15/how-a-traveling-vinegar-seller-built-billion-dollar-sushi-empire"
-    },
-    {
-        text: "- Is this the future of conference branding?",
-        url: "https://eyeondesign.aiga.org/is-this-the-future-of-conference-branding/"
-    },
-    {
-        text: "-  Meet the 30 under 30 in Asia 2019.",
-        url: "https://www.forbes.com/30-under-30-asia/2018/?ss=30under30#3a7ddae25aeb"
-    },
-    {
-        text: "- Everything is alive: Ayo, the balloon.",
-        url: "https://www.everythingisalive.com"
-    }]
-    },
+    date: "25.03.19",
+    files: [
+      {
+        text: "- Pattern un-recognition: How the design process lets us reassemble data when our brains crave patterns but markets want us to break them.",
+        url: "https://www.frogdesign.com/designmind/pattern-un-recognition/"
+      },
+      {
+        text: "- Understanding your brain as a network and as art.",
+        url: "https://www.youtube.com/watch?v=HjSGqwAFRcc"
+      },
+      {
+        text: "- How do advertisers get inside our heads?",
+        url: "https://wellcomecollection.org/articles/W1b0QyYAACUAqz23"
+      },
+      {
+        text: "- Jean Piagets theory of cognitive development.",
+        url: "https://en.wikipedia.org/wiki/Piaget%27s_theory_of_cognitive_development"
+      },
+      {
+        text: "- YouTube, persuasion and genetically modified children.",
+        url: "https://mitpress.mit.edu/blog/youtube-persuasion-and-genetically-engineered-children"
+      }]
+  },
 
   {
-      date: "05.11.18",
-      files: [
-    {
+    date: "18.03.19",
+    files: [
+      {
+        text: "- How music opens the doors of memory and the mind.",
+        url: "https://wellcomecollection.org/articles/Wcje3igAAHe9CxyD"
+      },
+      {
+        text: "- Silicon Valley's grow-or-die culture is costing us.",
+        url: "https://medium.com/s/story/growth-but-at-what-cost-e2fb0961bfd2"
+      },
+      {
+        text: "- Women in Science: Struggles and Success, the tale of Mileva Einstein-Maric, Einstein's wife.",
+        url: "https://mitpress.mit.edu/blog/women-science-struggle-success-tale-mileva-einstein-maric-einsteins-wife"
+      },
+      {
+        text: "- Intersectionality is the new Black.",
+        url: "https://www.itsnicethat.com/features/tea-uglow-intersectionality-in-the-creative-industries-opinion-internationalwomensday-080318"
+      },
+      {
+        text: "- The art of Emotion: Norman's 3 levels of Emotional Design.",
+        url: "https://medium.muz.li/the-art-of-emotion-normans-3-levels-of-emotional-design-88a1fb495b1d"
+      }]
+  },
+
+  {
+    date: "11.03.19",
+    files: [
+      {
+        text: "- The new good: Exploring the potential of philosophy of technology to contribute to human-computer interaction.",
+        url: "https://www.researchgate.net/publication/221514378_The_new_good_Exploring_the_potential_of_philosophy_of_technology_to_contribute_to_human-computer_interaction"
+      },
+      {
+        text: "- User Research as a team sport for the entire organisation.",
+        url: "https://uxplanet.org/user-research-as-a-team-sport-for-the-entire-organization-c1eb613dc787"
+      },
+      {
+        text: "- Erving Goffman: The presentation of self in everyday life, 1959.",
+        url: "https://books.google.ie/books?hl=en&lr=&id=TlIAzT5uT-IC&oi=fnd&pg=PA120&dq=erving+goffman+the+presentation+of+self+paper&ots=ItIbipIlpb&sig=JMSbxetwg4hu8nm9ywVxEhPR3bg&redir_esc=y#v=onepage&q&f=false"
+      },
+      {
+        text: "- The 21st Century Skinner Box.",
+        url: "http://behavioralscientist.org/21st-century-skinner-box/"
+      },
+      {
+        text: "- AI Safety needs Social Scientists.",
+        url: "https://openai.com/blog/ai-safety-needs-social-scientists/"
+      }]
+  },
+
+  {
+    date: "04.03.19",
+    files: [
+      {
+        text: "- John Maeda: Design in Tech Report 2019.",
+        url: "https://designintech.report/2019/03/09/design-in-tech-report-2019/"
+      },
+      {
+        text: "- Can our minds be taken hostage?",
+        url: "https://wellcomecollection.org/articles/W1byZiYAACgAqzV7"
+      },
+      {
+        text: "- Davos panel: The Evolution of Consciousness.",
+        url: "https://www.youtube.com/watch?v=o2aAx3wk6dg&feature=youtu.be"
+      },
+      {
+        text: "- The Value of Inconvenient Design.",
+        url: "https://medium.com/s/user-friendly/the-power-of-inconvenience-f0ae1773dd77"
+      },
+      {
+        text: "- Defining value: the most ambiguous word in Product Development.",
+        url: "https://medium.com/swlh/defining-value-the-most-ambiguous-word-in-product-development-3c36af377ecd"
+      }]
+  },
+
+  {
+    date: "25.02.19",
+    files: [
+      {
+        text: "- Professor Luke O'Neill on what it means to be human in the 21st Century.",
+        url: "https://soundcloud.com/tlrhub/luke-oneill-what-does-it-mean-to-be-human?in=tlrhub/sets/what-it-means-to-be-human-in"
+      },
+      {
+        text: "- Is our constant use of digital technologies affecting our brain health? We asked 11 experts.",
+        url: "https://www.vox.com/science-and-health/2018/11/28/18102745/cellphone-distraction-brain-health-screens-kids"
+      },
+      {
+        text: "- Seeking ground rules for AI.",
+        url: "https://www.nytimes.com/2019/03/01/business/ethical-ai-recommendations.html"
+      },
+      {
+        text: "- Whiteboard mysteries: how hidden messages can spark joy (or at least spark curiosity).",
+        url: "https://medium.com/zendesk-creative-blog/whiteboard-mysteries-39e124b336"
+      },
+      {
+        text: "- How humans evolved to be both shockingly violent and super-cooperative.",
+        url: "https://www.newscientist.com/article/mg24132170-300-how-humans-evolved-to-be-both-shockingly-violent-and-super-cooperative/"
+      }]
+  },
+
+  {
+    date: "18.02.19",
+    files: [
+      {
+        text: "- Rory Sytherland on persuasion, beer on the beach, self-driving cars and Japanese toilets.",
+        url: "https://fs.blog/rory-sutherland/"
+      },
+      {
+        text: "- This person does not exist: algorithmically generated images of human faces.",
+        url: "https://thispersondoesnotexist.com"
+      },
+      {
+        text: "- Behavioral Science in business: nudging, debiasing and managing the irrational mind.",
+        url: "https://www.mckinsey.com/business-functions/organization/our-insights/behavioral-science-in-business-nudging-debiasing-and-managing-the-irrational-mind"
+      },
+      {
+        text: "- Open.ai decide not to publish a machine learning text generator they created citing fears that it would be too easy to use it to automate disinformation and trolling.",
+        url: "https://openai.com/blog/better-language-models/"
+      },
+      {
+        text: "- Jared Diamond on why societies collapse.",
+        url: "https://www.ted.com/talks/jared_diamond_on_why_societies_collapse/transcript?language=en"
+      }]
+  },
+
+  {
+    date: "11.02.19",
+    files: [
+      {
+        text: "- Philosophy is not a Science.",
+        url: "https://opinionator.blogs.nytimes.com/2012/04/05/philosophy-is-not-a-science/?mtrref=www.google.com&gwh=2E4182AB86B6114C0F7F2BC7D6A61D95&gwt=pay"
+      },
+      {
+        text: "- The Human Behaviour-change project: in collaboration with IBM Research, University College London and The University of Aberdeen .",
+        url: "https://researcher.watson.ibm.com/researcher/view_group.php?id=8205"
+      },
+      {
+        text: "- This is about saving capitalism: the Dutch historian who savaged Davos elite.",
+        url: "https://www.theguardian.com/business/2019/feb/01/rutger-bregman-world-economic-forum-davos-speech-tax-billionaires-capitalism"
+      },
+      {
+        text: "- John Maeda on Recovering and reinvention.",
+        url: "https://vimeo.com/320636277"
+      },
+      {
+        text: "- Just because you're paranoid, doesn't mean the algorithms aren't out to get you.",
+        url: "http://timharford.com/2019/03/just-because-youre-paranoid-doesnt-mean-the-algorithms-arent-out-to-get-you/"
+      }]
+  },
+
+  {
+    date: "04.02.19",
+    files: [
+      {
+        text: "- Danielle Bassett on the future of complex systems.",
+        url: "https://www.youtube.com/watch?v=lkU-fkC6X2E"
+      },
+      {
+        text: "- Fightback against the billionaires: the radicals taking on the global elite.",
+        url: "https://www.theguardian.com/books/2019/feb/07/rutger-bregman-winnie-byanyima-anand-giridharadas"
+      },
+      {
+        text: "- Five questions with Siddhartha Mukherjee.",
+        url: "https://medium.com/newlab/five-questions-with-siddhartha-mukherjee-af30c576d693"
+      },
+      {
+        text: "- Mapping the human body.",
+        url: "https://wellcomecollection.org/articles/WjAAHyQAAEKPOuvC"
+      },
+      {
+        text: "- With ancient human DNA, Africa's deep history is coming to ligt.",
+        url: "http://blogs.discovermagazine.com/crux/2019/02/08/ancient-human-dna-africa/#.XJ5KGi90d8x"
+      }]
+  },
+
+  {
+    date: "28.01.19",
+    files: [
+      {
+        text: "- Work on world's first CRISPR gene-edited babies declared illegal by China.",
+        url: "https://techcrunch.com/2019/01/21/china-declares-crispr-babies-research-illegal/"
+      },
+      {
+        text: "- The psychology of tricky decision making.",
+        url: "https://www.bi.team/blogs/psychology-of-tricky-decision-making/"
+      },
+      {
+        text: "- The employee experience, Anthropology and the future of your workforce.",
+        url: "https://www.forbes.com/sites/adp/2018/05/09/the-employee-experience-anthropology-and-the-future-of-your-workforce/#504330c7a732"
+      },
+      {
+        text: "- Lessons from the longest study on human development.",
+        url: "https://www.ted.com/talks/helen_pearson_lessons_from_the_longest_study_on_human_development"
+      },
+      {
+        text: "- Steven Pinker: What our language habits reveal.",
+        url: "https://www.ted.com/talks/steven_pinker_on_language_and_thought"
+      }]
+  },
+
+  {
+    date: "21.01.19",
+    files: [
+      {
+        text: "- The team at HAWRAF leave the best goodbye present after announcing they will shut down their studio.",
+        url: "https://drive.google.com/drive/u/0/folders/1wBlDBNJI3h1KL-jeFqGiRr1U3OZDBQkV?mc_cid=9be42ada5d&mc_eid=%5BUNIQID%5D"
+      },
+      {
+        text: "- Why Tech needs the Humanities.",
+        url: "https://www.ted.com/talks/eric_berridge_why_tech_needs_the_humanities?language=en"
+      },
+      {
+        text: "- Ingrid Burrington on the true cost of living with computers.",
+        url: "http://video.techfestival.co/ingrid-burrington-at-techfestival-2018-the-true"
+      },
+      {
+        text: "- In a nutshell: a short film which attempts to capture the world in a nutshell.",
+        url: "https://vimeo.com/channels/staffpicks/307578337"
+      },
+      {
+        text: "- Let us end algorithmic discrimination.",
+        url: "https://medium.com/techfestival-2018/let-us-end-algorithmic-discrimination-98421b1334a3"
+      }]
+  },
+
+  {
+    date: "14.01.19",
+    files: [
+      {
+        text: "- Are we getting closer? A debate on intimacy in the Digital Age.",
+        url: "https://www.facebook.com/scigallerydub/videos/320785101892737/"
+      },
+      {
+        text: "- The association between adolescent well-being and digital technology use.",
+        url: "https://www.nature.com/articles/s41562-018-0506-1"
+      },
+      {
+        text: "- Behavioral interventions: Design and evaluation guided by the theory of planned behavior.",
+        url: "https://www.researchgate.net/publication/264038348_Behavioral_interventions_Design_and_evaluation_guided_by_the_theory_of_planned_behavior"
+      },
+      {
+        text: "- As a Designer, I refuse to call people Users.",
+        url: "https://medium.com/s/user-friendly/why-im-done-saying-user-user-experience-and-ux-in-2019-4fdfc6b7de23"
+      },
+      {
+        text: "- Matt Webb: Post-truth society and the technological trends and drivers behind it.",
+        url: "http://video.techfestival.co/matt-webb-at-techfestival-2018-post-truth-society"
+      }]
+  },
+
+  {
+    date: "07.01.19",
+    files: [
+      {
+        text: "- Get bad news: a game which tests your ability to identify fake news.",
+        url: "https://getbadnews.com/#intro"
+      },
+      {
+        text: "- Confronting the Ethics of your design choice.",
+        url: "https://builttoadapt.io/confronting-the-ethics-of-your-design-choices-8200c04f3eb1"
+      },
+      {
+        text: "- Digital psychology: a library of psychological principles and examples.",
+        url: "https://digitalpsychology.io"
+      },
+      {
+        text: "- Stop calling kids digital natives.",
+        url: "https://medium.com/techfestival-2018/stop-calling-kids-digital-natives-99dda9b87504"
+      },
+      {
+        text: "- MIT's Moral Machine: an platform for gathering a human perspective on moral decisions made by machine intelligence.",
+        url: "http://moralmachine.mit.edu"
+      }]
+  },
+
+  {
+    date: "31.12.18",
+    files: [
+      {
+        text: "- The new science of designing for humans.",
+        url: "https://ssir.org/articles/entry/the_new_science_of_designing_for_humans"
+      },
+      {
+        text: "- Simple heuristics that make algorithms smart.",
+        url: "http://behavioralscientist.org/simple-heuristics-that-make-algorithms-smart/"
+      },
+      {
+        text: "- We need more Arts & Humanities in Tech.",
+        url: "https://medium.com/swlh/we-need-more-arts-humanities-in-tech-a840cea576b7"
+      },
+      {
+        text: "- Fake News in the 17th Century.",
+        url: "https://wellcomecollection.org/articles/XDdj3BAAAMRtGdkL"
+      },
+      {
+        text: "- Bruce Sterling: Nobody is technologically going to solve civilization.",
+        url: "http://video.techfestival.co/bruce-sterling-at-techfestival-2018-nobody-is"
+      }]
+  },
+
+  {
+    date: "24.12.18",
+    files: [
+      {
+        text: "- A History of panic over entertainment technology.",
+        url: "http://behavioralscientist.org/history-panic-entertainment-technology/"
+      },
+      {
+        text: "- Audio story: My quest to get my (hijacked) brain back.",
+        url: "http://behavioralscientist.org/quest-get-hijacked-brain-back/"
+      },
+      {
+        text: "- John Maeda: How art, technology and design inform creative leaders.",
+        url: "https://www.ted.com/talks/john_maeda_how_art_technology_and_design_inform_creative_leaders"
+      },
+      {
+        text: "- Found items.",
+        url: "https://wellcomecollection.org/articles/WpUguyUAAB8sBAyc"
+      },
+      {
+        text: "- How Behavioural Economics helped me kick my smartphone addiction.",
+        url: "http://timharford.com/2019/02/how-behavioural-economics-helped-me-kick-my-smartphone-addiction/"
+      }]
+  },
+
+  {
+    date: "17.12.18",
+    files: [
+      {
+        text: "- The assault on empathy.",
+        url: "http://behavioralscientist.org/the-assault-on-empathy/"
+      },
+      {
+        text: "- Lorna Ross: How technology is reshaping design and re-wiring designers.",
+        url: "https://www.youtube.com/watch?v=3NNXopaVBNk&index=3&list=PLe-6OG8CRPNOjETdm2tvllecHU83HUBmL&t=0s"
+      },
+      {
+        text: "- A birds-eye view of human language and evolution.",
+        url: "https://mitpress.mit.edu/blog/bird’s-eye-view-human-language-and-evolution"
+      },
+      {
+        text: "- Anthropology shows the truth about tech use.",
+        url: "https://www.forbes.com/sites/oreillymedia/2011/11/10/anthropology-shows-the-truth-about-tech-use/#5f9525507cb1"
+      },
+      {
+        text: "- Jared Diamond: What is the far far future of humans in the universe?",
+        url: "https://www.youtube.com/watch?v=5rLPBZzAk-w"
+      }]
+  },
+
+  {
+    date: "10.12.18",
+    files: [
+      {
+        text: "- Convinving your organisation to do User Research.",
+        url: "https://medium.com/onshift-design/convincing-your-organization-to-do-user-research-4a3a850cddc8"
+      },
+      {
+        text: "- You don't know what you've got 'til it's gone: by looking at what happens to us when we can't access our devices, we learn what they provide for us and our social lives.",
+        url: "http://behavioralscientist.org/dont-know-youve-got-til-gone/"
+      },
+      {
+        text: "- Is technology making your memory worse?",
+        url: "https://www.newscientist.com/article/mg24032011-000-memory-special-is-technology-making-your-memory-worse/"
+      },
+      {
+        text: "- The potential for Human-Computer Interaction and Behavioral Science.",
+        url: "http://behavioralscientist.org/potential-human-computer-interaction-behavioral-science/"
+      },
+      {
+        text: "- Data stories: a podcast on data visualisation with Enrico Bertini and Moritz Stefaner.",
+        url: "http://datastori.es/128-visual-perception-and-visualization-with-steve-haroz/"
+      }]
+  },
+
+  {
+    date: "03.12.18",
+    files: [
+      {
+        text: "- Conversational interfaces aren't new, but they're changing the game.",
+        url: "https://medium.com/space10/conversational-interfaces-arent-new-but-they-re-changing-the-game-67578e37ac3"
+      },
+      {
+        text: "- How can two people recall an event so differently?",
+        url: "https://www.newscientist.com/article/mg24032011-300-memory-special-how-can-two-people-recall-an-event-so-differently/"
+      },
+      {
+        text: "- Ze Frank: Are you human?.",
+        url: "https://www.ted.com/talks/ze_frank_are_you_human#t-8219"
+      },
+      {
+        text: "- A new Tech Manifesto: Six demands from a citizen to Bit Tech.",
+        url: "https://medium.com/s/trustissues/a-new-tech-manifesto-21d251058af3"
+      },
+      {
+        text: "- What is Design Research?",
+        url: "https://medium.com/coffee-and-junk/design-research-what-is-it-846aa69b7c91"
+      }]
+  },
+
+  {
+    date: "26.11.18",
+    files: [
+      {
+        text: "- Conversation is global: How differnt countries approach messaging.",
+        url: "https://medium.com/space10/conversation-is-global-how-different-countries-approach-messaging-d200dc2e6af5"
+      },
+      {
+        text: "- Technology V's Humanity with Gerd Leonhard.",
+        url: "https://digitalmindfulness.net/technology-vs-humans-gerd-leonhard/"
+      },
+      {
+        text: "- Trinity Panel Discussion: What does it mean to be Human in the 21st Century?",
+        url: "https://soundcloud.com/tlrhub/what-it-means-to-be-human-in-the-21st-century?in=tlrhub/sets/what-it-means-to-be-human-in"
+      },
+      {
+        text: "- Lessons from a machine: A critical look at machines teaching children.",
+        url: "https://promila.net/Lessons-from-a-machine"
+      },
+      {
+        text: "- We aren't built to live in the moment.",
+        url: "https://www.nytimes.com/2017/05/19/opinion/sunday/why-the-future-is-always-on-your-mind.html"
+      }]
+  },
+
+  {
+    date: "19.11.18",
+    files: [
+      {
+        text: "- Playing for Team Human: A podcast series by Douglas Rushkoff.",
+        url: "https://teamhuman.fm/trading-cards/"
+      },
+      {
+        text: "- The promise of better: Six critical design projects that engage with synthetic biology and its vision-making processes, using techniques from designed fictions to curation.",
+        url: "https://www.daisyginsberg.com/work/better/"
+      },
+      {
+        text: "- In the age of AI, is seeing still believing?",
+        url: "https://www.newyorker.com/magazine/2018/11/12/in-the-age-of-ai-is-seeing-still-believing/amp?__twitter_impression=true"
+      },
+      {
+        text: "- Measuring the impact of design - a DIY guide to get started.",
+        url: "https://blog.usejournal.com/measuring-the-impact-of-design-a-diy-guide-to-get-started-8a393a5f13d7"
+      },
+      {
+        text: "- Updating the Service Design Toolkit for Augmented Platforms.",
+        url: "https://medium.com/@drpontus/updating-the-service-design-toolbox-the-cobra-kai-connection-da672b3232fd"
+      }]
+  },
+
+  {
+    date: "12.11.18",
+    files: [
+      {
+        text: "- The British Museum presents: A history of the world in 100 objects.",
+        url: "https://www.britishmuseum.org/explore/a_history_of_the_world/objects.aspx#1"
+      },
+      {
+        text: "- Who's your real boss? What are the consequences of digital distraction and how can we minimise them?",
+        url: "http://behavioralscientist.org/whos-real-boss/"
+      },
+      {
+        text: "- Do algorithms reveal sexual orientation or just expose our stereotypes?",
+        url: "https://medium.com/@blaisea/do-algorithms-reveal-sexual-orientation-or-just-expose-our-stereotypes-d998fafdf477"
+      },
+      {
+        text: "- Meet the 30 under 30 in Asia 2019.",
+        url: "https://www.forbes.com/30-under-30-asia/2018/?ss=30under30#3a7ddae25aeb"
+      },
+      {
+        text: "- Guardian podcast: Why Silicon Valley can't fix itself.",
+        url: "https://itunes.apple.com/ie/podcast/the-guardians-audio-long-reads/id587347784?mt=2&i=1000412738409"
+      }]
+  },
+
+  {
+    date: "05.11.18",
+    files: [
+      {
         text: "- Digital psychology.",
         url: "https://digitalpsychology.io"
-    },
-    {
+      },
+      {
         text: "- It's all about Business Model innovation, not new technology.",
         url: "https://blogs.wsj.com/cio/2018/11/02/its-all-about-business-model-innovation-not-new-technology/?utm_source=Master+Email+List&utm_campaign=0c84939120-EMAIL_CAMPAIGN_2018_05_10_COPY_01&utm_medium=email&utm_term=0_fd75a09316-0c84939120-336653285&mc_cid=0c84939120&mc_eid=f865567dac"
-    },
-    {
-        text: "- Rael raises $17.5M as tampon startups go organic.",
-        url: "https://news.crunchbase.com/news/rael-raises-17-5m-as-tampon-startups-go-organic/"
-    },
-    {
-        text: "- FDA approves first Microsoft HoloLens augmented reality system for surgical use.",
-        url: "https://www.healthimaging.com/topics/advanced-visualization/fda-approves-augmented-reality-system-microsoft-hololens"
-    },
-    {
-        text: "- Adele: Design systems and pattern libraries repository.",
-        url: "https://adele.uxpin.com"
-    }]
-    },
+      },
+      {
+        text: "- Escaping Facebook: Is it possible to delete Facebook? How GDPR pushed me into finally doing it.",
+        url: "https://medium.com/@ow/escaping-facebook-6f2e5bf968ba"
+      },
+      {
+        text: "- The Skin Deep helps take on podcast-style storytelling to explore the future of relationships.",
+        url: "https://www.theand.us"
+      },
+      {
+        text: "- What the world looks like to an algorithm.",
+        url: "https://www.youtube.com/watch?time_continue=218&v=PwcuTCfSIyI"
+      }]
+  },
 
   {
-      date: "29.10.18",
-      files: [
-    {
-        text: "- The truth behind ASMR and the craze for videos causing 'head orgasms'.",
-        url: "https://www.newscientist.com/article/mg24032020-300-the-truth-behind-asmr-and-the-craze-for-videos-causing-head-orgasms/"
-    },
-    {
-        text: "- The secret anxiety of the upwardly mobile.",
-        url: "https://theoutline.com/post/6435/the-secret-anxiety-of-the-upwardly-mobile"
-    },
-    {
+    date: "29.10.18",
+    files: [
+      {
+        text: "- Death around the world in ten objects.",
+        url: "https://wellcomecollection.org/articles/W9cHphIAACrC8PGE"
+      },
+      {
+        text: "- Why every leader will need Behavioral Science 101 in the Fourth Industrial Revolution.",
+        url: "https://qz.com/work/1385050/behavioral-science-will-be-more-important-than-ever-in-the-fourth-industrial-revolution/"
+      },
+      {
         text: "- Easyjet launches app allowing passengers to book flights based on Instagram pictures.",
         url: "https://www.independent.co.uk/travel/news-and-advice/easyjet-app-look-and-book-instagram-pictures-flights-social-media-a8588481.html"
-    },
-    {
-        text: "-  Designing future organisations.",
+      },
+      {
+        text: "- Designing future organisations.",
         url: "https://medium.com/design-voices/designing-future-organisations-5a4ef8eb0e3e"
-    },
-    {
+      },
+      {
         text: "- Monzo: Designing good mental health into the way we bank.",
         url: "https://www.designcouncil.org.uk/news-opinion/monzo-designing-good-mental-health-way-we-bank"
-    }]
-    },
+      }]
+  },
 
   {
-      date: "22.10.18",
-      files: [
-    {
+    date: "22.10.18",
+    files: [
+      {
         text: "- The lost art of concentration: being distracted in a digital world.",
         url: "https://www.theguardian.com/lifeandstyle/2018/oct/14/the-lost-art-of-concentration-being-distracted-in-a-digital-world?"
-    },
-    {
+      },
+      {
         text: "- McKinsey Quarterly: The business value of design.",
         url: "https://www.mckinsey.com/business-functions/mckinsey-design/our-insights/the-business-value-of-design"
-    },
-    {
+      },
+      {
         text: "- A new IKEA report is an unsettling look at life in the 21st Century.",
         url: "https://medium.com/fast-company/a-new-ikea-report-is-an-unsettling-look-at-life-in-the-21st-century-82754cb81fe2"
-    },
-    {
+      },
+      {
         text: "- How to make sure you're not using data just to justify the decisions you've already made.",
         url: "https://hbr.org/2018/10/how-to-make-sure-youre-not-using-data-just-to-justify-decisions-youve-already-made"
-    },
-    {
+      },
+      {
         text: "- BBC's history of ideas: What makes us human?",
         url: "https://www.bbc.co.uk/programmes/b04yk3w5"
-    }]
-    },
+      }]
+  },
 
-    {
-      date: "15.10.18",
-      files: [
-    {
+  {
+    date: "15.10.18",
+    files: [
+      {
         text: "- Data, ethics and AI: practical activities for data scientists and other designers.",
         url: "https://medium.com/ideo-stories/data-ethics-and-ai-276723a1a2fc"
-    },
-    {
+      },
+      {
         text: "- Shopify says day 1 demand for cannabis in Canada is outpacing estimates.",
         url: "https://cheddar.com/videos/shopify-says-demand-for-cannabis-in-canada-outpacing-estimates-on-day-1"
-    },
-    {
+      },
+      {
         text: "- One innovation culture, please.",
         url: "https://www.futurice.com/blog/one-innovation-culture-please"
-    },
-    {
-        text: "- Facebook finally launches Portal - the latest smart-home device.",
-        url: "https://portal.facebook.com/"
-    },
-    {
+      },
+      {
+        text: "- Copywriting for Interfaces: Types of Copy in Web and Mobile UI.",
+        url: "https://uxplanet.org/copywriting-for-interfaces-types-of-copy-in-web-and-mobile-ui-6326f92865f8"
+      },
+      {
         text: "- Europe's biggest luxury brands are nervous about China.",
         url: "https://www.bloomberg.com/news/articles/2018-10-18/europe-s-biggest-luxury-brands-are-nervous-about-china?srnd=premium"
-    }]
-    },
+      }]
+  },
 
-    {
-      date: "08.10.18",
-      files: [
-    {
+  {
+    date: "08.10.18",
+    files: [
+      {
         text: "- a16z on mentors and mentees.",
         url: "https://a16z.com/2018/07/12/mentors-mentees/"
-    },
-    {
+      },
+      {
         text: "- Thinking in triplicate.",
         url: "https://medium.com/mule-design/a-three-part-plan-to-save-the-world-98653a20a12f"
-    },
-    {
-        text: "- ASOS launch Collusion: a new brand for the coming age.",
-        url: "https://www.collusion.com"
-    },
-    {
+      },
+      {
+        text: "- The myth of the she-devil: Why we judge female criminals more harshly.",
+        url: "https://www.theguardian.com/uk-news/2018/oct/02/the-myth-of-the-she-devil-why-we-judge-female-criminals-more-harshly"
+      },
+      {
         text: "- Escape the mistakes of the screen: how to design great voice services.",
         url: "https://www.futurice.com/blog/how-to-design-great-voice-services-for-kids"
-    },
-    {
+      },
+      {
         text: "- IMAGINE podcast: Utopia in practice.",
         url: "https://space10.io/imagine-podcast-episode-3-utopia-in-practice/"
-    }]
-    },
+      }]
+  },
 
   {
-      date: "01.10.18",
-      files: [
-    {
+    date: "01.10.18",
+    files: [
+      {
         text: "- Inc: Women entrepreneurship report.",
         url: "https://www.inc.com/women-entrepreneurship-report/index.html?cid=hmsp1_1"
-    },
-    {
+      },
+      {
         text: "- Amazon makes a 4-star debut in New York.",
         url: "https://www.ft.com/content/098b96ee-c2a7-11e8-95b1-d36dfef1b89a"
-    },
-    {
+      },
+      {
         text: "- For the first time, the FBI used Apple's Face ID to get suspect's information off an iPhone.",
         url: "https://mic.com/articles/191623/for-the-first-time-the-fbi-used-apples-face-id-to-get-suspects-information-off-an-iphone#.v6wbj4ZKW"
-    },
-    {
+      },
+      {
         text: "- Town Square is a 1950's-style town that offers an interactive experience for seniors with dementia or Alzheimer's.",
         url: "https://glenner.org/town-square/?utm_campaign=Innovation%20of%20the%20Day%20&utm_source=hs_email&utm_medium=email&utm_content=66348158&_hsenc=p2ANqtz-_KhKNQ794O2o-bZ81MOZ-6BfRXaei6Wldc5Xp5ZyV0Q_ZsdYUFRKb33KO66OJ55XRfCsO6ZTNTiHoF1nQNvH5MlSTvfQ&_hsmi=66348107"
-    },
-    {
+      },
+      {
         text: "- How U.S teens talk about sexual assault.",
         url: "https://www.bbc.com/news/av/world-us-canada-45714130/kavanaugh-and-metoo-how-us-teens-talk-about-sexual-assault"
-    }]
-    },
+      }]
+  },
 
   {
-      date: "24.09.18",
-      files: [
-    {
+    date: "24.09.18",
+    files: [
+      {
         text: "- Sephora will start selling a cannabis-infused face mask this week.",
         url: "https://qz.com/quartzy/1392273/hello-calm-origins-cannabis-infused-face-mask-launches-at-sephora-this-week/"
-    },
-    {
+      },
+      {
         text: "- InVision presents: DesignBetter.",
         url: "https://www.designbetter.co/"
-    },
-    {
+      },
+      {
         text: "- The creation vocation.",
         url: "https://media.joinef.com/blog/the-creation-vocation"
-    },
-    {
+      },
+      {
         text: "- Leaked Andreessen Horowitz data reveals how much Silicon Valley startup execs really get paid.",
         url: "https://www.businessinsider.in/Leaked-Andreessen-Horowitz-data-reveals-how-much-Silicon-Valley-startup-execs-really-get-paid-from-CEOs-to-Sales-VPs/articleshow/66000804.cms"
-    },
-    {
+      },
+      {
         text: "- International student enrollment is declining in the U.S.",
         url: "https://www.forbes.com/sites/niallmccarthy/2018/05/30/international-student-enrollment-declining-in-the-u-s-infographic/#5256ce8a1cfb"
-    }]
-    },
+      }]
+  },
 
   {
-      date: "17.09.18",
-      files: [
-    {
+    date: "17.09.18",
+    files: [
+      {
         text: "- We need to rethink our ideas about aging.",
         url: "https://medium.com/s/youthnow/we-need-to-rethink-our-ideas-about-aging-1d080dd9b3a8"
-    },
-    {
+      },
+      {
         text: "- Leaders with social heart: 100 creative changemakers.",
         url: "https://the-dots.com/projects/leaders-with-social-heart-100-creative-changemakers-248117?utm_source=icon"
-    },
-    {
+      },
+      {
         text: "- S19 premier their VR documentary which reminds us about the devastating earthquake that struck Mexico City.",
         url: "https://vimeo.com/284055115?utm_campaign=Innovation%20of%20the%20Day%20&utm_source=hs_email&utm_medium=email&utm_content=66043885&_hsenc=p2ANqtz-_fWqcPxa4jm1pGhxYWU46BZHZZu5Ca9-nHaNw6pFPq5-55I1wj9gxAsLO-x_73Lm2ATp8NyGFUVMxa5H9huA8yEYyE_A&_hsmi=66044180"
-    },
-    {
+      },
+      {
         text: "- Political posters by Shepard Fairey and others are coming to 20,000 US classrooms.",
         url: "https://observer.com/2018/09/we-the-future-kickstarter-schools-get-shepard-fairey-munk-one-political-posters/?ref=ksr_home"
-    },
-    {
+      },
+      {
         text: "- Walter Cronkite imagines life in The 21st Century in March 1967.",
         url: "https://www.youtube.com/watch?v=__MGYrcapdk&nohtml5=False&utm_source=Benedict%27s+newsletter&utm_campaign=c168f772dc-Benedict%27s+Newsletter_COPY_01&utm_medium=email&utm_term=0_4999ca107f-c168f772dc-70638557"
-    }]
-    },
+      }]
+  },
 
   {
-      date: "10.09.18",
-      files: [
-    {
+    date: "10.09.18",
+    files: [
+      {
         text: "- Why I encourage my best employees to consider outside job offers.",
         url: "https://hbr.org/2018/09/why-i-encourage-my-best-employees-to-consider-outside-job-offers"
-    },
-    {
+      },
+      {
         text: "- Miss America, swimsuit-free, enters the era of wokeness.",
         url: "https://www.newyorker.com/news/dispatch/miss-america-swimsuit-free-enters-the-era-of-wokeness"
-    },
-    {
+      },
+      {
         text: "- How new jets with less legroom help fight climate change.",
         url: "https://www.bloomberg.com/news/articles/2018-09-12/how-new-jets-with-less-legroom-help-fight-climate-change?srnd=premium"
-    },
-    {
+      },
+      {
         text: "- Lucy McRae's Biometric Mirror explores the accuracy and flaws of AI.",
         url: "https://www.lucymcrae.net/biometric-mirror-"
-    },
-    {
+      },
+      {
         text: "- Nike has made billions selling rebellion to young people.",
         url: "https://www.vox.com/2018/9/6/17824234/nike-young-people-targeting-trump-black-marketing"
-    }]
-    },
+      }]
+  },
 
   {
-      date: "03.09.18",
-      files: [
-    {
+    date: "03.09.18",
+    files: [
+      {
         text: "- Brands are paying influencers $75K+ to trash their competitors.",
         url: "https://theoutline.com/post/6067/brands-are-paying-influencers-75k-to-trash-their-competitors"
-    },
-    {
+      },
+      {
         text: "- AXA launches Fizzy: insurance that uses blockchain technology to automatically refund travellers for delayed flights.",
         url: "https://fizzy.axa/en-gb/"
-    },
-    {
+      },
+      {
         text: "- Frog's Design Mind Quarterly, Summer 2018.",
         url: "https://info2.frogdesign.com/designmind_qtr_summer18"
-    },
-    {
+      },
+      {
         text: "- Women's clothing brand Eileen Fisher opens an experimental Making Space store in Brooklyn to encourage sustainable living.",
         url: "https://www.eileenfisher.com/makingspace"
-    },
-    {
+      },
+      {
         text: "- Babbage: Content liability.",
         url: "https://soundcloud.com/theeconomist/babbage-content-liability"
-    }]
-    },
+      }]
+  },
 
   {
     date: "27.08.18",
     files: [
-  {
-      text: "- Chanel's men's make-up line is the first for a major brand, but it won't be the last.",
-      url: "https://qz.com/quartzy/1363786/chanel-has-entered-the-mens-makeup-space-with-boy-de-chanel/"
-  },
-  {
-      text: "- Nike gets tripped up while trying to change its culture.",
-      url: "https://www.bloomberg.com/news/articles/2018-08-30/nike-gets-tripped-up-while-trying-to-change-its-culture?srnd=premium-europe"
-  },
-  {
-      text: "- 11 Tweets that turned the Stock Market upside down.",
-      url: "https://www.ogilvy.com/feed/11-tweets-that-turned-the-stock-market-upside-down/"
-  },
-  {
-      text: "- The most popular personality test in the world is a joke.",
-      url: "https://theoutline.com/post/6071/the-personality-brokers-review-myers-briggs-type-indicator"
-  },
-  {
-      text: "- The hottest startups in Tel Aviv.",
-      url: "https://www.wired.co.uk/article/best-startups-in-tel-aviv-2018"
-  }]
+      {
+        text: "- Chanel's men's make-up line is the first for a major brand, but it won't be the last.",
+        url: "https://qz.com/quartzy/1363786/chanel-has-entered-the-mens-makeup-space-with-boy-de-chanel/"
+      },
+      {
+        text: "- Nike gets tripped up while trying to change its culture.",
+        url: "https://www.bloomberg.com/news/articles/2018-08-30/nike-gets-tripped-up-while-trying-to-change-its-culture?srnd=premium-europe"
+      },
+      {
+        text: "- 11 Tweets that turned the Stock Market upside down.",
+        url: "https://www.ogilvy.com/feed/11-tweets-that-turned-the-stock-market-upside-down/"
+      },
+      {
+        text: "- The most popular personality test in the world is a joke.",
+        url: "https://theoutline.com/post/6071/the-personality-brokers-review-myers-briggs-type-indicator"
+      },
+      {
+        text: "- The hottest startups in Tel Aviv.",
+        url: "https://www.wired.co.uk/article/best-startups-in-tel-aviv-2018"
+      }]
   },
 
   {
     date: "20.08.18",
     files: [
-  {
-      text: "- Lightform allows everyone to create AR visuals in seconds.",
-      url: "https://lightform.com"
-  },
-  {
-      text: "- Why is the process of buying sperm so terrible?",
-      url: "https://www.fastcompany.com/90221832/why-is-the-process-of-buying-sperm-so-terrible"
-  },
-  {
-      text: "- Pew Research release their latest study on public attitudes toward technology companies.",
-      url: "http://www.pewinternet.org/2018/06/28/public-attitudes-toward-technology-companies/?utm_campaign=platform-newsletter&utm_medium=email&utm_source=platform-newsletter"
-  },
-  {
-      text: "- Revolut release their latest teaser for Europes first metal bank card.",
-      url: "https://www.youtube.com/watch?v=6vFkKEpBJ_w"
-  },
-  {
-      text: "- Managing someone who's too collaborative.",
-      url: "https://www.stitcher.com/podcast/hbr-ideacast/e/55880646?autoplay=true"
-  }]
+      {
+        text: "- Lightform allows everyone to create AR visuals in seconds.",
+        url: "https://lightform.com"
+      },
+      {
+        text: "- Why is the process of buying sperm so terrible?",
+        url: "https://www.fastcompany.com/90221832/why-is-the-process-of-buying-sperm-so-terrible"
+      },
+      {
+        text: "- Pew Research release their latest study on public attitudes toward technology companies.",
+        url: "http://www.pewinternet.org/2018/06/28/public-attitudes-toward-technology-companies/?utm_campaign=platform-newsletter&utm_medium=email&utm_source=platform-newsletter"
+      },
+      {
+        text: "- Revolut release their latest teaser for Europes first metal bank card.",
+        url: "https://www.youtube.com/watch?v=6vFkKEpBJ_w"
+      },
+      {
+        text: "- Managing someone who's too collaborative.",
+        url: "https://www.stitcher.com/podcast/hbr-ideacast/e/55880646?autoplay=true"
+      }]
   },
 
   {
     date: "13.08.18",
     files: [
-  {
-      text: "- Andreessen Horowitz backs diversity with their exclusive new fund.",
-      url: "https://www.wsj.com/articles/kevin-durant-will-smith-top-the-lineup-for-a-new-venture-capital-fund-for-black-investors-1534152601"
-  },
-  {
-      text: "- Turns out near-death experiences are psychedelic, not religious.",
-      url: "https://www.wired.co.uk/article/near-death-experiences-psychedelic-religious"
-  },
-  {
-      text: "- Ivory Lane, a fictitious luxury brand, highlights the shortcomings of wildlife laws in Singapore.",
-      url: "http://www.ivorylane.shop"
-  },
-  {
-      text: "- DuckDuckGo is the search engine that doesn't track you.",
-      url: "https://duckduckgo.com/?&t=hg"
-  },
-  {   text: "- What kind of idiot gets phished?",
-      url: "https://www.gimletmedia.com/reply-all/97-what-kind-of-idiot-gets-phished-re-broadcast#episode-player"
-  }]
+      {
+        text: "- Andreessen Horowitz backs diversity with their exclusive new fund.",
+        url: "https://www.wsj.com/articles/kevin-durant-will-smith-top-the-lineup-for-a-new-venture-capital-fund-for-black-investors-1534152601"
+      },
+      {
+        text: "- Turns out near-death experiences are psychedelic, not religious.",
+        url: "https://www.wired.co.uk/article/near-death-experiences-psychedelic-religious"
+      },
+      {
+        text: "- Ivory Lane, a fictitious luxury brand, highlights the shortcomings of wildlife laws in Singapore.",
+        url: "http://www.ivorylane.shop"
+      },
+      {
+        text: "- DuckDuckGo is the search engine that doesn't track you.",
+        url: "https://duckduckgo.com/?&t=hg"
+      },
+      {
+        text: "- What kind of idiot gets phished?",
+        url: "https://www.gimletmedia.com/reply-all/97-what-kind-of-idiot-gets-phished-re-broadcast#episode-player"
+      }]
   },
 
   {
     date: "06.08.18",
     files: [
-  {
-      text: "- Business Innovation Design blog.",
-      url: "http://businessinnovation.design/blog/"
-  },
-  {
-      text: "- Starbucks and Mc Donald's launch a global initiative to produce a sustainable coffee cup.",
-      url: "http://www.closedlooppartners.com/the-center/nextgen-cup-challenge/"
-  },
-  {
-      text: "- FarePilot helps drivers identify where the most profitable rides will appear around the city.",
-      url: "https://www.farepilot.com"
-  },
-  {
-      text: "- New York City just voted to cap Uber and Lyft vehicles and that could make rides more expensive.",
-      url: "https://www.cnbc.com/2018/08/08/new-york-city-votes-to-cap-uber-and-lyft-vehicles.html"
-  },
-  {
-      text: "- Why opening up at work is harder for minorities.",
-      url: "https://www.stitcher.com/podcast/hbr-ideacast/e/55677176"
-  }]
+      {
+        text: "- Business Innovation Design blog.",
+        url: "http://businessinnovation.design/blog/"
+      },
+      {
+        text: "- Starbucks and Mc Donald's launch a global initiative to produce a sustainable coffee cup.",
+        url: "http://www.closedlooppartners.com/the-center/nextgen-cup-challenge/"
+      },
+      {
+        text: "- FarePilot helps drivers identify where the most profitable rides will appear around the city.",
+        url: "https://www.farepilot.com"
+      },
+      {
+        text: "- New York City just voted to cap Uber and Lyft vehicles and that could make rides more expensive.",
+        url: "https://www.cnbc.com/2018/08/08/new-york-city-votes-to-cap-uber-and-lyft-vehicles.html"
+      },
+      {
+        text: "- Why opening up at work is harder for minorities.",
+        url: "https://www.stitcher.com/podcast/hbr-ideacast/e/55677176"
+      }]
   },
 
   {
@@ -396,9 +872,10 @@ export default [
       {
         text: "- The untold story of Silk Road, part 1.",
         url: "https://www.wired.com/2015/04/silk-road-1/?mbid=social_linkedin"
-      },
-    ]
-  }, {
+      }]
+  },
+
+  {
     date: "22.07.18",
     files: [
       {
@@ -423,7 +900,6 @@ export default [
       }]
   },
 
-
   {
     date: "15.07.18",
     files: [
@@ -444,8 +920,8 @@ export default [
         url: "https://hbr.org/2018/07/research-we-take-more-risks-when-we-compete-against-rivals"
       },
       {
-        text: "- Inside the rise and reign of supergiant Venture Capital rounds.",
-        url: "https://news.crunchbase.com/news/inside-the-rise-and-reign-of-supergiant-venture-capital-rounds/"
+        text: "- ART + TECHNOLOGY: Bloomberg series which explores how creatives are bringing the disparate fields of art and technology together to reveal surprising works that belong to a whole new genre.",
+        url: "https://www.bloomberg.com/news/sponsors/features/hyundai/art-technology/?adv=16713&prx_t=OpUDAyrUgAXSkPA"
       }]
   },
 
@@ -503,8 +979,8 @@ export default [
     date: "24.06.18",
     files: [
       {
-        text: "- Hawraf's guide to working with clients.",
-        url: "https://thecreativeindependent.com/guides/a-guide-to-working-with-clients/"
+        text: "- The Copenhagen Letter on Tech.",
+        url: "https://video.techfestival.co/the-copenhagen-letter-on-tech"
       },
       {
         text: "- Apple's latest iOS 12 update features tools that help users control the amount of time they spend on their phones.",
@@ -719,8 +1195,8 @@ export default [
         url: "https://word-form.com/about"
       },
       {
-        text: "- Gig economy business model dealt a blow in California ruling.",
-        url: "https://www.nytimes.com/2018/04/30/business/economy/gig-economy-ruling.html?rref=collection%2Fsectioncollection%2Fbusiness"
+        text: "- Please, insert Human.",
+        url: "https://medium.com/ideo-colab/please-insert-human-373eb6f9a7af"
       }]
   },
 
@@ -807,8 +1283,8 @@ export default [
         url: "https://theoutline.com/post/4128/mark-zuckerberg-kamala-harris-facebook-priorities-cambridge-analytica "
       },
       {
-        text: "- The book that David Ogilvy said every marketer must read.",
-        url: "https://blog.intercom.com/book-every-marketer-must-read/"
+        text: "- The future of Business is Design.",
+        url: "https://medium.com/method-perspectives/the-future-of-business-is-design-442b29f57e61"
       },
       {
         text: "- Dear Data.",
@@ -903,8 +1379,8 @@ export default [
     date: "11.03.18",
     files: [
       {
-        text: "- How Refugees are helping create Blockchains brand new world.",
-        url: "https://www.wired.com/story/refugees-but-on-the-blockchain/"
+        text: "- Why Business Design is the most important skill of the future.",
+        url: "https://medium.muz.li/why-business-design-is-the-most-important-skill-of-the-future-b0ed451003c7"
       },
       {
         text: "- Will autonomy reignite our village high street?.",
@@ -1253,8 +1729,8 @@ export default [
     date: "03.12.17",
     files: [
       {
-        text: "- Buddhism on The Blockchain.",
-        url: "https://lotos.network/?utm_campaign=Innovation%20of%20the%20Day%20&utm_source=hs_email&utm_medium=email&utm_content=57393633&_hsenc=p2ANqtz-_tj8yIhqmSz7_XMV6udeHqdO7Skm6TveI-Rjx5AuJGf5SNkv6GDFof61ORJfuRcKar5NsaWZVupf59s07lOXULcPvhng&_hsmi=57393633"
+        text: "- Designing conversations for Bots and AI.",
+        url: "https://medium.com/design-voices/designing-conversations-for-bots-ai-b40414c399dc"
       },
       {
         text: "- People have spent over $1M buying virtual cats on the Ethereum Blockchain.",
