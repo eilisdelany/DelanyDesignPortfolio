@@ -1,6 +1,31 @@
 export default [
 
   {
+    date: "01.04.19",
+    files: [
+      {
+        text: "- Pocket biases: every cognitive bias in your pocket.",
+        url: "https://pocket-biases.glideapp.io"
+      },
+      {
+        text: "- Cognitive bias cheat sheet.",
+        url: "https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18"
+      },
+      {
+        text: "- The feedback fallacy.",
+        url: "https://hbr.org/2019/03/the-feedback-fallacy"
+      },
+      {
+        text: "- There's no such things as a tech person in the age of AI.",
+        url: "https://www.technologyreview.com/s/613063/ai-ethics-mit-college-of-computing-tech-humanities/"
+      },
+      {
+        text: "- How to look at evidence and not translate it into your own agenda.",
+        url: "https://uxdesign.cc/how-to-look-at-evidence-and-not-translate-it-into-your-own-agenda-9860171b7ba9"
+      }]
+  },
+
+  {
     date: "25.03.19",
     files: [
       {
