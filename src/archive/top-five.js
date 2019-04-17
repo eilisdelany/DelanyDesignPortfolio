@@ -1,6 +1,31 @@
 export default [
 
   {
+    date: "08.04.19",
+    files: [
+      {
+        text: "- Bakken & Bæcks Diversity and Inclusion guide.",
+        url: "https://bakkenbaeck.com/diversity-inclusion/"
+      },
+      {
+        text: "- Oliver Reichenstein on Aesthetics.",
+        url: "https://ia.net/topics/aesthetics"
+      },
+      {
+        text: "- Conversational Interfaces, explained.",
+        url: "https://www.fastcompany.com/3058546/conversational-interfaces-explained?fbclid=IwAR2XcITFRuhTL5rHB_qMT5CIxl0LfRFauyt6kv6onzmFbMHFbaWThWzo3ac"
+      },
+      {
+        text: "- The psychology behind unethical behaviour.",
+        url: "https://hbr.org/2019/04/the-psychology-behind-unethical-behavior"
+      },
+      {
+        text: "- Avoiding the expertise trap.",
+        url: "https://hbr.org/ideacast/2019/04/avoiding-the-expertise-trap"
+      }]
+  },
+
+  {
     date: "01.04.19",
     files: [
       {
