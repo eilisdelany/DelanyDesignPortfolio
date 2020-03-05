@@ -1,28 +1,30 @@
-import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import Catalogue from "./pages/Catalogue";
-import Project from "./pages/Catalogue/Project";
-import Archive from "./pages/Archive";
-import DigitalLibrary from "./pages/DigitalLibrary";
-import Contact from "./pages/Contact";
-import ErrorPage from "./pages/ErrorPage";
-import Words from "./components/Words";
-import TopFive from "./components/TopFive";
-import blogPosts from "./archive/blog-posts";
-import topFive from "./archive/top-five";
+import React, { Component } from 'react'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Home from './pages/Home'
+import Catalogue from './pages/Catalogue'
+import Project from './pages/Catalogue/Project'
+import Archive from './pages/Archive'
+import FetchedArchive from './pages/FetchedArchive'
+import DigitalLibrary from './pages/DigitalLibrary'
+import Contact from './pages/Contact'
+import ErrorPage from './pages/ErrorPage'
+import Words from './components/Words'
+import TopFive from './components/TopFive'
+import blogPosts from './archive/blog-posts'
 
-import Mantra from "./pages/Home/homePageComponents/Mantra";
-import Timeline from "./pages/Home/homePageComponents/Timeline";
-import SayWhat from "./pages/Home/homePageComponents/SayWhat";
-import RealNews from "./pages/Home/homePageComponents/RealNews";
-import PinchMe from "./pages/Home/homePageComponents/PinchMe";
-import DreamDinner from "./pages/Home/homePageComponents/DreamDinner";
+import Mantra from './pages/Home/homePageComponents/Mantra'
+import Timeline from './pages/Home/homePageComponents/Timeline'
+import SayWhat from './pages/Home/homePageComponents/SayWhat'
+import RealNews from './pages/Home/homePageComponents/RealNews'
+import PinchMe from './pages/Home/homePageComponents/PinchMe'
+import DreamDinner from './pages/Home/homePageComponents/DreamDinner'
 
-import { pages } from "./constants/pages";
-import "./App.scss";
+import contentful from './clients/contentful'
+
+import { pages } from './constants/pages'
+import './App.scss'
 
 class App extends Component {
   render() {
@@ -66,15 +68,19 @@ class App extends Component {
                 component={DreamDinner}
               />
               <Route exact path={pages.CATALOGUE.path} component={Catalogue} />
-              <Route exact path={`${pages.CATALOGUE.path}/:id`} component={Project} />
+              <Route
+                exact
+                path={`${pages.CATALOGUE.path}/:id`}
+                component={Project}
+              />
               <Route
                 exact
                 path={pages.TOP_FIVE.path}
                 render={props => (
-                  <Archive
-                    pageTitleText={pages.TOP_FIVE.pageTitle}
-                    archive={topFive}
-                    Content={TopFive}
+                  <FetchedArchive
+                    title={pages.TOP_FIVE.pageTitle}
+                    fetchData={contentful.getTopFiveArticles}
+                    content={TopFive}
                     {...props}
                   />
                 )}
@@ -114,14 +120,14 @@ class App extends Component {
               <Route component={ErrorPage} />
             </Switch>
           </div>
-            <Route
-              path="/"
-              render={props => props.location.pathname !== "/" && <Footer />}
-            />
+          <Route
+            path="/"
+            render={props => props.location.pathname !== '/' && <Footer />}
+          />
         </div>
       </BrowserRouter>
-    );
+    )
   }
 }
 
-export default App;
+export default App
