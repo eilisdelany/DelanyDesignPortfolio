@@ -6,12 +6,11 @@ import Home from './pages/Home'
 import Catalogue from './pages/Catalogue'
 import Project from './pages/Catalogue/Project'
 import Archive from './pages/Archive'
-import FetchedArchive from './pages/FetchedArchive'
+import TopFiveArticles from './pages/TopFiveArticles'
 import DigitalLibrary from './pages/DigitalLibrary'
 import Contact from './pages/Contact'
 import ErrorPage from './pages/ErrorPage'
 import Words from './components/Words'
-import TopFive from './components/TopFive'
 import blogPosts from './archive/blog-posts'
 
 import Mantra from './pages/Home/homePageComponents/Mantra'
@@ -20,10 +19,8 @@ import SayWhat from './pages/Home/homePageComponents/SayWhat'
 import RealNews from './pages/Home/homePageComponents/RealNews'
 import PinchMe from './pages/Home/homePageComponents/PinchMe'
 import DreamDinner from './pages/Home/homePageComponents/DreamDinner'
-
-import contentful from './clients/contentful'
-
 import { pages } from './constants/pages'
+
 import './App.scss'
 
 class App extends Component {
@@ -77,10 +74,8 @@ class App extends Component {
                 exact
                 path={pages.TOP_FIVE.path}
                 render={props => (
-                  <FetchedArchive
+                  <TopFiveArticles
                     title={pages.TOP_FIVE.pageTitle}
-                    fetchData={contentful.getTopFiveArticles}
-                    content={TopFive}
                     {...props}
                   />
                 )}
