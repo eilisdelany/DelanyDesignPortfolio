@@ -1,7 +1,7 @@
 import React from 'react'
 import PageTitle from '../../components/PageTitle'
 import ContentLayout from '../../components/ContentLayout'
-import StatefulComponent from '../StatefulComponent'
+import StatefulComponent from '../../components/StatefulComponent'
 import { formatContentfulDate } from '../../utils'
 import contentful from '../../clients/contentful'
 
