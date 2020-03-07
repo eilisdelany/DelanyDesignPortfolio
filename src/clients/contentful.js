@@ -2,7 +2,8 @@ import { createClient } from 'contentful'
 
 const contentTypes = {
   TOP_FIVE_ARTICLES: 'topFiveArticles',
-  WORK_EXPERIENCE: 'workExperience'
+  WORK_EXPERIENCE: 'workExperience',
+  PROJECT_ARCHIVE: 'projectArchive'
 }
 
 const client = createClient({
@@ -16,7 +17,13 @@ const getTopFiveArticles = async () =>
 const getWorkExperience = async () =>
   await client.getEntries({ content_type: contentTypes.WORK_EXPERIENCE })
 
+const getProjectArchive = async () =>
+  await client.getEntries({
+    content_type: contentTypes.PROJECT_ARCHIVE
+  })
+
 export default {
   getTopFiveArticles,
-  getWorkExperience
+  getWorkExperience,
+  getProjectArchive
 }

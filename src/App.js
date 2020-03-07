@@ -3,8 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './pages/Home'
-import Catalogue from './pages/Catalogue'
-import Project from './pages/Catalogue/Project'
+import ProjectArchive from './pages/ProjectArchive'
 import Archive from './pages/Archive'
 import TopFiveArticles from './pages/TopFiveArticles'
 import DigitalLibrary from './pages/DigitalLibrary'
@@ -64,12 +63,16 @@ class App extends Component {
                 path={pages.ITS_ME.subpages.DREAM_DINNER}
                 component={DreamDinner}
               />
-              <Route exact path={pages.CATALOGUE.path} component={Catalogue} />
               <Route
                 exact
-                path={`${pages.CATALOGUE.path}/:id`}
-                component={Project}
+                path={pages.PROJECT_ARCHIVE.path}
+                component={ProjectArchive}
               />
+              {/* <Route
+                exact
+                path={`${pages.PROJECT_ARCHIVE.path}/:id`}
+                component={Project}
+              /> */}
               <Route
                 exact
                 path={pages.TOP_FIVE.path}
