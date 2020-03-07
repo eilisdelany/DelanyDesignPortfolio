@@ -1,14 +1,12 @@
-import React, { Component } from "react";
-import PageTitle from "../../../../components/PageTitle";
-import ContentLayout from "../../../../components/ContentLayout";
-import newsArticles from "../../../../archive/news-articles";
-import RerouteButton from "../../../../components/RerouteButton";
-import { pages } from '../../../../constants/pages';
-import "./index.scss";
+import React, { Component } from 'react'
+import PageTitle from '../../../../components/PageTitle'
+import ContentLayout from '../../../../components/ContentLayout'
+import newsArticles from '../../../../archive/news-articles'
+import './index.scss'
 
 class RealNews extends Component {
-  componentDidMount () {
-    window.scrollTo(0, 0);
+  componentDidMount() {
+    window.scrollTo(0, 0)
   }
   render() {
     return (
@@ -27,13 +25,13 @@ class RealNews extends Component {
                 </a>
                 <span>{source}</span>
               </div>
-            );
+            )
           })}
         />
-        <RerouteButton pathname={pages.ITS_ME.path} scrollToComponent />
+        {/* <RerouteButton pathname={pages.ITS_ME.path} scrollToComponent /> */}
       </section>
-    );
+    )
   }
 }
 
-export default RealNews;
+export default RealNews

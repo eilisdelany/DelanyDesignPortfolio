@@ -1,14 +1,12 @@
-import React, { Component } from "react";
-import PageTitle from "../../../../components/PageTitle";
-import ContentLayout from "../../../../components/ContentLayout";
-import pinchMe from "../../../../archive/pinch-me";
-import RerouteButton from "../../../../components/RerouteButton";
-import { pages } from '../../../../constants/pages';
-import "./index.scss";
+import React, { Component } from 'react'
+import PageTitle from '../../../../components/PageTitle'
+import ContentLayout from '../../../../components/ContentLayout'
+import pinchMe from '../../../../archive/pinch-me'
+import './index.scss'
 
 class PinchMe extends Component {
-  componentDidMount () {
-    window.scrollTo(0, 0);
+  componentDidMount() {
+    window.scrollTo(0, 0)
   }
 
   render() {
@@ -33,12 +31,12 @@ class PinchMe extends Component {
                 </a>
                 <span className="PinchMe-row-award">{award}</span>
               </div>
-            );
+            )
           })}
         />
-        <RerouteButton pathname={pages.ITS_ME.path} scrollToComponent />
+        {/* <RerouteButton pathname={pages.ITS_ME.path} scrollToComponent /> */}
       </section>
-    );
+    )
   }
 }
-export default PinchMe;
+export default PinchMe

@@ -1,28 +1,31 @@
-import React, { Component } from "react";
-import PageTitle from "../../../../components/PageTitle";
-import ContentLayout from "../../../../components/ContentLayout";
-import Tags from "../../../../components/Tags";
-import dinnerGuests from "../../../../archive/dinner-guests";
-import RerouteButton from "../../../../components/RerouteButton";
-import { pages } from '../../../../constants/pages';
-import "./index.scss";
+import React, { Component } from 'react'
+import PageTitle from '../../../../components/PageTitle'
+import ContentLayout from '../../../../components/ContentLayout'
+import Tags from '../../../../components/Tags'
+import dinnerGuests from '../../../../archive/dinner-guests'
+import './index.scss'
 
 class DreamDinner extends Component {
-  componentDidMount () {
-    window.scrollTo(0, 0);
+  componentDidMount() {
+    window.scrollTo(0, 0)
   }
 
   renderGuest({ name, url, reasons }) {
     return (
       <div className="dinner-guest">
         <span>
-          <a className="dinner-guest-url" href={url} target="_blank" rel="noopener noreferrer">
+          <a
+            className="dinner-guest-url"
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {name}
           </a>
         </span>
         <Tags tags={reasons} />
       </div>
-    );
+    )
   }
 
   render() {
@@ -41,13 +44,13 @@ class DreamDinner extends Component {
                   this.renderGuest(dinnerGuests.guests[index + 1])}
               </div>
             ) : (
-              ""
-            );
+              ''
+            )
           })}
         />
-        <RerouteButton pathname={pages.ITS_ME.path} scrollToComponent />
+        {/* <RerouteButton pathname={pages.ITS_ME.path} scrollToComponent /> */}
       </section>
-    );
+    )
   }
 }
-export default DreamDinner;
+export default DreamDinner
