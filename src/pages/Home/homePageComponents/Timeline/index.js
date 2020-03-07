@@ -1,45 +1,37 @@
-import React, { Component, Fragment } from 'react'
-import TimelineStep from './TimelineStep'
-import timeline from '../../../../archive/timeline'
+import React, { useEffect } from 'react'
+import TimelineStep from './Step'
+import StatefulComponent from '../../../../components/StatefulComponent'
+import contentful from '../../../../clients/contentful'
+
 import './index.scss'
 
-class Timeline extends Component {
-  componentDidMount() {
+const Timeline = ({ data }) => {
+  useEffect(() => {
     window.scrollTo(0, 0)
-  }
+  }, [])
 
-  render() {
-    return (
-      <div className="Timeline">
-        <div className="Timeline-line" />
-        {timeline.map(({ dates, place, role, work, years }, index) => {
-          return (
-            <Fragment key={index}>
-              <TimelineStep
-                dates={dates}
-                place={place}
-                role={role}
-                work={work}
-                years={years}
-                position={index}
-              />
-              <div className={`Timeline-link Timeline-link-${index}`}>
-                {Array.from({ length: years }, (year, yearIndex) => {
-                  return (
-                    <div
-                      key={yearIndex}
-                      className={`notch notch-${yearIndex}`}
-                    />
-                  )
-                })}
-              </div>
-            </Fragment>
-          )
-        })}
-        {/* <RerouteButton pathname={pages.ITS_ME.path} scrollToComponent /> */}
-      </div>
-    )
-  }
+  return (
+    <div className="Timeline">
+      {data.map((experience, index) => (
+        <div
+          key={`timeline--${index}`}
+          className={`timeline-block ${index % 2 === 0 ? 'even' : 'odd'}`}
+        >
+          <TimelineStep position={index} {...experience} />
+        </div>
+      ))}
+    </div>
+  )
 }
 
-export default Timeline
+const startDate = data =>
+  data.sort((a, b) => new Date(b.startDate) - new Date(a.startDate))
+
+export default () => (
+  <StatefulComponent
+    fetchData={contentful.getWorkExperience}
+    sortData={startDate}
+  >
+    <Timeline />
+  </StatefulComponent>
+)

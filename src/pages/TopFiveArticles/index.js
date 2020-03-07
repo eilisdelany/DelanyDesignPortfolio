@@ -33,10 +33,11 @@ const Content = ({ data }) =>
       subtitle={formatContentfulDate(weekStarting)}
       highlightOnHover
       content={weeklyArticles.map(
-        ({ fields: { url, external, label } }, index) => (
+        ({ fields: { url, external, label } }, weeklyIdx) => (
           <a
             href={url}
             className="TopFive-link"
+            key={`weekly-${weeklyIdx}`}
             {...(external
               ? { target: '_blank', rel: 'noopener noreferrer' }
               : {})}
