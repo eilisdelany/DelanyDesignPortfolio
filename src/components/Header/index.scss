@@ -1,4 +1,4 @@
-@import "../../styles/index";
+@import '../../styles/index';
 
 .Header {
   border-bottom: $header-border-size solid $primary-color;
@@ -24,7 +24,7 @@
   vertical-align: middle;
   background-image: url('/images/logo/wink.png');
   background-repeat: round;
-  transition: ease-in-out 0.1s;
+  transition: linear 0.15s;
   margin-left: $whitespace-11;
 }
 
