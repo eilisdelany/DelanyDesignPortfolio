@@ -4,13 +4,12 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import ProjectArchive from './pages/ProjectArchive'
-import Archive from './pages/Archive'
+import BlogPosts from './pages/BlogPosts'
 import TopFiveArticles from './pages/TopFiveArticles'
 import DigitalLibrary from './pages/DigitalLibrary'
 import Contact from './pages/Contact'
 import ErrorPage from './pages/ErrorPage'
 import Words from './components/Words'
-import blogPosts from './archive/blog-posts'
 
 import Mantra from './pages/Home/homePageComponents/Mantra'
 import Timeline from './pages/Home/homePageComponents/Timeline'
@@ -33,41 +32,13 @@ class App extends Component {
           <div className="App-content">
             <Switch>
               <Route exact path={pages.ITS_ME.path} component={Home} />
-              <Route
-                exact
-                path={pages.ITS_ME.subpages.MANTRA}
-                component={Mantra}
-              />
-              <Route
-                exact
-                path={pages.ITS_ME.subpages.GRINDIN}
-                component={Timeline}
-              />
-              <Route
-                exact
-                path={pages.ITS_ME.subpages.SAY_WHAT}
-                component={SayWhat}
-              />
-              <Route
-                exact
-                path={pages.ITS_ME.subpages.REAL_NEWS}
-                component={RealNews}
-              />
-              <Route
-                exact
-                path={pages.ITS_ME.subpages.PINCH_ME}
-                component={PinchMe}
-              />
-              <Route
-                exact
-                path={pages.ITS_ME.subpages.DREAM_DINNER}
-                component={DreamDinner}
-              />
-              <Route
-                exact
-                path={pages.PROJECT_ARCHIVE.path}
-                component={ProjectArchive}
-              />
+              <Route exact path={pages.ITS_ME.subpages.MANTRA} component={Mantra} />
+              <Route exact path={pages.ITS_ME.subpages.GRINDIN} component={Timeline} />
+              <Route exact path={pages.ITS_ME.subpages.SAY_WHAT} component={SayWhat} />
+              <Route exact path={pages.ITS_ME.subpages.REAL_NEWS} component={RealNews} />
+              <Route exact path={pages.ITS_ME.subpages.PINCH_ME} component={PinchMe} />
+              <Route exact path={pages.ITS_ME.subpages.DREAM_DINNER} component={DreamDinner} />
+              <Route exact path={pages.PROJECT_ARCHIVE.path} component={ProjectArchive} />
               {/* <Route
                 exact
                 path={`${pages.PROJECT_ARCHIVE.path}/:id`}
@@ -76,52 +47,29 @@ class App extends Component {
               <Route
                 exact
                 path={pages.TOP_FIVE.path}
-                render={props => (
-                  <TopFiveArticles
-                    title={pages.TOP_FIVE.pageTitle}
-                    {...props}
-                  />
-                )}
+                render={(props) => <TopFiveArticles title={pages.TOP_FIVE.pageTitle} {...props} />}
               />
               <Route
                 exact
                 path={pages.WORDS.path}
-                render={props => (
-                  <Archive
-                    pageTitleText={pages.WORDS.pageTitle}
-                    archive={blogPosts}
-                    Content={Words}
-                    {...props}
-                  />
+                render={(props) => (
+                  <BlogPosts pageTitleText={pages.WORDS.pageTitle} Content={Words} {...props} />
                 )}
               />
               <Route
                 exact
                 path={pages.HIT_LIST.path}
-                render={props => (
-                  <DigitalLibrary
-                    pageTitleText={pages.HIT_LIST.pageTitle}
-                    {...props}
-                  />
-                )}
+                render={(props) => <DigitalLibrary pageTitleText={pages.HIT_LIST.pageTitle} {...props} />}
               />
               <Route
                 exact
                 path={pages.LETS_TALK.path}
-                render={props => (
-                  <Contact
-                    pageTitleText={pages.LETS_TALK.pageTitle}
-                    {...props}
-                  />
-                )}
+                render={(props) => <Contact pageTitleText={pages.LETS_TALK.pageTitle} {...props} />}
               />
               <Route component={ErrorPage} />
             </Switch>
           </div>
-          <Route
-            path="/"
-            render={props => props.location.pathname !== '/' && <Footer />}
-          />
+          <Route path="/" render={(props) => props.location.pathname !== '/' && <Footer />} />
         </div>
       </BrowserRouter>
     )
