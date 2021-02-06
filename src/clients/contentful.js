@@ -5,6 +5,7 @@ const contentTypes = {
   WORK_EXPERIENCE: 'workExperience',
   PROJECT_ARCHIVE: 'projectArchive',
   BLOG_POSTS: 'blogPost',
+  DINNER_GUESTS: 'dinnerGuest',
 }
 
 const client = createClient({
@@ -16,6 +17,8 @@ const getTopFiveArticles = async () =>
   await client.getEntries({ content_type: contentTypes.TOP_FIVE_ARTICLES })
 
 const getWorkExperience = async () => await client.getEntries({ content_type: contentTypes.WORK_EXPERIENCE })
+
+const getDinnerGuests = async () => await client.getEntries({ content_type: contentTypes.DINNER_GUESTS })
 
 const getProjectArchive = async () =>
   await client.getEntries({
@@ -29,4 +32,5 @@ export default {
   getWorkExperience,
   getProjectArchive,
   getBlogPosts,
+  getDinnerGuests,
 }
